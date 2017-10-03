@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Leave a Message" time="59" tests="2" failures="0" errors="0">
+   <testsuite name="Leave a Message" tests="2" failures="0" errors="0" time="59" timestamp="2017-10-03 12:54:36" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Leave a Message">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Leave a Message\\20171003_125427"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Leave a Message\\20171003_125427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="20c4c2d7b40dd0c15013fc1401a9395a"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test case" classname="Test Cases/Login Test case" status="PASSED">
+         <system-out><![CDATA[2017-10-03 12:54:38 - [TEST_CASE][PASSED] - Test Cases/Login Test case: Test Cases/Login Test case
+
+2017-10-03 12:54:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 12:54:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 12:54:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 12:55:04 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 12:55:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Overview Page/a_Log in' is clicked on
+
+2017-10-03 12:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Overview Page/a_Log in' is clicked on
+
+2017-10-03 12:55:08 - [TEST_STEP][PASSED] - setText: Text 'dennis.gituto@tezzasolutions.com' is set on object 'Object Repository/Login Page/input_email'
+
+2017-10-03 12:55:10 - [MESSAGE][PASSED] - Text 'dennis.gituto@tezzasolutions.com' is set on object 'Object Repository/Login Page/input_email'
+
+2017-10-03 12:55:10 - [TEST_STEP][PASSED] - setText: Text 'Desteg@3871' is set on object 'Object Repository/Login Page/input_password'
+
+2017-10-03 12:55:10 - [MESSAGE][PASSED] - Text 'Desteg@3871' is set on object 'Object Repository/Login Page/input_password'
+
+2017-10-03 12:55:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/button_Login' is clicked on
+
+2017-10-03 12:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Leave a Message in Unscheduled Visit" classname="Test Cases/Leave a Message in Unscheduled Visit" status="PASSED">
+         <system-out><![CDATA[2017-10-03 12:55:14 - [TEST_CASE][PASSED] - Test Cases/Leave a Message in Unscheduled Visit: Test Cases/Leave a Message in Unscheduled Visit
+
+2017-10-03 12:55:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-03 12:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-03 12:55:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-10-03 12:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-10-03 12:55:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-10-03 12:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-10-03 12:55:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-10-03 12:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-10-03 12:55:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Leave a message Page/Leave Message Button' is clicked on
+
+2017-10-03 12:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Leave a message Page/Leave Message Button' is clicked on
+
+2017-10-03 12:55:24 - [TEST_STEP][PASSED] - setText: Text 'Dennis' is set on object 'Object Repository/Leave a message Page/input_first_name'
+
+2017-10-03 12:55:24 - [MESSAGE][PASSED] - Text 'Dennis' is set on object 'Object Repository/Leave a message Page/input_first_name'
+
+2017-10-03 12:55:24 - [TEST_STEP][PASSED] - setText: Text 'Gituto' is set on object 'Object Repository/Leave a message Page/input_last_name'
+
+2017-10-03 12:55:26 - [MESSAGE][PASSED] - Text 'Gituto' is set on object 'Object Repository/Leave a message Page/input_last_name'
+
+2017-10-03 12:55:26 - [TEST_STEP][PASSED] - setText: Text 'dennisgituto1@gmail.com' is set on object 'Object Repository/Leave a message Page/input_email'
+
+2017-10-03 12:55:27 - [MESSAGE][PASSED] - Text 'dennisgituto1@gmail.com' is set on object 'Object Repository/Leave a message Page/input_email'
+
+2017-10-03 12:55:27 - [TEST_STEP][PASSED] - setText: Text 'Shila Zahra' is set on object 'Object Repository/Leave a message Page/input_staff_name'
+
+2017-10-03 12:55:27 - [MESSAGE][PASSED] - Text 'Shila Zahra' is set on object 'Object Repository/Leave a message Page/input_staff_name'
+
+2017-10-03 12:55:27 - [TEST_STEP][PASSED] - setText: Text 'Hello i was at your office sorry for the inconviniences get back to me ASAP.' is set on object 'Object Repository/Leave a message Page/textarea_comment'
+
+2017-10-03 12:55:29 - [MESSAGE][PASSED] - Text 'Hello i was at your office sorry for the inconviniences get back to me ASAP.' is set on object 'Object Repository/Leave a message Page/textarea_comment'
+
+2017-10-03 12:55:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-03 12:55:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-03 12:54:36 - [TEST_SUITE][PASSED] - Leave a Message: Test Cases/Leave a Message in Unscheduled Visit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Leaving a message while unscheduled visit in self service management module</description>
-   <name>Leave a Message while unscheduled Visit</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>16b2497d-89fa-4503-b4cc-f48b0b1e5ffc</testCaseGuid>
-</TestCaseEntity>

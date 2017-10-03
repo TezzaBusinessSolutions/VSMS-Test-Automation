@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sign Up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>773cfd32-70ce-4acc-8837-564e1661ebe3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>35a32e69-5665-4f03-9f35-4b47b96ec21a</id>
+      <masked>false</masked>
+      <name>var_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c72ead64-d50e-4aa8-8d89-f2c1d878128c</id>
+      <masked>false</masked>
+      <name>var_tenantname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8a5e951-762f-49a4-88c6-955381e34d19</id>
+      <masked>false</masked>
+      <name>var_firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05fa99e6-fd17-4bea-8bd7-be6fc3afd86e</id>
+      <masked>false</masked>
+      <name>var_lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1026b83e-28c2-4699-8e8b-151558971ca6</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf006527-5e6b-4986-9821-8c6af3697806</id>
+      <masked>false</masked>
+      <name>var_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a0978af-ad73-4844-a3f3-291a8e4e121d</id>
+      <masked>false</masked>
+      <name>var_timezone</name>
+   </variable>
+</TestCaseEntity>

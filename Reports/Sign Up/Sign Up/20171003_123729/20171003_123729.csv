@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign Up,Firefox 39.0,,2017-10-03 12:37:32,2017-10-03 12:38:41,1m - 9.792s,FAILED
+,,,,,,
+Test Cases/Creating New Account/Creating New User Account - Iteration 1,Firefox 39.0,,2017-10-03 12:37:32,2017-10-03 12:38:13,41.245s,FAILED
+openBrowser,Firefox 39.0,,2017-10-03 12:37:33,2017-10-03 12:37:42,8.996s,PASSED
+navigateToUrl,Firefox 39.0,,2017-10-03 12:37:42,2017-10-03 12:37:50,7.740s,PASSED
+click,Firefox 39.0,,2017-10-03 12:37:50,2017-10-03 12:37:50,0.353s,PASSED
+click,Firefox 39.0,,2017-10-03 12:37:50,2017-10-03 12:38:13,23.066s,FAILED
+,,,,,,
+Test Cases/Creating New Account/Creating New User Account - Iteration 2,Firefox 39.0,,2017-10-03 12:38:13,2017-10-03 12:38:40,26.489s,FAILED
+openBrowser,Firefox 39.0,,2017-10-03 12:38:14,2017-10-03 12:38:22,8.414s,PASSED
+navigateToUrl,Firefox 39.0,,2017-10-03 12:38:22,2017-10-03 12:38:29,7.465s,PASSED
+click,Firefox 39.0,,2017-10-03 12:38:29,2017-10-03 12:38:31,1.363s,PASSED
+click,Firefox 39.0,,2017-10-03 12:38:31,2017-10-03 12:38:40,9.109s,FAILED

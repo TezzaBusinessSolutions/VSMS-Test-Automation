@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="39" tests="0" failures="1" errors="0">
+   <testsuite name="Sign Up" tests="0" failures="1" errors="0" time="39" timestamp="2017-10-03 17:56:02" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/Sign Up/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_175555"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_175555\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_175555\\1507042600544.png"/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="027425e8-7fc7-45b2-983e-fb3bda01219d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up" classname="Test Cases/Sign Up" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: &lt;div class=&quot;container&quot;>&lt;/div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)"/>
+         <system-out><![CDATA[2017-10-03 17:56:02 - [TEST_CASE][FAILED] - Test Cases/Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: <div class="container"></div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)
+
+2017-10-03 17:56:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 17:56:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 17:56:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 17:56:20 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 17:56:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 17:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 17:56:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-03 17:56:23 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-03 17:56:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up/Page_Visitor Security Management Sy/a_Dont have an account' is clicked on
+
+2017-10-03 17:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Visitor Security Management Sy/a_Dont have an account' is clicked on
+
+2017-10-03 17:56:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up/Page_VSMS Pricing/a_Subscribe' is clicked on
+
+2017-10-03 17:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_VSMS Pricing/a_Subscribe' is clicked on
+
+2017-10-03 17:56:32 - [TEST_STEP][PASSED] - setText: Text 'Tezza Test' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_name'
+
+2017-10-03 17:56:32 - [MESSAGE][PASSED] - Text 'Tezza Test' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_name'
+
+2017-10-03 17:56:32 - [TEST_STEP][PASSED] - setText: Text 'Chweya' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_first_name'
+
+2017-10-03 17:56:33 - [MESSAGE][PASSED] - Text 'Chweya' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_first_name'
+
+2017-10-03 17:56:33 - [TEST_STEP][PASSED] - setText: Text 'Charles' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_last_name'
+
+2017-10-03 17:56:33 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_last_name'
+
+2017-10-03 17:56:33 - [TEST_STEP][PASSED] - setText: Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_email'
+
+2017-10-03 17:56:34 - [MESSAGE][PASSED] - Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_email'
+
+2017-10-03 17:56:34 - [TEST_STEP][PASSED] - setText: Text '0725165219' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_phone'
+
+2017-10-03 17:56:34 - [MESSAGE][PASSED] - Text '0725165219' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_phone'
+
+2017-10-03 17:56:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-03 17:56:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-03 17:56:39 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-03 17:56:39 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-03 17:56:39 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-10-03 17:56:39 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-10-03 17:56:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'KES' are selected in object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/select_currency'  using regular expression
+
+2017-10-03 17:56:40 - [MESSAGE][PASSED] - All options with value 'KES' are selected in object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/select_currency'  using regular expression
+
+2017-10-03 17:56:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: <div class="container"></div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)
+
+2017-10-03 17:56:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: <div class="container"></div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_175555\\1507042600544.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-03 17:56:02 - [TEST_CASE][FAILED] - Test Cases/Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: <div class="container"></div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-03 17:56:02 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: <div class="container"></div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)]]></system-out>
+      <system-err><![CDATA[2017-10-03 17:56:02 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_terms' (Root cause: org.openqa.selenium.WebDriverException: Element is not clickable at point (313.5, 15.23333740234375). Other element would receive the click: <div class="container"></div>
+Command duration or timeout: 103 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 027425e8-7fc7-45b2-983e-fb3bda01219d)]]></system-err>
+   </testsuite>
+</testsuites>

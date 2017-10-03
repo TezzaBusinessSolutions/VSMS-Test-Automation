@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>authenticating a VSMS user</description>
+   <name>LOGIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>445ff404-6f40-4969-8210-6906c0d50998</testCaseGuid>
+</TestCaseEntity>

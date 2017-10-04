@@ -23,12 +23,12 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('https://sandbox.vsms.tezzasolutions.com/index')
 
 //click on LOGIN button
-WebUI.click(findTestObject('login/Page_VSMS Overview/a_Log in'))
+WebUI.click(findTestObject('login/a_Log in'))
 
 //enter your login credentials
-WebUI.setText(findTestObject('login/Page_Visitor Security Management Sy/input_email'), 'stella.ireri@tezzasolutions.com')
+WebUI.setText(findTestObject('login/input_email'), 'stella.ireri@tezzasolutions.com')
 
-WebUI.setText(findTestObject('login/Page_Visitor Security Management Sy/input_password'), 'adminPass')
+WebUI.setText(findTestObject('login/input_password'), 'adminPass')
 
-WebUI.click(findTestObject('login/Page_Visitor Security Management Sy/button_Login'))
+WebUI.click(findTestObject('login/button_Login'))
 

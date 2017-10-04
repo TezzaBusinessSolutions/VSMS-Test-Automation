@@ -19,23 +19,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Visitor Types/a_Modules'))
-
-WebUI.click(findTestObject('Visitor Types/a_User  Management'))
-
-WebUI.navigateToUrl('https://sandbox.vsms.tezzasolutions.com/admin/users/settings')
-
-WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
-
-WebUI.click(findTestObject('Visitor Types/input_addvisitorbtn'))
-
-WebUI.setText(findTestObject('Visitor Types/input_name'), 'frequent visitor')
-
-WebUI.setText(findTestObject('Visitor Types/textarea_description'), 'visiting for a second + times')
-
-WebUI.click(findTestObject('Visitor Types/button_Add'))
-
-WebUI.closeBrowser()
-

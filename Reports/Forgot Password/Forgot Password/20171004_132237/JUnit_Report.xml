@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Forgot Password" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="Forgot Password" tests="1" failures="0" errors="0" time="22" timestamp="2017-10-04 13:22:39" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/Forgot Password/Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Forgot Password\\Forgot Password\\20171004_132237"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Forgot Password\\Forgot Password\\20171004_132237\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="13a335412c538d80f744f30a1ec70f58"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ForgotReset Password/Forgot Password" classname="Test Cases/ForgotReset Password/Forgot Password" status="PASSED">
+         <system-out><![CDATA[2017-10-04 13:22:40 - [TEST_CASE][PASSED] - Test Cases/ForgotReset Password/Forgot Password: Test Cases/ForgotReset Password/Forgot Password
+
+2017-10-04 13:22:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-04 13:22:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-04 13:22:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 13:22:51 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 13:22:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Password/Forgot Password Link/a_Log in' is clicked on
+
+2017-10-04 13:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Forgot Password Link/a_Log in' is clicked on
+
+2017-10-04 13:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Password/Forgot Password Link/a_Forgot your password' is clicked on
+
+2017-10-04 13:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Forgot Password Link/a_Forgot your password' is clicked on
+
+2017-10-04 13:22:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-04 13:22:58 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-04 13:22:58 - [TEST_STEP][PASSED] - setText: Text 'change@gmail.com' is set on object 'Object Repository/Forgot Password/Password Reset/input_email'
+
+2017-10-04 13:22:58 - [MESSAGE][PASSED] - Text 'change@gmail.com' is set on object 'Object Repository/Forgot Password/Password Reset/input_email'
+
+2017-10-04 13:22:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Forgot Password/Password Reset/button_Send Password Reset Lin' is clicked on
+
+2017-10-04 13:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Password Reset/button_Send Password Reset Lin' is clicked on
+
+2017-10-04 13:23:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Forgot Password/Password Reset/div_We cant find a user with t' is present
+
+2017-10-04 13:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/Password Reset/div_We cant find a user with t' is present
+
+2017-10-04 13:23:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Forgot Password/Password Reset/div_We have e-mailed your pass' is present
+
+2017-10-04 13:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot Password/Password Reset/div_We have e-mailed your pass' is present
+
+2017-10-04 13:23:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-04 13:23:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-04 13:22:39 - [TEST_SUITE][PASSED] - Forgot Password: Test Cases/ForgotReset Password/Forgot Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

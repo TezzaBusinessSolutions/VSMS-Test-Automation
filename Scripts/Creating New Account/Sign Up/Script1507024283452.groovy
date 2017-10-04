@@ -24,35 +24,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(var_url)
 
-WebUI.click(findTestObject('Sign Up/Login Link/a_Log in'))
+WebUI.click(findTestObject('Creating New Account/Login Link/a_Log in'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Sign Up/Dont have account link/a_Dont have an account'))
+WebUI.click(findTestObject('Creating New Account/Dont have account link/a_Dont have an account'))
 
-WebUI.click(findTestObject('Sign Up/Subscribe/a_Subscribe'))
+WebUI.click(findTestObject('Creating New Account/Subscribe/a_Subscribe'))
 
-WebUI.setText(findTestObject('Sign Up/Sign Up/input_tenant_name'), var_tenantname)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/input_tenant_name'), var_tenantname)
 
-WebUI.setText(findTestObject('Sign Up/Sign Up/input_first_name'), var_firstname)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/input_first_name'), var_firstname)
 
-WebUI.setText(findTestObject('Sign Up/Sign Up/input_last_name'), var_lastname)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/input_last_name'), var_lastname)
 
-WebUI.setText(findTestObject('Sign Up/Sign Up/input_tenant_email'), var_email)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/input_tenant_email'), var_email)
 
-WebUI.setText(findTestObject('Sign Up/Sign Up/input_tenant_phone'), var_phone)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/input_tenant_phone'), var_phone)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Sign Up/Sign Up/span_select2-selection__arrow'))
+WebUI.click(findTestObject('Creating New Account/Sign Up/span_select2-selection__arrow'))
 
-WebUI.setText(findTestObject('Sign Up/Sign Up/Timezone Input'), var_timezone)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/Timezone Input'), var_timezone)
 
-WebUI.selectOptionByValue(findTestObject('Sign Up/Sign Up/select_currency'), 'KES', true)
+WebUI.selectOptionByValue(findTestObject('Creating New Account/Sign Up/select_currency'), 'KES', true)
 
-WebUI.click(findTestObject('Sign Up/Sign Up/input_terms'))
+WebUI.click(findTestObject('Creating New Account/Sign Up/input_terms'))
 
-WebUI.click(findTestObject('Sign Up/Sign Up/button_Subscribe'))
+WebUI.click(findTestObject('Creating New Account/Sign Up/button_Subscribe'))
 
 WebUI.delay(6)
 

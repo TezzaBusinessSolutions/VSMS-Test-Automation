@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign Up in Request Meeting in Homepage</description>
+   <name>Sign Up in Request Meeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4d8f7bf-efca-4f8f-b084-5269f284f8a8</testCaseGuid>
+</TestCaseEntity>

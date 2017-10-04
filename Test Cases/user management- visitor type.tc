@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>managing VSMS visitor types</description>
+   <name>user management- visitor type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>634e040e-cd8b-46e3-b011-008324afb7b9</testCaseGuid>
+</TestCaseEntity>

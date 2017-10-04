@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row ng-scope&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-pattern ng-valid-email&quot;]/fieldset[1]/div[5]/button[@class=&quot;btn tezzacolor4 btn-block&quot;]</value>
+      <value>.//*[contains(@type,'submit')]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

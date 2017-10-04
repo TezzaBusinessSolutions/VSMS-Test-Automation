@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>editing the visitor types</description>
-   <name>Edit-Upadate Visitor Tpye</name>
+   <name>Edit-Update Visitor Type</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>14c75428-6fb1-4ce5-9e75-2cfd98ce0c03</testCaseGuid>

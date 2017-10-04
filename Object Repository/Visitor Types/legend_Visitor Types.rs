@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_User Settings</name>
+   <name>legend_Visitor Types</name>
    <tag></tag>
-   <elementGuidId>877d3a2d-48f7-4af0-a261-64b8f4411467</elementGuidId>
+   <elementGuidId>c737ea45-0788-4b2b-9e01-d56f35768ea6</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>legend</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;side-menu&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;nav nav-second-level collapse in&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;nav nav-third-level collapse in&quot;]/li[4]/a[1]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://sandbox.vsms.tezzasolutions.com/admin/users/settings</value>
+      <value>id(&quot;usermanagement&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@id=&quot;visitorType&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/fieldset[1]/legend[@class=&quot;legend&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>User Settings</value>
+      <value>Visitor Types</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>legend</value>
    </webElementProperties>
 </WebElementEntity>

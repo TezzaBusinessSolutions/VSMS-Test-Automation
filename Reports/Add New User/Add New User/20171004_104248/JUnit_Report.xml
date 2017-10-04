@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add New User" time="10" tests="0" failures="1" errors="0">
+   <testsuite name="Add New User" tests="0" failures="1" errors="0" time="10" timestamp="2017-10-04 10:42:56" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/Add New User/Add New User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Add New User\\Add New User\\20171004_104248"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Add New User\\Add New User\\20171004_104248\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Add New User\\Add New User\\20171004_104248\\1507102985729.png"/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ba148624-76d1-4b2f-bae3-db5510345354"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add New User/New User" classname="Test Cases/Add New User/New User" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)"/>
+         <system-out><![CDATA[2017-10-04 10:42:56 - [TEST_CASE][FAILED] - Test Cases/Add New User/New User: Test Cases/Add New User/New User FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2017-10-04 10:42:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-04 10:43:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-04 10:43:05 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2017-10-04 10:43:05 - [MESSAGE][FAILED] - Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Add New User\\Add New User\\20171004_104248\\1507102985729.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-04 10:42:56 - [TEST_CASE][FAILED] - Test Cases/Add New User/New User: Test Cases/Add New User/New User FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-04 10:42:56 - [TEST_SUITE][FAILED] - Add New User: Test Cases/Add New User/New User FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-out>
+      <system-err><![CDATA[2017-10-04 10:42:56 - [TEST_SUITE][FAILED] - Add New User: Test Cases/Add New User/New User FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+   </testsuite>
+</testsuites>

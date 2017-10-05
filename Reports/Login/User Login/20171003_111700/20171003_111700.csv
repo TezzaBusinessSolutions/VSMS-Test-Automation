@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+User Login,Firefox 39.0,,2017-10-03 11:17:02,2017-10-03 11:17:24,21.970s,FAILED
+,,,,,,
+Test Cases/User Login Page/Login,Firefox 39.0,,2017-10-03 11:17:03,2017-10-03 11:17:23,19.821s,FAILED
+openBrowser,Firefox 39.0,,2017-10-03 11:17:04,2017-10-03 11:17:11,7.488s,PASSED
+navigateToUrl,Firefox 39.0,,2017-10-03 11:17:11,2017-10-03 11:17:19,8.040s,PASSED
+click,Firefox 39.0,,2017-10-03 11:17:19,2017-10-03 11:17:23,3.241s,FAILED

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Login" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="User Login" tests="1" failures="0" errors="0" time="21" timestamp="2017-10-03 11:33:25" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/Login/User Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_113323"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_113323\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a0c3df47-772b-47d1-b85b-3af885ec4b68"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Login Page/Login" classname="Test Cases/User Login Page/Login" status="PASSED">
+         <system-out><![CDATA[2017-10-03 11:33:26 - [TEST_CASE][PASSED] - Test Cases/User Login Page/Login: Test Cases/User Login Page/Login
+
+2017-10-03 11:33:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 11:33:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 11:33:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 11:33:41 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 11:33:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSMS Login Objects/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 11:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/VSMS Login Objects/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 11:33:42 - [TEST_STEP][PASSED] - setText: Text 'email' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_email'
+
+2017-10-03 11:33:45 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_email'
+
+2017-10-03 11:33:45 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_password'
+
+2017-10-03 11:33:45 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_password'
+
+2017-10-03 11:33:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/button_Login' is clicked on
+
+2017-10-03 11:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/button_Login' is clicked on
+
+2017-10-03 11:33:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-03 11:33:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-03 11:33:25 - [TEST_SUITE][PASSED] - User Login: Test Cases/User Login Page/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign Up,Chrome 61.0.3163.100,,2017-10-03 17:21:55,2017-10-03 17:23:30,1m - 35.279s,FAILED
+,,,,,,
+Test Cases/Sign Up,Chrome 61.0.3163.100,,2017-10-03 17:21:55,2017-10-03 17:23:29,1m - 33.299s,FAILED
+openBrowser,Chrome 61.0.3163.100,,2017-10-03 17:21:56,2017-10-03 17:22:01,4.325s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-03 17:22:01,2017-10-03 17:23:28,1m - 27.761s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-03 17:23:28,2017-10-03 17:23:29,0.143s,FAILED

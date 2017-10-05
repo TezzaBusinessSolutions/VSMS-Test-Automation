@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign Up,Firefox 39.0,,2017-10-03 12:46:58,2017-10-03 12:47:55,56.384s,FAILED
+,,,,,,
+Test Cases/Creating New Account/Creating New User Account,Firefox 39.0,,2017-10-03 12:46:59,2017-10-03 12:47:53,54.154s,FAILED
+openBrowser,Firefox 39.0,,2017-10-03 12:47:00,2017-10-03 12:47:09,9.082s,PASSED
+navigateToUrl,Firefox 39.0,,2017-10-03 12:47:09,2017-10-03 12:47:14,5.107s,PASSED
+click,Firefox 39.0,,2017-10-03 12:47:14,2017-10-03 12:47:15,0.525s,PASSED
+delay,Firefox 39.0,,2017-10-03 12:47:15,2017-10-03 12:47:20,5.069s,PASSED
+click,Firefox 39.0,,2017-10-03 12:47:20,2017-10-03 12:47:53,33.235s,FAILED

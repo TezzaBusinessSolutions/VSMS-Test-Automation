@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Login" time="44" tests="1" failures="1" errors="0">
+   <testsuite name="User Login" tests="1" failures="1" errors="0" time="44" timestamp="2017-10-03 11:41:08" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/Login/User Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_114106"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_114106\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_114106\\1507020112782.png, C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_114106\\1507020113023.png"/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ed4a3016-50c3-43eb-be19-2e07969561b5"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Login Page/Login - Iteration 1" classname="Test Cases/User Login Page/Login" status="PASSED">
+         <system-out><![CDATA[2017-10-03 11:41:09 - [TEST_CASE][PASSED] - Test Cases/User Login Page/Login - Iteration 1: Test Cases/User Login Page/Login
+
+2017-10-03 11:41:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 11:41:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 11:41:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 11:41:24 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 11:41:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-03 11:41:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-03 11:41:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSMS Login Objects/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 11:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/VSMS Login Objects/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 11:41:25 - [TEST_STEP][PASSED] - setText: Text 'changeme@gmail.com' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_email'
+
+2017-10-03 11:41:27 - [MESSAGE][PASSED] - Text 'changeme@gmail.com' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_email'
+
+2017-10-03 11:41:27 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_password'
+
+2017-10-03 11:41:27 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_password'
+
+2017-10-03 11:41:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/button_Login' is clicked on
+
+2017-10-03 11:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/button_Login' is clicked on
+
+2017-10-03 11:41:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present
+
+2017-10-03 11:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present
+
+2017-10-03 11:41:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-03 11:41:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Login Page/Login - Iteration 2" classname="Test Cases/User Login Page/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User Login Page/Login FAILED because (of) Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)"/>
+         <system-out><![CDATA[2017-10-03 11:41:29 - [TEST_CASE][FAILED] - Test Cases/User Login Page/Login - Iteration 2: Test Cases/User Login Page/Login FAILED because (of) Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)
+
+2017-10-03 11:41:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 11:41:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 11:41:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 11:41:41 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 11:41:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-03 11:41:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-03 11:41:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSMS Login Objects/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 11:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/VSMS Login Objects/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 11:41:42 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_email'
+
+2017-10-03 11:41:44 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_email'
+
+2017-10-03 11:41:44 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_password'
+
+2017-10-03 11:41:45 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/input_password'
+
+2017-10-03 11:41:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/button_Login' is clicked on
+
+2017-10-03 11:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/VSMS Login Objects/Page_Visitor Security Management Sy/button_Login' is clicked on
+
+2017-10-03 11:41:47 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)
+
+2017-10-03 11:41:53 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_114106\\1507020112782.png]]
+
+2017-10-03 11:41:53 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Login\\User Login\\20171003_114106\\1507020113023.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-03 11:41:29 - [TEST_CASE][FAILED] - Test Cases/User Login Page/Login - Iteration 2: Test Cases/User Login Page/Login FAILED because (of) Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-03 11:41:08 - [TEST_SUITE][FAILED] - User Login: Test Cases/User Login Page/Login FAILED because (of) Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-10-03 11:41:08 - [TEST_SUITE][FAILED] - User Login: Test Cases/User Login Page/Login FAILED because (of) Unable to verify object 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Visitor Security Management Sy/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

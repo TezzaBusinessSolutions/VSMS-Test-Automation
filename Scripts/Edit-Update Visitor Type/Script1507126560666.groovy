@@ -25,17 +25,24 @@ WebUI.click(findTestObject('Visitor Types/a_Modules'))
 
 WebUI.click(findTestObject('Visitor Types/a_User  Management'))
 
-WebUI.navigateToUrl('https://sandbox.vsms.tezzasolutions.com/admin/users/settings')
+WebUI.click(findTestObject('Visitor Types/a_User Settings'))
+//WebUI.click(findTestObject(By.xpath("//*[contains(@href,'https://sandbox.vsms.tezzasolutions.com/admin/users/settings')]"))
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
 
-WebUI.click(findTestObject('Visitor Types/input_addvisitorbtn'))
+WebUI.verifyElementPresent(findTestObject('Visitor Types/legend_Visitor Types'), 10)
 
-WebUI.setText(findTestObject('Visitor Types/input_name'), 'frequent visitor')
+WebUI.click(findTestObject('edit visitor types/i_editvisitorbtn'))
 
-WebUI.setText(findTestObject('Visitor Types/textarea_description'), 'visiting for a second + times')
+WebUI.setText(findTestObject('edit visitor types/input_name'), 'existing')
 
-WebUI.click(findTestObject('Visitor Types/button_Add'))
+WebUI.setText(findTestObject('edit visitor types/textarea_description'), 'existing visitors')
+
+
+WebUI.click(findTestObject('Object Repository/edit visitor types/button_Update'))
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

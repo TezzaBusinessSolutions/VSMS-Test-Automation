@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_User  Management</name>
+   <name>a_Log in</name>
    <tag></tag>
-   <elementGuidId>6044fb55-e193-4387-8413-0b56862b26ff</elementGuidId>
+   <elementGuidId>cf92fda7-67af-408a-a514-dd38658eff9e</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -17,20 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;side-menu&quot;)/li[@class=&quot;active&quot;]/ul[@class=&quot;nav nav-second-level collapse in&quot;]/li[1]/a[1]</value>
+      <value>id(&quot;navbar-collapse&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;nav-item&quot;]/a[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
+      <value>https://sandbox.vsms.tezzasolutions.com/login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>User  Management</value>
+      <value>Log in</value>
    </webElementProperties>
 </WebElementEntity>

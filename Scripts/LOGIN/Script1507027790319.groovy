@@ -19,23 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
+//launch VSMS application
+WebUI.openBrowser('https://sandbox.vsms.tezzasolutions.com/index')
 
-WebUI.click(findTestObject('Visitor Types/a_Modules'))
+//click on LOGIN button
+WebUI.click(findTestObject('login/a_Log in'))
 
-WebUI.click(findTestObject('Visitor Types/a_User  Management'))
+//enter your login credentials
+WebUI.setText(findTestObject('login/input_email'), 'stella.ireri@tezzasolutions.com')
 
-WebUI.navigateToUrl('https://sandbox.vsms.tezzasolutions.com/admin/users/settings')
+WebUI.setText(findTestObject('login/input_password'), 'adminPass')
 
-WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
-
-WebUI.click(findTestObject('Visitor Types/input_addvisitorbtn'))
-
-WebUI.setText(findTestObject('Visitor Types/input_name'), 'frequent visitor')
-
-WebUI.setText(findTestObject('Visitor Types/textarea_description'), 'visiting for a second + times')
-
-WebUI.click(findTestObject('Visitor Types/button_Add'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('login/button_Login'))
 

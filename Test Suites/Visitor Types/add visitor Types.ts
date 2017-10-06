@@ -14,6 +14,6 @@
       <guid>5e5e68b0-90ac-4e7b-b076-54c9c7114c3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/user management- visitor type</testCaseId>
+      <testCaseId>Test Cases/Visitor Types/user management- visitor type</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

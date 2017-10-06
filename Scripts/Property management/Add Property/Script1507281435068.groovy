@@ -19,3 +19,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Property Management/Property/Modules'))
+
+WebUI.click(findTestObject('Property Management/Property/Property Management'))
+
+WebUI.click(findTestObject('Property Management/Property/Property'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Property Management/Add New Property/button_Add New'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Property Management/Add New Property/property_name'), var_propertyname)
+
+WebUI.selectOptionByLabel(findTestObject('Property Management/Add New Property/property_type_id'), var_propertytype, false)
+
+WebUI.setText(findTestObject('Property Management/Add New Property/property_address1'), var_propertyaddress1)
+
+WebUI.setText(findTestObject('Property Management/Add New Property/property_address2'), var_propertyaddress2)
+
+WebUI.setText(findTestObject('Property Management/Add New Property/property_city'), var_propertycity)
+
+WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_country'), var_property_country, 
+    false)
+
+WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_state'), var_propertystate, false)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
+

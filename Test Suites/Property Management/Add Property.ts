@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>editing Visitor Type</description>
-   <name>edit-update Visitor type</name>
+   <description>Adding a new property</description>
+   <name>Add Property</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-04T16:58:52</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>37da67c1-637f-4bad-843c-9f83de8619df</testSuiteGuid>
+   <testSuiteGuid>d42bf0d9-b7e9-4d66-be4b-7660252afa76</testSuiteGuid>
    <testCaseLink>
-      <guid>5f182d53-4f7a-4bc8-a213-52826435cf52</guid>
+      <guid>ecd55d5c-d64d-4745-9a04-edd690dda797</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Edit-Update Visitor Type</testCaseId>
+      <testCaseId>Test Cases/Property management/Add Property</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add new Visitor in Security Management Module</description>
+   <name>Add new Visitor in Security Management Module</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbaa0995-67ca-4879-9fdf-548b6bedbc7a</testCaseGuid>
+</TestCaseEntity>

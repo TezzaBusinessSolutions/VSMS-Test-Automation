@@ -11,9 +11,30 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c4608c36-c898-4f0e-bc0e-9d3b0ec9c8b8</testSuiteGuid>
    <testCaseLink>
-      <guid>5e5e68b0-90ac-4e7b-b076-54c9c7114c3b</guid>
+      <guid>e6d6a369-04b6-4955-ad82-b28f7741fff4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Visitor Types/user management- visitor type</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f3f12aa8-bad9-41dc-968a-581ae9aaad28</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/add visitor types</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f3f12aa8-bad9-41dc-968a-581ae9aaad28</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>typename</value>
+         <variableId>5ba3f4aa-053d-48c5-8d30-285ebb103523</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f3f12aa8-bad9-41dc-968a-581ae9aaad28</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>typedescription</value>
+         <variableId>78f2051e-ef7d-43c8-84ae-f09d91f8996c</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

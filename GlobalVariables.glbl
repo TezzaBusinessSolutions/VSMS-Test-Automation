@@ -3,14 +3,14 @@
    <description></description>
    <tag></tag>
    <GlobalVariableEntity>
-      <description>Vsms url</description>
+      <description></description>
       <initValue>'https://sandbox.vsms.tezzasolutions.com/index'</initValue>
       <name>var_URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'clarinenyauncho@gmail.com'</initValue>
-      <name>var_Loginemail</name>
+      <name>var_email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

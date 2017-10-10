@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn" time="26" tests="0" failures="0" errors="1">
+   <testsuite name="LogIn" tests="0" failures="0" errors="1" time="26" timestamp="2017-10-10 14:54:02" hostname="Stella - 192.168.56.1" id="Test Suites/LogIn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\LogIn\\20171010_145400"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\LogIn\\20171010_145400\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="8e2e8f9bf397bd4fa211b7c103c4ab97"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN" classname="Test Cases/LOGIN" status="ERROR">
+         <error type="ERROR" message="Test Cases/LOGIN FAILED because (of) Variable 'var_Loginemail' is not defined for test case."/>
+         <system-out><![CDATA[2017-10-10 14:54:03 - [TEST_CASE][ERROR] - Test Cases/LOGIN: Test Cases/LOGIN FAILED because (of) Variable 'var_Loginemail' is not defined for test case.
+
+2017-10-10 14:54:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 14:54:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 14:54:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 14:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 14:54:27 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/login/input_email']]></system-out>
+         <system-err><![CDATA[2017-10-10 14:54:03 - [TEST_CASE][ERROR] - Test Cases/LOGIN: Test Cases/LOGIN FAILED because (of) Variable 'var_Loginemail' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 14:54:02 - [TEST_SUITE][ERROR] - LogIn: Test Cases/LOGIN FAILED because (of) Variable 'var_Loginemail' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2017-10-10 14:54:02 - [TEST_SUITE][ERROR] - LogIn: Test Cases/LOGIN FAILED because (of) Variable 'var_Loginemail' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

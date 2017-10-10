@@ -25,15 +25,13 @@ WebUI.click(findTestObject('Visitor Types/a_Modules'))
 
 WebUI.click(findTestObject('Visitor Types/a_User  Management'))
 
-WebUI.navigateToUrl('https://sandbox.vsms.tezzasolutions.com/admin/users/settings')
-
 WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
 
 WebUI.click(findTestObject('Visitor Types/input_addvisitorbtn'))
 
-WebUI.setText(findTestObject('Visitor Types/input_name'), 'frequent visitor')
+WebUI.setText(findTestObject('Visitor Types/input_name'), var_typename)
 
-WebUI.setText(findTestObject('Visitor Types/textarea_description'), 'visiting for a second + times')
+WebUI.setText(findTestObject('Visitor Types/textarea_description'), var_typedescription)
 
 WebUI.click(findTestObject('Visitor Types/button_Add'))
 

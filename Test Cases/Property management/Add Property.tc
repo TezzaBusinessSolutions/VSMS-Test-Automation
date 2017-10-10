@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>adding a new property</description>
+   <name>Add Property</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7183c7cb-1a59-4e2e-b819-a69c654a5d40</testCaseGuid>
+</TestCaseEntity>

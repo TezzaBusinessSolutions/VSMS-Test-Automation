@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Group" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Group" tests="1" failures="0" errors="0" time="30" timestamp="2017-10-09 09:39:13" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/User Management/Edit Group/Edit Group">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Edit Group\\Edit Group\\20171009_093906"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Edit Group\\Edit Group\\20171009_093906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7f555e6863df7202e2fcf45c0823b0ea"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Edit Group/Edit Group" classname="Test Cases/User Management/Edit Group/Edit Group" status="PASSED">
+         <system-out><![CDATA[2017-10-09 09:39:13 - [TEST_CASE][PASSED] - Test Cases/User Management/Edit Group/Edit Group: Test Cases/User Management/Edit Group/Edit Group
+
+2017-10-09 09:39:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-09 09:39:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-09 09:39:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 09:39:24 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 09:39:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 09:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 09:39:25 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 09:39:26 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 09:39:26 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 09:39:26 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 09:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 09:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 09:39:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 09:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 09:39:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 09:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 09:39:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Group/Group Module Selection/a_Group' is clicked on
+
+2017-10-09 09:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Group/Group Module Selection/a_Group' is clicked on
+
+2017-10-09 09:39:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-09 09:39:34 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-09 09:39:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-09 09:39:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-09 09:39:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Group/Edit Group Details/a_Automation' is clicked on
+
+2017-10-09 09:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Group/Edit Group Details/a_Automation' is clicked on
+
+2017-10-09 09:39:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-09 09:39:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-09 09:39:40 - [TEST_STEP][PASSED] - setText: Text 'Automation1' is set on object 'Object Repository/User Management/Edit Group/Edit Group Details/input_groupname'
+
+2017-10-09 09:39:41 - [MESSAGE][PASSED] - Text 'Automation1' is set on object 'Object Repository/User Management/Edit Group/Edit Group Details/input_groupname'
+
+2017-10-09 09:39:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Group/Edit Group Details/button_Update' is clicked on
+
+2017-10-09 09:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Group/Edit Group Details/button_Update' is clicked on
+
+2017-10-09 09:39:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Edit Group/Edit Group Details/p_Updated Automation1 successf' is present
+
+2017-10-09 09:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Edit Group/Edit Group Details/p_Updated Automation1 successf' is present
+
+2017-10-09 09:39:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-09 09:39:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-09 09:39:13 - [TEST_SUITE][PASSED] - Edit Group: Test Cases/User Management/Edit Group/Edit Group]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

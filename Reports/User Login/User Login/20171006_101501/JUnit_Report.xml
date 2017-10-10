@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Login" time="57" tests="1" failures="1" errors="0">
+   <testsuite name="User Login" tests="1" failures="1" errors="0" time="57" timestamp="2017-10-06 10:15:04" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/User Login/User Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Login\\User Login\\20171006_101501"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Login\\User Login\\20171006_101501\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Login\\User Login\\20171006_101501\\1507274150247.png"/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="66daf041f72e299f57bcff443e312c69"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Login/Login - Iteration 1" classname="Test Cases/User Login/Login" status="PASSED">
+         <system-out><![CDATA[2017-10-06 10:15:05 - [TEST_CASE][PASSED] - Test Cases/User Login/Login - Iteration 1: Test Cases/User Login/Login
+
+2017-10-06 10:15:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-06 10:15:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-06 10:15:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-06 10:15:15 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-06 10:15:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-06 10:15:16 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-06 10:15:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login Objects/Login Credentials/a_Log in' is clicked on
+
+2017-10-06 10:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login Objects/Login Credentials/a_Log in' is clicked on
+
+2017-10-06 10:15:18 - [TEST_STEP][PASSED] - setText: Text 'changeme@gmail.com' is set on object 'Object Repository/User Login Objects/Login Credentials/input_email'
+
+2017-10-06 10:15:18 - [MESSAGE][PASSED] - Text 'changeme@gmail.com' is set on object 'Object Repository/User Login Objects/Login Credentials/input_email'
+
+2017-10-06 10:15:18 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Login Objects/Login Credentials/input_password'
+
+2017-10-06 10:15:19 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Login Objects/Login Credentials/input_password'
+
+2017-10-06 10:15:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login Objects/Login Credentials/button_Login' is clicked on
+
+2017-10-06 10:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login Objects/Login Credentials/button_Login' is clicked on
+
+2017-10-06 10:15:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Error Message/strong_These credentials do no' is present
+
+2017-10-06 10:15:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Error Message/strong_These credentials do no' is present
+
+2017-10-06 10:15:19 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-10-06 10:15:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-10-06 10:15:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-06 10:15:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Login/Login - Iteration 2" classname="Test Cases/User Login/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User Login/Login FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found"/>
+         <system-out><![CDATA[2017-10-06 10:15:31 - [TEST_CASE][FAILED] - Test Cases/User Login/Login - Iteration 2: Test Cases/User Login/Login FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found
+
+2017-10-06 10:15:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-06 10:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-06 10:15:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-06 10:15:38 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-06 10:15:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-06 10:15:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-06 10:15:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login Objects/Login Credentials/a_Log in' is clicked on
+
+2017-10-06 10:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login Objects/Login Credentials/a_Log in' is clicked on
+
+2017-10-06 10:15:41 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Login Objects/Login Credentials/input_email'
+
+2017-10-06 10:15:42 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Login Objects/Login Credentials/input_email'
+
+2017-10-06 10:15:42 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Login Objects/Login Credentials/input_password'
+
+2017-10-06 10:15:42 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Login Objects/Login Credentials/input_password'
+
+2017-10-06 10:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login Objects/Login Credentials/button_Login' is clicked on
+
+2017-10-06 10:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login Objects/Login Credentials/button_Login' is clicked on
+
+2017-10-06 10:15:44 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found
+
+2017-10-06 10:15:50 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Login\\User Login\\20171006_101501\\1507274150247.png]]
+
+2017-10-06 10:15:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-10-06 10:16:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-10-06 10:16:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-06 10:16:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-06 10:15:31 - [TEST_CASE][FAILED] - Test Cases/User Login/Login - Iteration 2: Test Cases/User Login/Login FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-06 10:15:04 - [TEST_SUITE][FAILED] - User Login: Test Cases/User Login/Login FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found]]></system-out>
+      <system-err><![CDATA[2017-10-06 10:15:04 - [TEST_SUITE][FAILED] - User Login: Test Cases/User Login/Login FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Error Message/strong_These credentials do no' located by 'By.xpath: //strong[count(. | //*[contains(.,'These credentials do not match our records.')]) = count(//*[contains(.,'These credentials do not match our records.')])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Profile" time="48" tests="0" failures="1" errors="0">
+   <testsuite name="Edit Profile" tests="0" failures="1" errors="0" time="48" timestamp="2017-10-09 09:11:49" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/User Management/Edit Profile/Edit Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Edit Profile\\Edit Profile\\20171009_091142"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Edit Profile\\Edit Profile\\20171009_091142\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="761b4c24d828bc9aa8f625b8da980152"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Edit Profile/Edit Profile" classname="Test Cases/User Management/Edit Profile/Edit Profile" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)"/>
+         <system-out><![CDATA[2017-10-09 09:11:50 - [TEST_CASE][FAILED] - Test Cases/User Management/Edit Profile/Edit Profile: Test Cases/User Management/Edit Profile/Edit Profile FAILED because (of) Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)
+
+2017-10-09 09:11:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-09 09:11:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-09 09:11:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 09:12:02 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 09:12:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 09:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 09:12:04 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 09:12:04 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 09:12:04 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 09:12:04 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 09:12:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 09:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 09:12:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 09:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 09:12:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 09:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 09:12:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Profile/Profile Link/a_Profile' is clicked on
+
+2017-10-09 09:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Profile/Profile Link/a_Profile' is clicked on
+
+2017-10-09 09:12:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-09 09:12:11 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-09 09:12:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Profile/Edit Profile Objects/a_TestProfupdate' is clicked on
+
+2017-10-09 09:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Profile/Edit Profile Objects/a_TestProfupdate' is clicked on
+
+2017-10-09 09:12:11 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-10-09 09:12:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-10-09 09:12:15 - [TEST_STEP][PASSED] - setText: Text 'TestProfile' is set on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/input_profilename'
+
+2017-10-09 09:12:16 - [MESSAGE][PASSED] - Text 'TestProfile' is set on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/input_profilename'
+
+2017-10-09 09:12:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)
+
+2017-10-09 09:12:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-09 09:12:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)
+
+2017-10-09 09:12:37 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/p_Updated TestProfupdate succe' is present (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir7484_17661}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 761b4c24d828bc9aa8f625b8da980152
+*** Element info: {Using=xpath, value=//p[count(. | //*[contains(.,'Updated [TestProfupdate] successfully!')]) = count(//*[contains(.,'Updated [TestProfupdate] successfully!')])]})
+
+2017-10-09 09:12:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-09 09:12:37 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/p_Updated TestProfupdate succe' is present (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir7484_17661}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 761b4c24d828bc9aa8f625b8da980152
+*** Element info: {Using=xpath, value=//p[count(. | //*[contains(.,'Updated [TestProfupdate] successfully!')]) = count(//*[contains(.,'Updated [TestProfupdate] successfully!')])]})
+
+2017-10-09 09:12:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-09 09:12:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-09 09:11:50 - [TEST_CASE][FAILED] - Test Cases/User Management/Edit Profile/Edit Profile: Test Cases/User Management/Edit Profile/Edit Profile FAILED because (of) Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-09 09:11:49 - [TEST_SUITE][FAILED] - Edit Profile: Test Cases/User Management/Edit Profile/Edit Profile FAILED because (of) Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)]]></system-out>
+      <system-err><![CDATA[2017-10-09 09:11:49 - [TEST_SUITE][FAILED] - Edit Profile: Test Cases/User Management/Edit Profile/Edit Profile FAILED because (of) Unable to click on object 'Object Repository/User Management/Edit Profile/Edit Profile Objects/button_Update' (Root cause: java.lang.NullPointerException)]]></system-err>
+   </testsuite>
+</testsuites>

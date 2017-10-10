@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit_asset_types</name>
+   <name>i_fa fa-edit</name>
    <tag></tag>
    <elementGuidId>0eb7aa7a-bca9-4023-9d4e-e81d1989e900</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add visitor Types,Firefox 55.0,adding a visitor type,2017-10-10 16:16:19,2017-10-10 16:16:47,27.555s,PASSED
+,,,,,,
+Test Cases/User Management/Visitor Types/Add Visitor Types,Firefox 55.0,managing VSMS visitor types,2017-10-10 16:16:20,2017-10-10 16:16:47,27.074s,PASSED
+callTestCase,Firefox 55.0,,2017-10-10 16:16:20,2017-10-10 16:16:41,20.473s,PASSED
+click,Firefox 55.0,,2017-10-10 16:16:41,2017-10-10 16:16:41,0.196s,PASSED
+click,Firefox 55.0,,2017-10-10 16:16:41,2017-10-10 16:16:42,0.663s,PASSED
+click,Firefox 55.0,,2017-10-10 16:16:42,2017-10-10 16:16:42,0.695s,PASSED
+click,Firefox 55.0,,2017-10-10 16:16:42,2017-10-10 16:16:44,1.345s,PASSED
+click,Firefox 55.0,,2017-10-10 16:16:44,2017-10-10 16:16:44,0.493s,PASSED
+setText,Firefox 55.0,,2017-10-10 16:16:44,2017-10-10 16:16:45,0.938s,PASSED
+setText,Firefox 55.0,,2017-10-10 16:16:45,2017-10-10 16:16:46,0.666s,PASSED
+click,Firefox 55.0,,2017-10-10 16:16:46,2017-10-10 16:16:46,0.241s,PASSED
+closeBrowser,Firefox 55.0,,2017-10-10 16:16:46,2017-10-10 16:16:47,0.585s,PASSED

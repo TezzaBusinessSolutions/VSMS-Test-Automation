@@ -21,34 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Property Management/Property/Modules'))
+WebUI.click(findTestObject('Visitor Types/a_Modules'))
 
-WebUI.click(findTestObject('Property Management/Property/Property Management'))
+WebUI.click(findTestObject('Visitor Types/a_User  Management'))
 
-WebUI.click(findTestObject('Property Management/Property/Property'))
+WebUI.click(findTestObject('Visitor Types/a_User Settings'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add New'))
+WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_name'), var_propertyName)
+WebUI.click(findTestObject('Visitor Asset Types/input_addassetbtn'))
 
-WebUI.selectOptionByLabel(findTestObject('Property Management/Add New Property/property_type_id'), var_propertyType, false)
+WebUI.setText(findTestObject('Visitor Asset Types/asset_name'), var_assetName)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address1'), var_propertyAddress1)
+WebUI.setText(findTestObject('Visitor Asset Types/asset_description'), var_assetDescription)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address2'), var_propertyAddress2)
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_city'), var_propertyCity)
+WebUI.click(findTestObject('Visitor Asset Types/button_Add'))
 
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_country'), var_propertyCountry, 
-    false)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_state'), var_propertyState, false)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
+WebUI.closeBrowser()
 

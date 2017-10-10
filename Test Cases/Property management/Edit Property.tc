@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Updating property</description>
+   <name>Edit Property</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f65cda5-8009-47a5-87cd-c45795256a87</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee8c79f8-6db6-4abf-8b56-2e2baa6cfa2a</id>
+      <masked>false</masked>
+      <name>var_editPropertyAddress2</name>
+   </variable>
+</TestCaseEntity>

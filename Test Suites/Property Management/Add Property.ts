@@ -4,6 +4,7 @@
    <name>Add Property</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2017-10-10T16:59:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,5 +16,56 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Property management/Add Property</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8ce62e93-1a70-4812-a48f-359c81c3abf6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Add Property </testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyName</value>
+         <variableId>e74364e2-c7dd-4020-9435-092367197d4f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyType</value>
+         <variableId>fb76ba47-771f-4c6f-b545-0b7aa076647f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyAddress1</value>
+         <variableId>ffbe010c-9d7c-42f1-b967-27b9db20d759</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyAddress2</value>
+         <variableId>51a8083b-d63c-4173-8cde-7ce1f53d3979</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyCity</value>
+         <variableId>136942ac-04d5-4855-89a2-5a0ad6d14aff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyCountry</value>
+         <variableId>27547943-ecbb-4b5d-afd4-995e2f75593a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8ce62e93-1a70-4812-a48f-359c81c3abf6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>propertyState</value>
+         <variableId>4eecdb0f-e1a4-42f3-877a-bcf902cdc0bb</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -18,37 +18,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Property Management/Property/Modules'))
+WebUI.navigateToUrl(var_url)
 
-WebUI.click(findTestObject('Property Management/Property/Property Management'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Property Management/Property/Property'))
+WebUI.click(findTestObject('User Login Objects/Login Credentials/a_Log in'))
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('User Login Objects/Login Credentials/input_email'), var_email)
 
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add New'))
+WebUI.setText(findTestObject('User Login Objects/Login Credentials/input_password'), var_password)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('User Login Objects/Login Credentials/button_Login'))
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_name'), var_propertyName)
+WebUI.verifyElementPresent(findTestObject('Login Error Message/strong_These credentials do no'), 5)
 
-WebUI.selectOptionByLabel(findTestObject('Property Management/Add New Property/property_type_id'), var_propertyType, false)
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address1'), var_propertyAddress1)
-
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address2'), var_propertyAddress2)
-
-WebUI.setText(findTestObject('Property Management/Add New Property/property_city'), var_propertyCity)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_country'), var_propertyCountry, 
-    false)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_state'), var_propertyState, false)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
+WebUI.closeBrowser()
 

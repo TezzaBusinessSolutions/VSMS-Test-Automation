@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn" time="28" tests="1" failures="0" errors="0">
+   <testsuite name="LogIn" tests="1" failures="0" errors="0" time="28" timestamp="2017-10-10 16:03:28" hostname="Stella - 192.168.56.1" id="Test Suites/User Login/LogIn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171010_160326"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171010_160326\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0a01f754-f184-483f-ad46-ca2b0a2d4941"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN" classname="Test Cases/LOGIN" status="PASSED">
+         <system-out><![CDATA[2017-10-10 16:03:28 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-10 16:03:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 16:03:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 16:03:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 16:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 16:03:49 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 16:03:52 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 16:03:52 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 16:03:52 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 16:03:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 16:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 16:03:28 - [TEST_SUITE][PASSED] - LogIn: Test Cases/LOGIN]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -29,26 +29,11 @@ WebUI.click(findTestObject('Property Management/Property/Property'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add New'))
+WebUI.click(findTestObject('Property Management/Edit Property/Edit'))
+
+WebUI.setText(findTestObject('Property Management/Edit Property/property_address2'), var_editPropertyAddress2)
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_name'), var_propertyName)
-
-WebUI.selectOptionByLabel(findTestObject('Property Management/Add New Property/property_type_id'), var_propertyType, false)
-
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address1'), var_propertyAddress1)
-
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address2'), var_propertyAddress2)
-
-WebUI.setText(findTestObject('Property Management/Add New Property/property_city'), var_propertyCity)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_country'), var_propertyCountry, 
-    false)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_state'), var_propertyState, false)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
+WebUI.click(findTestObject('Property Management/Edit Property/Update'))
 

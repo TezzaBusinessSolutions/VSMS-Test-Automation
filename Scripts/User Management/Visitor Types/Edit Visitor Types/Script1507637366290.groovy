@@ -21,34 +21,28 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Property Management/Property/Modules'))
+WebUI.click(findTestObject('Visitor Types/a_Modules'))
 
-WebUI.click(findTestObject('Property Management/Property/Property Management'))
+WebUI.click(findTestObject('Visitor Types/a_User  Management'))
 
-WebUI.click(findTestObject('Property Management/Property/Property'))
+WebUI.click(findTestObject('Visitor Types/a_User Settings'))
 
-WebUI.delay(5)
+//WebUI.click(findTestObject(By.xpath("//*[contains(@href,'https://sandbox.vsms.tezzasolutions.com/admin/users/settings')]"))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add New'))
+WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
 
-WebUI.delay(5)
+WebUI.verifyElementPresent(findTestObject('Visitor Types/legend_Visitor Types'), 10)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_name'), var_propertyName)
+WebUI.click(findTestObject('edit visitor types/i_editvisitorbtn'))
 
-WebUI.selectOptionByLabel(findTestObject('Property Management/Add New Property/property_type_id'), var_propertyType, false)
+WebUI.setText(findTestObject('edit visitor types/input_name'), var_EditTypesName)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address1'), var_propertyAddress1)
+WebUI.setText(findTestObject('edit visitor types/textarea_description'), var_editTypesDescription)
 
-WebUI.setText(findTestObject('Property Management/Add New Property/property_address2'), var_propertyAddress2)
-
-WebUI.setText(findTestObject('Property Management/Add New Property/property_city'), var_propertyCity)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_country'), var_propertyCountry, 
-    false)
-
-WebUI.selectOptionByValue(findTestObject('Property Management/Add New Property/property_state'), var_propertyState, false)
+WebUI.click(findTestObject('Object Repository/edit visitor types/button_Update'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
+WebUI.closeBrowser()
 

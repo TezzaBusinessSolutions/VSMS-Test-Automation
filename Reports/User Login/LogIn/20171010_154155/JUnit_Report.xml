@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn" time="0" tests="0" failures="0" errors="1">
+   <testsuite name="LogIn" tests="0" failures="0" errors="1" time="0" timestamp="2017-10-10 15:41:57" hostname="Stella - 192.168.56.1" id="Test Suites/User Login/LogIn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171010_154155"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171010_154155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN " classname="Test Cases/LOGIN " status="ERROR">
+         <error type="ERROR" message="Test Cases/LOGIN  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-10-10 15:41:58 - [TEST_CASE][ERROR] - Test Cases/LOGIN : Test Cases/LOGIN  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-10-10 15:41:58 - [TEST_CASE][ERROR] - Test Cases/LOGIN : Test Cases/LOGIN  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 15:41:57 - [TEST_SUITE][ERROR] - LogIn: Test Cases/LOGIN  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2017-10-10 15:41:57 - [TEST_SUITE][ERROR] - LogIn: Test Cases/LOGIN  has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

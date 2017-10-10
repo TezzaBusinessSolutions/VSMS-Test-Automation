@@ -13,21 +13,21 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-show</name>
       <type>Main</type>
       <value>btnupdateAsset_type</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;usermanagement&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;tab-content&quot;]/div[@id=&quot;visitorType&quot;]/div[@class=&quot;row&quot;]/div[@id=&quot;visitorType&quot;]/div[@class=&quot;col-lg-6&quot;]/fieldset[1]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-pristine ng-valid ng-valid-required&quot;]/div[@class=&quot;col-md-4&quot;]/button[@class=&quot;btn tezzacolor4 btn-sm&quot;]</value>
+      <value>//*[contains(@ng-click, &quot;updateAsset_type(assetTypeForm.$valid,id)&quot;)]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>Update</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

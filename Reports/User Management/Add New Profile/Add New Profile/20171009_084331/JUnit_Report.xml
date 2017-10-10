@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add New Profile" time="37" tests="1" failures="0" errors="0">
+   <testsuite name="Add New Profile" tests="1" failures="0" errors="0" time="37" timestamp="2017-10-09 08:43:39" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/User Management/Add New Profile/Add New Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Add New Profile\\Add New Profile\\20171009_084331"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Add New Profile\\Add New Profile\\20171009_084331\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="292c7fc9dce1ec6714b8a219f4fdd77a"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Add New Profile/Add New Profile" classname="Test Cases/User Management/Add New Profile/Add New Profile" status="PASSED">
+         <system-out><![CDATA[2017-10-09 08:43:39 - [TEST_CASE][PASSED] - Test Cases/User Management/Add New Profile/Add New Profile: Test Cases/User Management/Add New Profile/Add New Profile
+
+2017-10-09 08:43:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-09 08:43:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-09 08:43:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 08:43:54 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 08:43:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 08:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 08:43:56 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 08:43:56 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 08:43:56 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 08:43:57 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 08:43:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 08:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 08:44:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 08:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 08:44:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 08:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 08:44:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Profile/Profile Link/a_Profile' is clicked on
+
+2017-10-09 08:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Profile/Profile Link/a_Profile' is clicked on
+
+2017-10-09 08:44:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-09 08:44:04 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-09 08:44:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Profile/Add New Profile/a_Add New' is clicked on
+
+2017-10-09 08:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Profile/Add New Profile/a_Add New' is clicked on
+
+2017-10-09 08:44:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-09 08:44:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-09 08:44:09 - [TEST_STEP][PASSED] - setText: Text 'TestProf' is set on object 'Object Repository/User Management/Add New Profile/Add New Profile/input_profilename'
+
+2017-10-09 08:44:10 - [MESSAGE][PASSED] - Text 'TestProf' is set on object 'Object Repository/User Management/Add New Profile/Add New Profile/input_profilename'
+
+2017-10-09 08:44:10 - [TEST_STEP][PASSED] - setText: Text 'TestProf' is set on object 'Object Repository/User Management/Add New Profile/Add New Profile/textarea_profiledescription'
+
+2017-10-09 08:44:10 - [MESSAGE][PASSED] - Text 'TestProf' is set on object 'Object Repository/User Management/Add New Profile/Add New Profile/textarea_profiledescription'
+
+2017-10-09 08:44:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Profile/Add New Profile/button_Save' is clicked on
+
+2017-10-09 08:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Profile/Add New Profile/button_Save' is clicked on
+
+2017-10-09 08:44:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Profile/Add New Profile/New profile has been added successfully' is clicked on
+
+2017-10-09 08:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Profile/Add New Profile/New profile has been added successfully' is clicked on
+
+2017-10-09 08:44:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-09 08:44:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-09 08:44:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-09 08:44:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-09 08:43:39 - [TEST_SUITE][PASSED] - Add New Profile: Test Cases/User Management/Add New Profile/Add New Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Group</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2e40df5-9be9-40a4-bb7b-ccdbc44b2386</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc3959e2-dd5c-46ea-877f-0018eaa113e8</id>
+      <masked>false</masked>
+      <name>var_groupname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38ee9ce5-5b08-4f62-9453-89a0a4718f0c</id>
+      <masked>false</masked>
+      <name>var_gpdescription</name>
+   </variable>
+</TestCaseEntity>

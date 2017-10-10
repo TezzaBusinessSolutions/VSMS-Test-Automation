@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Department</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee881276-7234-4968-8017-68df5bfabe82</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>78c7f95b-a51a-4daa-90c9-33a1da7766a0</id>
+      <masked>false</masked>
+      <name>var_deptname</name>
+   </variable>
+</TestCaseEntity>

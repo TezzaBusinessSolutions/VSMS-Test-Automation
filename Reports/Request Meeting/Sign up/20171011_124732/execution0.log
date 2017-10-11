@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-10-11T12:27:44</date>
-  <millis>1507714064696</millis>
+  <date>2017-10-11T12:47:38</date>
+  <millis>1507715258565</millis>
   <sequence>0</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -16,8 +16,8 @@
   <property name="id">Test Suites/Request Meeting/Sign up</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:44</date>
-  <millis>1507714064737</millis>
+  <date>2017-10-11T12:47:38</date>
+  <millis>1507715258686</millis>
   <sequence>1</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -28,8 +28,8 @@
   <property name="hostName">Gituto Nyawira - Gituto-PC</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:44</date>
-  <millis>1507714064739</millis>
+  <date>2017-10-11T12:47:38</date>
+  <millis>1507715258690</millis>
   <sequence>2</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -40,8 +40,8 @@
   <property name="os">Windows 10 64bit</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:44</date>
-  <millis>1507714064740</millis>
+  <date>2017-10-11T12:47:38</date>
+  <millis>1507715258699</millis>
   <sequence>3</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -52,8 +52,8 @@
   <property name="hostAddress">192.168.43.189</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:44</date>
-  <millis>1507714064741</millis>
+  <date>2017-10-11T12:47:38</date>
+  <millis>1507715258703</millis>
   <sequence>4</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -64,8 +64,8 @@
   <property name="katalonVersion">4.8.0.2</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:45</date>
-  <millis>1507714065456</millis>
+  <date>2017-10-11T12:47:39</date>
+  <millis>1507715259954</millis>
   <sequence>5</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -80,8 +80,8 @@
   <property name="isOptional">false</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:45</date>
-  <millis>1507714065874</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260708</millis>
   <sequence>6</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -91,8 +91,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066071</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260983</millis>
   <sequence>7</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -102,8 +102,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066074</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260985</millis>
   <sequence>8</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -113,8 +113,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066077</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260987</millis>
   <sequence>9</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -124,8 +124,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066078</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260989</millis>
   <sequence>10</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -135,8 +135,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066083</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260990</millis>
   <sequence>11</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -146,8 +146,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066086</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260992</millis>
   <sequence>12</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -157,8 +157,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066087</millis>
+  <date>2017-10-11T12:47:40</date>
+  <millis>1507715260994</millis>
   <sequence>13</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -168,8 +168,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:46</date>
-  <millis>1507714066816</millis>
+  <date>2017-10-11T12:47:42</date>
+  <millis>1507715262830</millis>
   <sequence>14</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -181,8 +181,8 @@
   <property name="stepIndex">1</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:47</date>
-  <millis>1507714067522</millis>
+  <date>2017-10-11T12:47:43</date>
+  <millis>1507715263763</millis>
   <sequence>15</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -192,8 +192,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:47</date>
-  <millis>1507714067557</millis>
+  <date>2017-10-11T12:47:43</date>
+  <millis>1507715263795</millis>
   <sequence>16</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -203,8 +203,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:47</date>
-  <millis>1507714067626</millis>
+  <date>2017-10-11T12:47:43</date>
+  <millis>1507715263843</millis>
   <sequence>17</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -214,20 +214,20 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072368</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269259</millis>
   <sequence>18</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;e1cf5277485fe26ddcb5e001cc73b8cf&amp;apos;</message>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;6b0115326d06a6090922c5db9234a5ee&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
-  <property name="sessionId">e1cf5277485fe26ddcb5e001cc73b8cf</property>
+  <property name="sessionId">6b0115326d06a6090922c5db9234a5ee</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072478</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269436</millis>
   <sequence>19</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -238,8 +238,8 @@
   <property name="browser">Chrome 61.0.3163.100</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072481</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269438</millis>
   <sequence>20</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -250,8 +250,8 @@
   <property name="platform">Windows 10</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072489</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269445</millis>
   <sequence>21</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -262,8 +262,8 @@
   <property name="seleniumVersion">2.53.0</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072494</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269449</millis>
   <sequence>22</sequence>
   <level>RUN_DATA</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -274,8 +274,8 @@
   <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072498</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269451</millis>
   <sequence>23</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -285,8 +285,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072501</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269454</millis>
   <sequence>24</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -296,8 +296,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072503</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269455</millis>
   <sequence>25</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -309,8 +309,8 @@
   <property name="stepIndex">2</property>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072741</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269649</millis>
   <sequence>26</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -320,8 +320,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:27:52</date>
-  <millis>1507714072755</millis>
+  <date>2017-10-11T12:47:49</date>
+  <millis>1507715269690</millis>
   <sequence>27</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -331,8 +331,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081135</millis>
+  <date>2017-10-11T12:47:57</date>
+  <millis>1507715277548</millis>
   <sequence>28</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -342,8 +342,8 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081138</millis>
+  <date>2017-10-11T12:47:57</date>
+  <millis>1507715277553</millis>
   <sequence>29</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -353,33 +353,79 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081140</millis>
+  <date>2017-10-11T12:47:57</date>
+  <millis>1507715277556</millis>
   <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2017-10-11T12:47:57</date>
+  <millis>1507715277639</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-11T12:47:58</date>
+  <millis>1507715278970</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-11T12:47:58</date>
+  <millis>1507715278972</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-11T12:47:58</date>
+  <millis>1507715278975</millis>
+  <sequence>34</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
   <message>Start action : click</message>
   <nestedLevel>1</nestedLevel>
-  <property name="startLine">26</property>
-  <property name="stepIndex">3</property>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081162</millis>
-  <sequence>31</sequence>
+  <date>2017-10-11T12:47:59</date>
+  <millis>1507715279006</millis>
+  <sequence>35</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Finding Test Object with id &amp;apos;Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING&amp;apos;</message>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081300</millis>
-  <sequence>32</sequence>
+  <date>2017-10-11T12:47:59</date>
+  <millis>1507715279281</millis>
+  <sequence>36</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
@@ -388,9 +434,9 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081334</millis>
-  <sequence>33</sequence>
+  <date>2017-10-11T12:47:59</date>
+  <millis>1507715279283</millis>
+  <sequence>37</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
@@ -399,53 +445,53 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081362</millis>
-  <sequence>34</sequence>
+  <date>2017-10-11T12:47:59</date>
+  <millis>1507715279306</millis>
+  <sequence>38</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Finding web element with id: &amp;apos;Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)]) = count(//*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)])][count(. | //*[@type = &amp;apos;button&amp;apos;]) = count(//*[@type = &amp;apos;button&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <message>Finding web element with id: &amp;apos;Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)]) = count(//*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)])][count(. | //*[@type = &amp;apos;button&amp;apos;]) = count(//*[@type = &amp;apos;button&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081676</millis>
-  <sequence>35</sequence>
+  <date>2017-10-11T12:48:00</date>
+  <millis>1507715280057</millis>
+  <sequence>39</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Found 1 web elements with id: &amp;apos;Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)]) = count(//*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)])][count(. | //*[@type = &amp;apos;button&amp;apos;]) = count(//*[@type = &amp;apos;button&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)]) = count(//*[contains(.,&amp;apos;REQUEST A MEETING&amp;apos;)])][count(. | //*[@type = &amp;apos;button&amp;apos;]) = count(//*[@type = &amp;apos;button&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:01</date>
-  <millis>1507714081678</millis>
-  <sequence>36</sequence>
+  <date>2017-10-11T12:48:00</date>
+  <millis>1507715280061</millis>
+  <sequence>40</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Clicking on object: &amp;apos;Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING&amp;apos;</message>
+  <message>Clicking on object: &amp;apos;Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082121</millis>
-  <sequence>37</sequence>
+  <date>2017-10-11T12:48:00</date>
+  <millis>1507715280363</millis>
+  <sequence>41</sequence>
   <level>PASSED</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Object: &amp;apos;Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING&amp;apos; is clicked on</message>
+  <message>Object: &amp;apos;Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING&amp;apos; is clicked on</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082123</millis>
-  <sequence>38</sequence>
+  <date>2017-10-11T12:48:00</date>
+  <millis>1507715280365</millis>
+  <sequence>42</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>endKeyword</method>
@@ -454,33 +500,79 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082125</millis>
-  <sequence>39</sequence>
+  <date>2017-10-11T12:48:00</date>
+  <millis>1507715280367</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2017-10-11T12:48:00</date>
+  <millis>1507715280478</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285486</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285489</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285490</millis>
+  <sequence>47</sequence>
   <level>START</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>startKeyword</method>
   <thread>1</thread>
   <message>Start action : setText</message>
   <nestedLevel>1</nestedLevel>
-  <property name="startLine">28</property>
-  <property name="stepIndex">4</property>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082127</millis>
-  <sequence>40</sequence>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285494</millis>
+  <sequence>48</sequence>
   <level>INFO</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>logMessage</method>
   <thread>1</thread>
-  <message>Finding Test Object with id &amp;apos;Object Repository/Sign Up In Request Meeting/input_title&amp;apos;</message>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Request A meeting/Sign Up In Request Meeting/input_title&amp;apos;</message>
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082155</millis>
-  <sequence>41</sequence>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285566</millis>
+  <sequence>49</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>endKeyword</method>
@@ -489,9 +581,9 @@
   <nestedLevel>1</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082169</millis>
-  <sequence>42</sequence>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285583</millis>
+  <sequence>50</sequence>
   <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
   <level>ERROR</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
@@ -518,7 +610,7 @@
     <frame>
       <class>Script1507106431390</class>
       <method>run</method>
-      <line>28</line>
+      <line>32</line>
     </frame>
     <frame>
       <class>com.kms.katalon.core.main.ScriptEngine</class>
@@ -580,7 +672,7 @@
       <line>141</line>
     </frame>
     <frame>
-      <class>TempTestSuite1507714060067</class>
+      <class>TempTestSuite1507715252330</class>
       <method>runTestCase_0</method>
       <line>18</line>
     </frame>
@@ -629,7 +721,7 @@
       <line>113</line>
     </frame>
     <frame>
-      <class>TempTestSuite1507714060067$_run_closure1</class>
+      <class>TempTestSuite1507715252330$_run_closure1</class>
       <method>doCall</method>
       <line>45</line>
     </frame>
@@ -727,7 +819,7 @@
       <line>125</line>
     </frame>
     <frame>
-      <class>TempTestSuite1507714060067</class>
+      <class>TempTestSuite1507715252330</class>
       <method>run</method>
       <line>44</line>
     </frame>
@@ -804,9 +896,9 @@
   <nestedLevel>0</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:02</date>
-  <millis>1507714082224</millis>
-  <sequence>43</sequence>
+  <date>2017-10-11T12:48:05</date>
+  <millis>1507715285612</millis>
+  <sequence>51</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>endTest</method>
@@ -815,381 +907,14 @@
   <nestedLevel>0</nestedLevel>
 </record>
 <record>
-  <date>2017-10-11T12:28:05</date>
-  <millis>1507714085041</millis>
-  <sequence>44</sequence>
+  <date>2017-10-11T12:48:08</date>
+  <millis>1507715288130</millis>
+  <sequence>52</sequence>
   <level>END</level>
   <class>com.kms.katalon.core.logging.KeywordLogger</class>
   <method>endSuite</method>
   <thread>1</thread>
   <message>End Test Suite : Sign up</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2017-10-11T12:37:12</date>
-  <millis>1507714632869</millis>
-  <sequence>341</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:37:12</date>
-  <millis>1507714632881</millis>
-  <sequence>342</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:37:12</date>
-  <millis>1507714632883</millis>
-  <sequence>343</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:37:27</date>
-  <millis>1507714647929</millis>
-  <sequence>344</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:37:27</date>
-  <millis>1507714647933</millis>
-  <sequence>345</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:37:27</date>
-  <millis>1507714647934</millis>
-  <sequence>346</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:03</date>
-  <millis>1507714683374</millis>
-  <sequence>347</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:03</date>
-  <millis>1507714683379</millis>
-  <sequence>348</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:03</date>
-  <millis>1507714683381</millis>
-  <sequence>349</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:10</date>
-  <millis>1507714690935</millis>
-  <sequence>350</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:10</date>
-  <millis>1507714690939</millis>
-  <sequence>351</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:10</date>
-  <millis>1507714690941</millis>
-  <sequence>352</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:23</date>
-  <millis>1507714703773</millis>
-  <sequence>353</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:23</date>
-  <millis>1507714703779</millis>
-  <sequence>354</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:23</date>
-  <millis>1507714703781</millis>
-  <sequence>355</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:36</date>
-  <millis>1507714716992</millis>
-  <sequence>356</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:36</date>
-  <millis>1507714716997</millis>
-  <sequence>357</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:36</date>
-  <millis>1507714716999</millis>
-  <sequence>358</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:55</date>
-  <millis>1507714735471</millis>
-  <sequence>359</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:55</date>
-  <millis>1507714735476</millis>
-  <sequence>360</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:38:55</date>
-  <millis>1507714735477</millis>
-  <sequence>361</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:39:10</date>
-  <millis>1507714750565</millis>
-  <sequence>362</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:39:10</date>
-  <millis>1507714750573</millis>
-  <sequence>363</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:39:10</date>
-  <millis>1507714750574</millis>
-  <sequence>364</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>1</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:39:26</date>
-  <millis>1507714766477</millis>
-  <sequence>365</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>375</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:39:26</date>
-  <millis>1507714766485</millis>
-  <sequence>366</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>375</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:39:26</date>
-  <millis>1507714766488</millis>
-  <sequence>367</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>375</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:45:02</date>
-  <millis>1507715102133</millis>
-  <sequence>458</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>375</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:45:02</date>
-  <millis>1507715102139</millis>
-  <sequence>459</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>375</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:45:02</date>
-  <millis>1507715102140</millis>
-  <sequence>460</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>375</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:47:31</date>
-  <millis>1507715251726</millis>
-  <sequence>551</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>420</thread>
-  <message>Finding test data with id &amp;apos;Data Files/Sign up Request Meeting &amp;apos;</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:47:31</date>
-  <millis>1507715251735</millis>
-  <sequence>552</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>420</thread>
-  <message>Test data is excel file, reading excel file</message>
-  <nestedLevel>0</nestedLevel>
-</record>
-<record>
-  <date>2017-10-11T12:47:31</date>
-  <millis>1507715251737</millis>
-  <sequence>553</sequence>
-  <level>INFO</level>
-  <class>com.kms.katalon.core.logging.KeywordLogger</class>
-  <method>logMessage</method>
-  <thread>420</thread>
-  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Sign up Request Meeting.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
 </log>

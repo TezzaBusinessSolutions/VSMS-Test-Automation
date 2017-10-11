@@ -4,7 +4,7 @@
    <name>Sign up</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-11T12:47:32</lastRun>
+   <lastRun>2017-10-11T17:27:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -17,7 +17,7 @@
       <description></description>
       <id>983a260e-a9e0-44ca-8cef-e6ffecab77a3</id>
       <masked>false</masked>
-      <name>title</name>
+      <name>var_title</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

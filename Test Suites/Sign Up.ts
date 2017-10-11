@@ -16,5 +16,14 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sign Up in Request Meeting</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1fc1ffab-e1c6-490b-87f1-0c2ae1358307</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Sign_Up Data</testDataId>
+      </testDataLink>
    </testCaseLink>
 </TestSuiteEntity>

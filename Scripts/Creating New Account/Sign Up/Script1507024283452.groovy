@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(var_url)
+WebUI.navigateToUrl(GlobalVariable.var_URL)
 
 WebUI.click(findTestObject('Creating New Account/Login Link/a_Log in'))
 

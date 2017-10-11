@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Group" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Group" tests="1" failures="0" errors="0" time="29" timestamp="2017-10-11 12:14:22" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/User Management/Group Module/Edit Group">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Group Module\\Edit Group\\20171011_121419"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Group Module\\Edit Group\\20171011_121419\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5c8b035b0271beff9083677c0c948d23"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Group Module/Edit Group" classname="Test Cases/User Management/Group Module/Edit Group" status="PASSED">
+         <system-out><![CDATA[2017-10-11 12:14:23 - [TEST_CASE][PASSED] - Test Cases/User Management/Group Module/Edit Group: Test Cases/User Management/Group Module/Edit Group
+
+2017-10-11 12:14:24 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2017-10-11 12:14:24 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2017-10-11 12:14:24 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2017-10-11 12:14:24 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2017-10-11 12:14:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-11 12:14:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-11 12:14:24 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-10-11 12:14:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-10-11 12:14:24 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-10-11 12:14:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-10-11 12:14:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-11 12:14:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-11 12:14:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-11 12:14:25 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-11 12:14:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-11 12:14:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-11 12:14:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-11 12:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-11 12:14:37 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-11 12:14:37 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-11 12:14:37 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-11 12:14:38 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-11 12:14:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-11 12:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-11 12:14:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-11 12:14:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-11 12:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-11 12:14:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-11 12:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-11 12:14:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Group/Group Module Selection/a_Group' is clicked on
+
+2017-10-11 12:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Group/Group Module Selection/a_Group' is clicked on
+
+2017-10-11 12:14:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-11 12:14:43 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-11 12:14:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-11 12:14:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-11 12:14:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Group/Edit Group Details/a_Automation' is clicked on
+
+2017-10-11 12:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Group/Edit Group Details/a_Automation' is clicked on
+
+2017-10-11 12:14:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-11 12:14:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-11 12:14:49 - [TEST_STEP][PASSED] - setText: Text 'Automation1' is set on object 'Object Repository/User Management/Edit Group/Edit Group Details/input_groupname'
+
+2017-10-11 12:14:49 - [MESSAGE][PASSED] - Text 'Automation1' is set on object 'Object Repository/User Management/Edit Group/Edit Group Details/input_groupname'
+
+2017-10-11 12:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Group/Edit Group Details/button_Update' is clicked on
+
+2017-10-11 12:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Group/Edit Group Details/button_Update' is clicked on
+
+2017-10-11 12:14:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Edit Group/Edit Group Details/p_Updated Automation1 successf' is present
+
+2017-10-11 12:14:50 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Edit Group/Edit Group Details/p_Updated Automation1 successf' is present
+
+2017-10-11 12:14:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-11 12:14:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-11 12:14:22 - [TEST_SUITE][PASSED] - Edit Group: Test Cases/User Management/Group Module/Edit Group]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

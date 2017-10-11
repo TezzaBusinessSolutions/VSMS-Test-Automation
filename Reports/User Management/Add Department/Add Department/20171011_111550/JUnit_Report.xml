@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Department" time="16" tests="0" failures="0" errors="1">
+   <testsuite name="Add Department" tests="0" failures="0" errors="1" time="16" timestamp="2017-10-11 11:15:54" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/User Management/Add Department/Add Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Add Department\\Add Department\\20171011_111550"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Add Department\\Add Department\\20171011_111550\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="cb76f825b4939405ef9cb0cba3a9756d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Add Department/Add Department" classname="Test Cases/User Management/Add Department/Add Department" status="ERROR">
+         <error type="ERROR" message="Test Cases/User Management/Add Department/Add Department FAILED because (of) Variable 'var_Loginemail' is not defined for test case."/>
+         <system-out><![CDATA[2017-10-11 11:15:54 - [TEST_CASE][ERROR] - Test Cases/User Management/Add Department/Add Department: Test Cases/User Management/Add Department/Add Department FAILED because (of) Variable 'var_Loginemail' is not defined for test case.
+
+2017-10-11 11:15:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-11 11:16:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-11 11:16:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-11 11:16:06 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-11 11:16:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-11 11:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-11 11:16:09 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/User Management/Add New User/Login Page Objects/input_email']]></system-out>
+         <system-err><![CDATA[2017-10-11 11:15:54 - [TEST_CASE][ERROR] - Test Cases/User Management/Add Department/Add Department: Test Cases/User Management/Add Department/Add Department FAILED because (of) Variable 'var_Loginemail' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-11 11:15:54 - [TEST_SUITE][ERROR] - Add Department: Test Cases/User Management/Add Department/Add Department FAILED because (of) Variable 'var_Loginemail' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2017-10-11 11:15:54 - [TEST_SUITE][ERROR] - Add Department: Test Cases/User Management/Add Department/Add Department FAILED because (of) Variable 'var_Loginemail' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

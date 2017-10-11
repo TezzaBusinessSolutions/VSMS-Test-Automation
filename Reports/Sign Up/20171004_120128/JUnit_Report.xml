@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="41" tests="1" failures="0" errors="0">
+   <testsuite name="Sign Up" tests="1" failures="0" errors="0" time="41" timestamp="2017-10-04 12:01:34" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\20171004_120128"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\20171004_120128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="df4b64476718e0ce596beaead31ce07f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up in Request Meeting" classname="Test Cases/Sign Up in Request Meeting" status="PASSED">
+         <system-out><![CDATA[2017-10-04 12:01:36 - [TEST_CASE][PASSED] - Test Cases/Sign Up in Request Meeting: Test Cases/Sign Up in Request Meeting
+
+2017-10-04 12:01:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-04 12:01:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-04 12:01:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 12:01:59 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 12:01:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING' is clicked on
+
+2017-10-04 12:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING' is clicked on
+
+2017-10-04 12:02:00 - [TEST_STEP][PASSED] - setText: Text 'Miss' is set on object 'Object Repository/Sign Up In Request Meeting/input_title'
+
+2017-10-04 12:02:01 - [MESSAGE][PASSED] - Text 'Miss' is set on object 'Object Repository/Sign Up In Request Meeting/input_title'
+
+2017-10-04 12:02:01 - [TEST_STEP][PASSED] - setText: Text 'Shila' is set on object 'Object Repository/Sign Up In Request Meeting/input_firstname'
+
+2017-10-04 12:02:02 - [MESSAGE][PASSED] - Text 'Shila' is set on object 'Object Repository/Sign Up In Request Meeting/input_firstname'
+
+2017-10-04 12:02:02 - [TEST_STEP][PASSED] - setText: Text 'Zahra' is set on object 'Object Repository/Sign Up In Request Meeting/input_lastname'
+
+2017-10-04 12:02:03 - [MESSAGE][PASSED] - Text 'Zahra' is set on object 'Object Repository/Sign Up In Request Meeting/input_lastname'
+
+2017-10-04 12:02:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Sign Up In Request Meeting/select_tenant_id' 
+
+2017-10-04 12:02:04 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Sign Up In Request Meeting/select_tenant_id' 
+
+2017-10-04 12:02:04 - [TEST_STEP][PASSED] - setText: Text 'dennisgituto1@gmail.com' is set on object 'Object Repository/Sign Up In Request Meeting/input_email'
+
+2017-10-04 12:02:04 - [MESSAGE][PASSED] - Text 'dennisgituto1@gmail.com' is set on object 'Object Repository/Sign Up In Request Meeting/input_email'
+
+2017-10-04 12:02:04 - [TEST_STEP][PASSED] - setText: Text 'desteg' is set on object 'Object Repository/Sign Up In Request Meeting/input_password'
+
+2017-10-04 12:02:05 - [MESSAGE][PASSED] - Text 'desteg' is set on object 'Object Repository/Sign Up In Request Meeting/input_password'
+
+2017-10-04 12:02:05 - [TEST_STEP][PASSED] - setText: Text 'desteg' is set on object 'Object Repository/Sign Up In Request Meeting/input_password_confirmation'
+
+2017-10-04 12:02:05 - [MESSAGE][PASSED] - Text 'desteg' is set on object 'Object Repository/Sign Up In Request Meeting/input_password_confirmation'
+
+2017-10-04 12:02:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up In Request Meeting/button_Sign Up' is clicked on
+
+2017-10-04 12:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up In Request Meeting/button_Sign Up' is clicked on
+
+2017-10-04 12:02:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-04 12:02:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-04 12:01:34 - [TEST_SUITE][PASSED] - Sign Up: Test Cases/Sign Up in Request Meeting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

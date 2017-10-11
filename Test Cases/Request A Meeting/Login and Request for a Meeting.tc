@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with correct sign up credentials and Request for a meeting</description>
+   <name>Login and Request for a Meeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f22dbd3d-48d8-46eb-9316-aaf840292f18</testCaseGuid>
+</TestCaseEntity>

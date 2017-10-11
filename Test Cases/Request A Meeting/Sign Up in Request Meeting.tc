@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign Up in Request Meeting in Homepage</description>
+   <name>Sign Up in Request Meeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4d8f7bf-efca-4f8f-b084-5269f284f8a8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eead7765-e0ab-4398-bfb5-2d83049877ae</id>
+      <masked>false</masked>
+      <name>var_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>983a260e-a9e0-44ca-8cef-e6ffecab77a3</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf30c8f5-6d22-476c-a53f-bc24b5217d90</id>
+      <masked>false</masked>
+      <name>var_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a487702-7a9a-4c4f-a2fa-c515bc1a1845</id>
+      <masked>false</masked>
+      <name>var_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5b6be159-fa68-4f8c-a63e-8c61dbb85523</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b2669c9a-cd0a-49d8-859a-f8b2727341f3</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9e284e8-760b-4100-84d6-32744c7297bc</id>
+      <masked>false</masked>
+      <name>var_confirmPassword</name>
+   </variable>
+</TestCaseEntity>

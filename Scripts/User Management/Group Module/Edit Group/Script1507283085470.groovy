@@ -20,39 +20,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.openBrowser('')
-
-not_run: WebUI.navigateToUrl(GlobalVariable.var_URL)
-
-not_run: WebUI.click(findTestObject('User Management/Add New User/Login Page Objects/a_Log in'))
-
-not_run: WebUI.setText(findTestObject('User Management/Add New User/Login Page Objects/input_email'), GlobalVariable.var_Loginemail)
-
-not_run: WebUI.setText(findTestObject('User Management/Add New User/Login Page Objects/input_password'), GlobalVariable.var_Password)
-
-not_run: WebUI.click(findTestObject('User Management/Add New User/Login Page Objects/button_Login'))
-
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/Modules dropdown'))
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Add New Group/Group Module Selection/a_Group'))
+WebUI.click(findTestObject('User Management/Add New Group/Group Module Selection/Group Module'))
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('User Management/Edit Group/Edit Group Details/a_Automation'))
+WebUI.click(findTestObject('User Management/Edit Group/Edit Group Details/Automation Link'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('User Management/Edit Group/Edit Group Details/input_groupname'), var_gpname)
+WebUI.setText(findTestObject('User Management/Edit Group/Edit Group Details/Groupname Input Field'), var_gpname)
 
 WebUI.click(findTestObject('User Management/Edit Group/Edit Group Details/button_Update'))
 
-WebUI.verifyElementPresent(findTestObject('User Management/Edit Group/Edit Group Details/p_Updated Automation1 successf'), 
+WebUI.verifyElementPresent(findTestObject('User Management/Edit Group/Edit Group Details/Updated Automation1 successfully'), 
     3)
 
 WebUI.closeBrowser()

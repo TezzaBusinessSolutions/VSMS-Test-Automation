@@ -26,17 +26,17 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Add New Profile/Profile Link/a_Profile'))
+WebUI.click(findTestObject('User Management/Add New Profile/Profile Link/Profile Link'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('User Management/Add New Profile/Add New Profile/a_Add New'))
+WebUI.click(findTestObject('User Management/Add New Profile/Add New Profile/Add New Button'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('User Management/Add New Profile/Add New Profile/input_profilename'), var_profilename)
+WebUI.setText(findTestObject('User Management/Add New Profile/Add New Profile/Profilename Input Field'), var_profilename)
 
-WebUI.setText(findTestObject('User Management/Add New Profile/Add New Profile/textarea_profiledescription'), var_profiledesc)
+WebUI.setText(findTestObject('User Management/Add New Profile/Add New Profile/Profile description textarea'), var_profiledesc)
 
 WebUI.click(findTestObject('User Management/Add New Profile/Add New Profile/button_Save'))
 

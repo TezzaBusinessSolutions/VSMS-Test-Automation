@@ -26,19 +26,19 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Add New Group/Group Module Selection/a_Group'))
+WebUI.click(findTestObject('User Management/Add New Group/Group Module Selection/Group Module'))
 
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('User Management/Add New Group/Add New Group Objects/a_Add New'))
+WebUI.click(findTestObject('User Management/Add New Group/Add New Group Objects/Add New Button'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('User Management/Add New Group/Add New Group Objects/input_groupname'), var_groupname)
+WebUI.setText(findTestObject('User Management/Add New Group/Add New Group Objects/Groupname Input Box'), var_groupname)
 
-WebUI.setText(findTestObject('User Management/Add New Group/Add New Group Objects/textarea_groupdescription'), var_gpdescription)
+WebUI.setText(findTestObject('User Management/Add New Group/Add New Group Objects/Group description textarea'), var_gpdescription)
 
 WebUI.click(findTestObject('User Management/Add New Group/Add New Group Objects/button_Save'))
 

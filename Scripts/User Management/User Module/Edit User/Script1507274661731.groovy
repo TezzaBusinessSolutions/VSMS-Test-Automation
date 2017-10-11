@@ -26,9 +26,9 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/a_User'))
+WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Link'))
 
-WebUI.click(findTestObject('User Management/Edit User/Edit User Details/a_Chalo'))
+WebUI.click(findTestObject('User Management/Edit User/Edit User Details/Chalo Link'))
 
 WebUI.maximizeWindow()
 
@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('User Management/Edit User/Edit User Details/input_
 
 WebUI.click(findTestObject('User Management/Edit User/Edit User Details/button_Update User'))
 
-not_run: WebUI.click(findTestObject('User Management/Edit User/Edit User Details/p_Updated Chaloedited successf'))
+not_run: WebUI.click(findTestObject('User Management/Edit User/Edit User Details/Updated Chaloedited successfully'))
 
 WebUI.closeBrowser()
 

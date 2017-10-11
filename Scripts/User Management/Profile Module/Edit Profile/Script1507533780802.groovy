@@ -26,23 +26,23 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Edit Profile/Profile Link/a_Profile'))
+WebUI.click(findTestObject('User Management/Edit Profile/Profile Link/Profile Link'))
 
 WebUI.maximizeWindow()
 
-WebUI.scrollToElement(findTestObject('User Management/Edit Profile/Profile Update details/a_TestProfile'), 5)
+WebUI.scrollToElement(findTestObject('User Management/Edit Profile/Profile Update details/TestProfile Link'), 5)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('User Management/Edit Profile/Profile Update details/a_TestProfile'))
+WebUI.click(findTestObject('User Management/Edit Profile/Profile Update details/TestProfile Link'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('User Management/Edit Profile/Profile Update details/input_profilename'), var_ProfName)
+WebUI.setText(findTestObject('User Management/Edit Profile/Profile Update details/Profilename Input Field'), var_ProfName)
 
 WebUI.click(findTestObject('User Management/Edit Profile/Profile Update details/button_Update'))
 
-WebUI.verifyElementPresent(findTestObject('User Management/Edit Profile/Profile Update details/p_Updated TestProfile1 success'), 
+WebUI.verifyElementPresent(findTestObject('User Management/Edit Profile/Profile Update details/Updated TestProfile1 successfully'), 
     3)
 
 WebUI.closeBrowser()

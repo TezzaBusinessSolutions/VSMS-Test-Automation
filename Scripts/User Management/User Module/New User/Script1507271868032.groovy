@@ -26,11 +26,11 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/a_User'))
+WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Link'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('User Management/Add New User/Add New User Objects/a_Add New'))
+WebUI.click(findTestObject('User Management/Add New User/Add New User Objects/Add New Button'))
 
 WebUI.delay(5)
 
@@ -43,7 +43,7 @@ WebUI.setText(findTestObject('User Management/Add New User/Add New User Objects/
 WebUI.selectOptionByValue(findTestObject('User Management/Add New User/Add New User Objects/select_department_id'), 'number:71', 
     true)
 
-WebUI.setText(findTestObject('User Management/Add New User/Add New User Objects/input_email (3)'), var_email)
+WebUI.setText(findTestObject('User Management/Add New User/Add New User Objects/input_email3'), var_email)
 
 WebUI.click(findTestObject('User Management/Add New User/Add New User Objects/div_selected-flag'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('User Management/Add New User/Add New User Objects/in
 
 WebUI.click(findTestObject('User Management/Add New User/Add New User Objects/button_Create User'))
 
-WebUI.verifyElementPresent(findTestObject('User Management/Add New User/Add New User Objects/p_New user has been added succ'), 
+WebUI.verifyElementPresent(findTestObject('User Management/Add New User/Add New User Objects/New user has been added successfully'), 
     5)
 
 WebUI.closeBrowser()

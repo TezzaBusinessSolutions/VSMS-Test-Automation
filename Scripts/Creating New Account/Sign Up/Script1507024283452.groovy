@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.var_URL)
 
-WebUI.click(findTestObject('Creating New Account/Login Link/a_Log in'))
+WebUI.click(findTestObject('Creating New Account/Login Link/Log in Link'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Creating New Account/Dont have account link/a_Dont have an account'))
+WebUI.click(findTestObject('Creating New Account/Dont have account link/Dont have an account Link'))
 
-WebUI.click(findTestObject('Creating New Account/Subscribe/a_Subscribe'))
+WebUI.click(findTestObject('Creating New Account/Subscribe/Subscribe Button'))
 
 WebUI.setText(findTestObject('Creating New Account/Sign Up/input_tenant_name'), var_tenantname)
 

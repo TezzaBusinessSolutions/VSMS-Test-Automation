@@ -26,22 +26,21 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects/User Management Dropdown'))
 
-WebUI.click(findTestObject('User Management/Add Department/User Settings Link/a_User Settings'))
+WebUI.click(findTestObject('User Management/Add Department/User Settings Link/User Settings'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('User Management/Add Department/Page_Visitor Security Management Sy (2)/a_Manage Departments'))
+WebUI.click(findTestObject('User Management/Add Department/Manage Department/Manage Departments Link'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('User Management/Add Department/Page_Visitor Security Management Sy (2)/input_dept_addbtns'))
+WebUI.click(findTestObject('User Management/Add Department/Manage Department/Add New Button'))
 
-WebUI.setText(findTestObject('User Management/Add Department/Page_Visitor Security Management Sy (2)/input_dept_name'), 
-    var_deptname)
+WebUI.setText(findTestObject('User Management/Add Department/Manage Department/Department Name Input Field'), var_deptname)
 
-WebUI.click(findTestObject('User Management/Add Department/Page_Visitor Security Management Sy (2)/button_Add'))
+WebUI.click(findTestObject('User Management/Add Department/Manage Department/Add Department Button'))
 
-WebUI.verifyElementPresent(findTestObject('User Management/Add Department/Page_Visitor Security Management Sy (2)/p_Trial added successfully'), 
+WebUI.verifyElementPresent(findTestObject('User Management/Add Department/Manage Department/Trial added successfully'), 
     5)
 
 WebUI.closeBrowser()

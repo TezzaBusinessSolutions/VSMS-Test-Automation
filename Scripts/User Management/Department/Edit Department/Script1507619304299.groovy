@@ -28,25 +28,25 @@ WebUI.click(findTestObject('User Management/Add New User/Module Dropdown Objects
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('User Management/Edit Department/User Settings Link/a_User Settings'))
+WebUI.click(findTestObject('User Management/Edit Department/User Settings Link/User Settings'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/a_Manage Departments'))
+WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/Manage Departments Link'))
 
-WebUI.setText(findTestObject('User Management/Edit Department/Edit Department Details/input_search_dept'), 'Trial')
+WebUI.setText(findTestObject('User Management/Edit Department/Edit Department Details/Search Department Input Field'), 'Trial')
 
-WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/i_fa fa-edit'))
+WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/Edit button'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('User Management/Edit Department/Edit Department Details/input_dept_name'), var_deptname)
+WebUI.setText(findTestObject('User Management/Edit Department/Edit Department Details/Department Name field'), var_deptname)
 
 WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/button_Update'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/p_Trial1 updated successfully'))
+WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/Trial1 updated successfully'))
 
 WebUI.closeBrowser()
 

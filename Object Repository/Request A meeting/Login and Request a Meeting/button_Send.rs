@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_AfricaNairobi - (UTC0300) N</name>
+   <name>button_Send</name>
    <tag></tag>
-   <elementGuidId>ab2ad8a3-b644-45ee-8566-eca1e6de003c</elementGuidId>
+   <elementGuidId>4af25fb7-143b-41bc-8f4a-28c737b61838</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/span[@class=&quot;select2-container select2-container--bootstrap select2-container--open&quot;]/span[@class=&quot;select2-dropdown select2-dropdown--below&quot;]/span[@class=&quot;select2-results&quot;]/ul[@id=&quot;select2-timezone-results&quot;]/li[@id=&quot;select2-timezone-result-43vc-Africa/Nairobi&quot;]</value>
+      <value>id(&quot;btnmeetingrequest&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>treeitem</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>select2-timezone-result-43vc-Africa/Nairobi</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Africa/Nairobi - (UTC+03:00) Nairobi</value>
+      <value>sendRequest(meetingRequestForm.$valid)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnmeetingrequest</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-results__option select2-results__option--highlighted</value>
+      <value>btn btn-warning</value>
    </webElementProperties>
 </WebElementEntity>

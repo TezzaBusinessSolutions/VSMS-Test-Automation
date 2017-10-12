@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with correct sign up credentials and Request for a meeting</description>
+   <name>Login and Request for a Meeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f22dbd3d-48d8-46eb-9316-aaf840292f18</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>155b6071-9428-477f-9952-94fab37dba83</id>
+      <masked>false</masked>
+      <name>var_url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b44884a6-314a-4cc8-b78d-45a5f0072e31</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>08d9ae66-087a-4458-ab98-c151956093b5</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6799e14-3cfa-40dd-be4d-ee49cc2539ea</id>
+      <masked>false</masked>
+      <name>var_staffTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4fec8a61-217b-4443-99e4-812c2f4bae14</id>
+      <masked>false</masked>
+      <name>var_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>909161f4-7f49-4c7e-b47b-7dfe9bae6c4b</id>
+      <masked>false</masked>
+      <name>var_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8dc40f4d-a16d-4885-b61e-88ac8d3c292e</id>
+      <masked>false</masked>
+      <name>var_staffJobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41ee3613-f4d2-4fde-ae3c-e9bba4f60a96</id>
+      <masked>false</masked>
+      <name>var_purpose</name>
+   </variable>
+</TestCaseEntity>

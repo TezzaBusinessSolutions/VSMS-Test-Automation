@@ -1,57 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_AfricaNairobi - (UTC0300) N</name>
+   <name>Location</name>
    <tag></tag>
-   <elementGuidId>ab2ad8a3-b644-45ee-8566-eca1e6de003c</elementGuidId>
+   <elementGuidId>b8a6a417-80ba-4139-8605-997c1b04f6e6</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/span[@class=&quot;select2-container select2-container--bootstrap select2-container--open&quot;]/span[@class=&quot;select2-dropdown select2-dropdown--below&quot;]/span[@class=&quot;select2-results&quot;]/ul[@id=&quot;select2-timezone-results&quot;]/li[@id=&quot;select2-timezone-result-43vc-Africa/Nairobi&quot;]</value>
+      <value>.//*[@id='location_data' AND @name='location_data']</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>ng-change</name>
       <type>Main</type>
-      <value>treeitem</value>
+      <value>getLocation(location_data.selectedOption)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>ng-model</name>
       <type>Main</type>
-      <value>select2-timezone-result-43vc-Africa/Nairobi</value>
+      <value>formdata.location_data</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
       <type>Main</type>
-      <value>Africa/Nairobi - (UTC+03:00) Nairobi</value>
+      <value>location.id as location.full_path for location in  location_data</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>location_data</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>location_data</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-results__option select2-results__option--highlighted</value>
+      <value>form-control ng-pristine ng-untouched ng-valid</value>
    </webElementProperties>
 </WebElementEntity>

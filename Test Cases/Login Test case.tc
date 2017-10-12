@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Login with Valid credentials</description>
-   <name>Login Test case</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5bc4f424-8d43-49ca-8c23-ba4cbd9e07a1</testCaseGuid>
-</TestCaseEntity>

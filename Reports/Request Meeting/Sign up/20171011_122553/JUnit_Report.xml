@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign up" time="23" tests="0" failures="0" errors="1">
+   <testsuite name="Sign up" tests="0" failures="0" errors="1" time="23" timestamp="2017-10-11 12:25:59" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Request Meeting/Sign up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Sign up\\20171011_122553"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Sign up\\20171011_122553\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="a2bf42bd6a3ceb73c198a02a7c2495c5"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Request A Meeting/Sign Up in Request Meeting" classname="Test Cases/Request A Meeting/Sign Up in Request Meeting" status="ERROR">
+         <error type="ERROR" message="Test Cases/Request A Meeting/Sign Up in Request Meeting FAILED because (of) Variable 'var_title' is not defined for test case."/>
+         <system-out><![CDATA[2017-10-11 12:26:00 - [TEST_CASE][ERROR] - Test Cases/Request A Meeting/Sign Up in Request Meeting: Test Cases/Request A Meeting/Sign Up in Request Meeting FAILED because (of) Variable 'var_title' is not defined for test case.
+
+2017-10-11 12:26:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-11 12:26:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-11 12:26:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-11 12:26:18 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-11 12:26:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING' is clicked on
+
+2017-10-11 12:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING' is clicked on
+
+2017-10-11 12:26:19 - [TEST_STEP][PASSED] - setText: Finding Test Object with id 'Object Repository/Sign Up In Request Meeting/input_title']]></system-out>
+         <system-err><![CDATA[2017-10-11 12:26:00 - [TEST_CASE][ERROR] - Test Cases/Request A Meeting/Sign Up in Request Meeting: Test Cases/Request A Meeting/Sign Up in Request Meeting FAILED because (of) Variable 'var_title' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-11 12:25:59 - [TEST_SUITE][ERROR] - Sign up: Test Cases/Request A Meeting/Sign Up in Request Meeting FAILED because (of) Variable 'var_title' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2017-10-11 12:25:59 - [TEST_SUITE][ERROR] - Sign up: Test Cases/Request A Meeting/Sign Up in Request Meeting FAILED because (of) Variable 'var_title' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,57 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_AfricaNairobi - (UTC0300) N</name>
+   <name>button_REQUEST A MEETING</name>
    <tag></tag>
-   <elementGuidId>ab2ad8a3-b644-45ee-8566-eca1e6de003c</elementGuidId>
+   <elementGuidId>ef57377b-0a57-4c02-bb9f-e7c88dca260f</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
+      <name>data-target</name>
       <type>Main</type>
-      <value>false</value>
+      <value>#modal-meetingrequest</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>modal</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/span[@class=&quot;select2-container select2-container--bootstrap select2-container--open&quot;]/span[@class=&quot;select2-dropdown select2-dropdown--below&quot;]/span[@class=&quot;select2-results&quot;]/ul[@id=&quot;select2-timezone-results&quot;]/li[@id=&quot;select2-timezone-result-43vc-Africa/Nairobi&quot;]</value>
+      <value>/html[1]/body[@class=&quot;pricing-page&quot;]/div[@class=&quot;ng-scope&quot;]/section[@class=&quot;promo section section-on-bg&quot;]/div[@class=&quot;container text-center&quot;]/p[@class=&quot;intro&quot;]/button[@class=&quot;btn btn-warning&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>treeitem</value>
+      <value>requestMeeting()</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>select2-timezone-result-43vc-Africa/Nairobi</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Africa/Nairobi - (UTC+03:00) Nairobi</value>
+      <value>REQUEST A MEETING</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-results__option select2-results__option--highlighted</value>
+      <value>btn btn-warning</value>
    </webElementProperties>
 </WebElementEntity>

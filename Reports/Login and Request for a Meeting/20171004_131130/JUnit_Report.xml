@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Request for a Meeting" time="27" tests="0" failures="1" errors="0">
+   <testsuite name="Login and Request for a Meeting" tests="0" failures="1" errors="0" time="27" timestamp="2017-10-04 13:11:36" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Login and Request for a Meeting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Login and Request for a Meeting\\20171004_131130"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Login and Request for a Meeting\\20171004_131130\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Login and Request for a Meeting\\20171004_131130\\1507111921022.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="1605d0f892218583b8f3f7614cf28f89"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Request of a meeting using a correct login credentials" classname="Test Cases/Request of a meeting using a correct login credentials" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)"/>
+         <system-out><![CDATA[2017-10-04 13:11:38 - [TEST_CASE][FAILED] - Test Cases/Request of a meeting using a correct login credentials: Test Cases/Request of a meeting using a correct login credentials FAILED because (of) Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)
+
+2017-10-04 13:11:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-04 13:11:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-04 13:11:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 13:11:55 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 13:11:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING' is clicked on
+
+2017-10-04 13:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up In Request Meeting/button_REQUEST A MEETING' is clicked on
+
+2017-10-04 13:11:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Request Meeting with Correct Login Credentials/select_tenant_id' 
+
+2017-10-04 13:11:57 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Request Meeting with Correct Login Credentials/select_tenant_id' 
+
+2017-10-04 13:11:57 - [TEST_STEP][PASSED] - setText: Text 'dennisgituto1@gmail.com' is set on object 'Object Repository/Request Meeting with Correct Login Credentials/input_email'
+
+2017-10-04 13:11:59 - [MESSAGE][PASSED] - Text 'dennisgituto1@gmail.com' is set on object 'Object Repository/Request Meeting with Correct Login Credentials/input_email'
+
+2017-10-04 13:11:59 - [TEST_STEP][PASSED] - setText: Text 'desteg' is set on object 'Object Repository/Request Meeting with Correct Login Credentials/input_password'
+
+2017-10-04 13:12:00 - [MESSAGE][PASSED] - Text 'desteg' is set on object 'Object Repository/Request Meeting with Correct Login Credentials/input_password'
+
+2017-10-04 13:12:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request Meeting with Correct Login Credentials/button_Login' is clicked on
+
+2017-10-04 13:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Request Meeting with Correct Login Credentials/button_Login' is clicked on
+
+2017-10-04 13:12:00 - [TEST_STEP][FAILED] - setText: Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)
+
+2017-10-04 13:12:01 - [MESSAGE][FAILED] - Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Login and Request for a Meeting\\20171004_131130\\1507111921022.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-04 13:11:38 - [TEST_CASE][FAILED] - Test Cases/Request of a meeting using a correct login credentials: Test Cases/Request of a meeting using a correct login credentials FAILED because (of) Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-04 13:11:36 - [TEST_SUITE][FAILED] - Login and Request for a Meeting: Test Cases/Request of a meeting using a correct login credentials FAILED because (of) Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)]]></system-out>
+      <system-err><![CDATA[2017-10-04 13:11:36 - [TEST_SUITE][FAILED] - Login and Request for a Meeting: Test Cases/Request of a meeting using a correct login credentials FAILED because (of) Unable to set text 'Mr' of object 'Object Repository/Request Meeting with Correct Login Credentials/input_staff_title' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir12032_30814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1605d0f892218583b8f3f7614cf28f89)]]></system-err>
+   </testsuite>
+</testsuites>

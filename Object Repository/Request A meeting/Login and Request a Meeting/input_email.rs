@@ -1,57 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_AfricaNairobi - (UTC0300) N</name>
+   <name>input_email</name>
    <tag></tag>
-   <elementGuidId>ab2ad8a3-b644-45ee-8566-eca1e6de003c</elementGuidId>
+   <elementGuidId>0c064a86-78ad-4c48-b2f5-8a81ceaf62e1</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-selected</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/span[@class=&quot;select2-container select2-container--bootstrap select2-container--open&quot;]/span[@class=&quot;select2-dropdown select2-dropdown--below&quot;]/span[@class=&quot;select2-results&quot;]/ul[@id=&quot;select2-timezone-results&quot;]/li[@id=&quot;select2-timezone-result-43vc-Africa/Nairobi&quot;]</value>
+      <value>.//*[@name='email' AND @type='text']</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>ng-model</name>
       <type>Main</type>
-      <value>treeitem</value>
+      <value>loginData.email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>select2-timezone-result-43vc-Africa/Nairobi</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>Africa/Nairobi - (UTC+03:00) Nairobi</value>
+      <value>basic-addon1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-pattern</name>
+      <type>Main</type>
+      <value>/^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-results__option select2-results__option--highlighted</value>
+      <value>form-control ng-valid-pattern ng-dirty ng-touched ng-invalid ng-invalid-required</value>
    </webElementProperties>
 </WebElementEntity>

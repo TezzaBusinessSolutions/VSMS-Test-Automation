@@ -19,3 +19,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Dashboard Page/a_Modules'))
+
+WebUI.click(findTestObject('Dashboard Page/a_Calendar Management'))
+
+WebUI.click(findTestObject('Dashboard Page/a_Calendar'))
+
+WebUI.click(findTestObject('Calendar Management/Update Event/Even to update'))
+
+WebUI.setText(findTestObject('Calendar Management/Add new Event/Title'), var_title)
+
+WebUI.setText(findTestObject('Calendar Management/Add new Event/Start Date'), var_startDate)
+
+WebUI.setText(findTestObject('Calendar Management/Add new Event/Start Time'), var_startTime)
+
+WebUI.setText(findTestObject('Calendar Management/Add new Event/End Date'), var_endDate)
+
+WebUI.setText(findTestObject('Calendar Management/Add new Event/End Time'), var_endTime)
+
+WebUI.selectOptionByValue(findTestObject('Calendar Management/Add new Event/Location'), '', false)
+
+WebUI.setText(findTestObject('Calendar Management/Add new Event/Description'), var_description)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Calendar Management/Update Event/button_Update Event'))
+
+WebUI.closeBrowser()
+

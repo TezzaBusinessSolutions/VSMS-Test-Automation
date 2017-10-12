@@ -5,4 +5,46 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f79fd9c7-54ad-4347-94c3-4798c89cb03f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fedb7880-3093-4214-a808-d7e97847b947</id>
+      <masked>false</masked>
+      <name>var_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ed605d4-8444-424c-852d-ea9c04c60ea9</id>
+      <masked>false</masked>
+      <name>var_startDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc7e0954-fa20-420d-8610-ada583d08829</id>
+      <masked>false</masked>
+      <name>var_startTime</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5eb47569-2df4-4330-84ba-5fe3fde8b5f9</id>
+      <masked>false</masked>
+      <name>var_endDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7a9f003-6d12-4cb0-9deb-88bdc852d3e8</id>
+      <masked>false</masked>
+      <name>var_endTime</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7124f152-a346-47a9-b285-747ac610b7c8</id>
+      <masked>false</masked>
+      <name>var_description</name>
+   </variable>
 </TestCaseEntity>

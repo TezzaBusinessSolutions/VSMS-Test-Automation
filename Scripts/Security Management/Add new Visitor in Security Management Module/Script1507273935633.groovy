@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Dashboard Page/a_Modules'))
 
 WebUI.click(findTestObject('Dashboard Page/a_Security Management'))
@@ -29,15 +31,19 @@ WebUI.click(findTestObject('Dashboard Page/a_Security'))
 
 WebUI.click(findTestObject('Add Visitor Page/New Visitor Button'))
 
-WebUI.setText(findTestObject('Add Visitor Page/input_email'), 'jamesmaina@gmail.com')
+WebUI.setText(findTestObject('Add Visitor Page/input_email'), var_email)
 
-WebUI.setText(findTestObject('Add Visitor Page/input_first_name'), 'James')
+WebUI.setText(findTestObject('Add Visitor Page/input_first_name'), var_firstName)
 
-WebUI.setText(findTestObject('Add Visitor Page/input_last_name'), 'Maina')
+WebUI.setText(findTestObject('Add Visitor Page/input_last_name'), var_lastName)
 
-WebUI.setText(findTestObject('Add Visitor Page/input_phone'), '0715532566')
+WebUI.setText(findTestObject('Add Visitor Page/input_phone'), var_phone)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Add Visitor Page/button_Add Visitor'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

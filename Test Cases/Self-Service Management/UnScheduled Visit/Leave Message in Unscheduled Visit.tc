@@ -5,4 +5,39 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>00ff40ff-dd9b-4d65-a8a4-6290f123a950</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ecf1b70c-53f7-43cb-a0c5-25f33c09a806</id>
+      <masked>false</masked>
+      <name>var_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1952b65-ee8f-44ee-8403-5b864ae90107</id>
+      <masked>false</masked>
+      <name>var_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b8ce29a-badc-4b35-a9ec-6283b770b2c3</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1afcb50b-d048-4761-a878-1955eb4abc9b</id>
+      <masked>false</masked>
+      <name>var_staffFullName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e8b3299-1ade-4d54-b507-bfef095b9e39</id>
+      <masked>false</masked>
+      <name>var_comment</name>
+   </variable>
 </TestCaseEntity>

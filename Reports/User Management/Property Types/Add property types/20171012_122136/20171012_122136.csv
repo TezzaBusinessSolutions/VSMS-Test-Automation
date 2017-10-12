@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add property types,Firefox 55.0,adding p.types,2017-10-12 12:21:39,2017-10-12 12:23:02,1m - 22.655s,PASSED
+,,,,,,
+Test Cases/User Management/Property Types/Add Property Types,Firefox 55.0,adding property types,2017-10-12 12:21:40,2017-10-12 12:23:00,1m - 19.993s,PASSED
+callTestCase,Firefox 55.0,,2017-10-12 12:21:41,2017-10-12 12:22:50,1m - 8.951s,PASSED
+click,Firefox 55.0,,2017-10-12 12:22:50,2017-10-12 12:22:52,1.879s,PASSED
+click,Firefox 55.0,,2017-10-12 12:22:52,2017-10-12 12:22:52,0.664s,PASSED
+click,Firefox 55.0,,2017-10-12 12:22:52,2017-10-12 12:22:53,0.668s,PASSED
+click,Firefox 55.0,,2017-10-12 12:22:53,2017-10-12 12:22:57,4.108s,PASSED
+click,Firefox 55.0,,2017-10-12 12:22:57,2017-10-12 12:22:58,0.487s,PASSED
+setText,Firefox 55.0,,2017-10-12 12:22:58,2017-10-12 12:22:58,0.471s,PASSED
+setText,Firefox 55.0,,2017-10-12 12:22:58,2017-10-12 12:23:00,1.436s,PASSED
+click,Firefox 55.0,,2017-10-12 12:23:00,2017-10-12 12:23:00,0.273s,PASSED

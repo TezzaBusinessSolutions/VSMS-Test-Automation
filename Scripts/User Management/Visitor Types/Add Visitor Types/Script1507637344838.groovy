@@ -21,21 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Visitor Types/a_Modules'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_Modules'))
 
-WebUI.click(findTestObject('Visitor Types/a_User  Management'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_User  Management'))
 
-WebUI.click(findTestObject('Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
 
-WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
 
-WebUI.click(findTestObject('Visitor Types/input_addvisitorbtn'))
+WebUI.click(findTestObject('User Management/Visitor Types/input_addvisitorbtn'))
 
-WebUI.setText(findTestObject('Visitor Types/input_name'), var_typename)
+WebUI.setText(findTestObject('User Management/Visitor Types/input_name'), var_typename)
 
-WebUI.setText(findTestObject('Visitor Types/textarea_description'), var_typedescription)
+WebUI.setText(findTestObject('User Management/Visitor Types/textarea_description'), var_typedescription)
 
-WebUI.click(findTestObject('Visitor Types/button_Add'))
+WebUI.click(findTestObject('User Management/Visitor Types/button_Add'))
 
 WebUI.closeBrowser()
 

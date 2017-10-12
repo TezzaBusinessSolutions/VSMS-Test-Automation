@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>editing property types</description>
+   <name>Edit Property Types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f1c7926-87bb-44e0-9289-59f43c411cff</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64d4e93b-fc49-4557-ba51-55bd8025ab92</id>
+      <masked>false</masked>
+      <name>var_editName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50e4243e-ad63-401c-8504-d89260db32af</id>
+      <masked>false</masked>
+      <name>var_editDescripption</name>
+   </variable>
+</TestCaseEntity>

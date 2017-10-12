@@ -13,14 +13,14 @@
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;propertyType&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/fieldset[1]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-pristine ng-valid ng-valid-required&quot;]/div[@class=&quot;col-md-8&quot;]/textarea[@class=&quot;form-control input-sm ng-pristine ng-untouched ng-valid ng-valid-required&quot;]</value>
+      <value>.//*[@id='propertyType']/div/div[1]/fieldset/div[1]/form/div[2]/textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>Description *</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

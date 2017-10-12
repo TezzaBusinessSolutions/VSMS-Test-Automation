@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Update P_Type</name>
+   <name>textarea_description</name>
    <tag></tag>
-   <elementGuidId>d868fa53-27fb-4006-a52e-e8fe0e2432b0</elementGuidId>
+   <elementGuidId>c499439a-b364-488e-9e24-ce3da3a0e550</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-show</name>
-      <type>Main</type>
-      <value>btnupdateProperty_type</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[contains(@ng-click, &quot;updateProperty_type(propertyTypeForm.$valid,id)&quot;)]</value>
+      <value>id(&quot;propertyType&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/fieldset[1]/div[@class=&quot;row&quot;]/form[@class=&quot;ng-pristine ng-valid ng-valid-required&quot;]/div[@class=&quot;col-md-8&quot;]/textarea[@class=&quot;form-control input-sm ng-pristine ng-untouched ng-valid ng-valid-required&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>property_type_Data.description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-click</name>
+      <name>name</name>
       <type>Main</type>
-      <value>updateProperty_type(propertyTypeForm.$valid,id)</value>
+      <value>description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>text</name>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Update</value>
+      <value>Description *</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn tezzacolor4 btn-sm</value>
+      <value>form-control input-sm ng-pristine ng-untouched ng-valid ng-valid-required</value>
    </webElementProperties>
 </WebElementEntity>

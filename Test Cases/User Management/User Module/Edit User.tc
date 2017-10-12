@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b07820a2-c56d-4467-ab4f-02d772f84a62</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c056c22f-551b-4f79-84de-4efcada97a9b</id>
+      <masked>false</masked>
+      <name>var_firstname</name>
+   </variable>
+</TestCaseEntity>

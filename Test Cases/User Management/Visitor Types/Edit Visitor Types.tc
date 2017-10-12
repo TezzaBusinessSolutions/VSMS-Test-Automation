@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>editing the visitor types</description>
+   <name>Edit Visitor Types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14c75428-6fb1-4ce5-9e75-2cfd98ce0c03</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1f3c226-828a-43df-8687-9a093935998e</id>
+      <masked>false</masked>
+      <name>var_EditTypesName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e345295-0a5d-4dd8-9f16-da8274ff1eca</id>
+      <masked>false</masked>
+      <name>var_editTypesDescription</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign Up,,,2017-10-03 21:14:32,2017-10-03 21:14:48,15.536s,FAILED
+,,,,,,
+Test Cases/Creating New Account/Sign Up,,,2017-10-03 21:14:33,2017-10-03 21:14:48,14.979s,FAILED
+openBrowser,,,2017-10-03 21:14:34,2017-10-03 21:14:40,5.735s,PASSED
+navigateToUrl,,,2017-10-03 21:14:40,2017-10-03 21:14:48,8.152s,FAILED

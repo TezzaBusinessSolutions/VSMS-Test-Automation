@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="94" tests="0" failures="2" errors="0">
+   <testsuite name="Sign Up" tests="0" failures="2" errors="0" time="94" timestamp="2017-10-03 12:33:48" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/Sign Up/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_123346"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_123346\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_123346\\1507023323051.png"/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0d9b5e23-ae04-43aa-9275-2a7cf3e24926"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Creating New Account/Creating New User Account - Iteration 1" classname="Test Cases/Creating New Account/Creating New User Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})"/>
+         <system-out><![CDATA[2017-10-03 12:33:49 - [TEST_CASE][FAILED] - Test Cases/Creating New Account/Creating New User Account - Iteration 1: Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})
+
+2017-10-03 12:33:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 12:34:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 12:34:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 12:34:09 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 12:34:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Account/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 12:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/New Account/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 12:34:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})
+
+2017-10-03 12:34:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-03 12:34:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})]]></system-out>
+         <system-err><![CDATA[2017-10-03 12:33:49 - [TEST_CASE][FAILED] - Test Cases/Creating New Account/Creating New User Account - Iteration 1: Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Creating New Account/Creating New User Account - Iteration 2" classname="Test Cases/Creating New Account/Creating New User Account" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]' not found)"/>
+         <system-out><![CDATA[2017-10-03 12:34:32 - [TEST_CASE][FAILED] - Test Cases/Creating New Account/Creating New User Account - Iteration 2: Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]' not found)
+
+2017-10-03 12:34:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 12:34:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-10-03 12:34:34 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-10-03 12:34:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 12:34:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 12:34:49 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 12:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Account/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 12:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/New Account/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 12:34:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]' not found)
+
+2017-10-03 12:35:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]' not found)
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_123346\\1507023323051.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-03 12:34:32 - [TEST_CASE][FAILED] - Test Cases/Creating New Account/Creating New User Account - Iteration 2: Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-03 12:33:48 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})]]></system-out>
+      <system-err><![CDATA[2017-10-03 12:33:48 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Creating New Account/Creating New User Account FAILED because (of) Unable to click on object 'Object Repository/New Account/Page_Visitor Security Management Sy/a_Dont have an account' (Root cause: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 55bef8d1-01aa-4c6c-86fd-713e63941728
+*** Element info: {Using=xpath, value=//a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/pricing'])][count(. | //*[contains(.,'Don't have an account?')]) = count(//*[contains(.,'Don't have an account?')])]})]]></system-err>
+   </testsuite>
+</testsuites>

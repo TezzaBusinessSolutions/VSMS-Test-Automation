@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Property,Firefox 55.0,Adding a new property,2017-10-10 16:59:39,2017-10-10 17:01:15,1m - 35.715s,PASSED
+,,,,,,
+Test Cases/Property management/Add Property,Firefox 55.0,adding a new property,2017-10-10 16:59:40,2017-10-10 17:01:13,1m - 33.314s,PASSED
+callTestCase,Firefox 55.0,,2017-10-10 16:59:41,2017-10-10 17:00:49,1m - 8.031s,PASSED
+click,Firefox 55.0,,2017-10-10 17:00:49,2017-10-10 17:00:50,0.944s,PASSED
+click,Firefox 55.0,,2017-10-10 17:00:50,2017-10-10 17:00:51,0.849s,PASSED
+click,Firefox 55.0,,2017-10-10 17:00:51,2017-10-10 17:00:52,0.866s,PASSED
+delay,Firefox 55.0,,2017-10-10 17:00:52,2017-10-10 17:00:57,5.022s,PASSED
+click,Firefox 55.0,,2017-10-10 17:00:57,2017-10-10 17:00:59,2.333s,PASSED
+delay,Firefox 55.0,,2017-10-10 17:00:59,2017-10-10 17:01:04,5.003s,PASSED
+setText,Firefox 55.0,,2017-10-10 17:01:04,2017-10-10 17:01:04,0.465s,PASSED
+selectOptionByLabel,Firefox 55.0,,2017-10-10 17:01:04,2017-10-10 17:01:05,0.695s,PASSED
+setText,Firefox 55.0,,2017-10-10 17:01:05,2017-10-10 17:01:06,1.062s,PASSED
+setText,Firefox 55.0,,2017-10-10 17:01:06,2017-10-10 17:01:07,0.365s,PASSED
+setText,Firefox 55.0,,2017-10-10 17:01:07,2017-10-10 17:01:07,0.398s,PASSED
+selectOptionByValue,Firefox 55.0,,2017-10-10 17:01:07,2017-10-10 17:01:07,0.455s,PASSED
+selectOptionByValue,Firefox 55.0,,2017-10-10 17:01:07,2017-10-10 17:01:08,0.433s,PASSED
+delay,Firefox 55.0,,2017-10-10 17:01:08,2017-10-10 17:01:13,5.002s,PASSED
+click,Firefox 55.0,,2017-10-10 17:01:13,2017-10-10 17:01:13,0.391s,PASSED

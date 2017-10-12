@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-10T15:41:57</date>
+  <millis>1507639317848</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : LogIn</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">LogIn</property>
+  <property name="description">user authentication</property>
+  <property name="id">Test Suites/User Login/LogIn</property>
+</record>
+<record>
+  <date>2017-10-10T15:41:57</date>
+  <millis>1507639317883</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Stella - 192.168.56.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Stella - 192.168.56.1</property>
+</record>
+<record>
+  <date>2017-10-10T15:41:57</date>
+  <millis>1507639317885</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 8.1 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 8.1 64bit</property>
+</record>
+<record>
+  <date>2017-10-10T15:41:57</date>
+  <millis>1507639317886</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.56.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2017-10-10T15:41:57</date>
+  <millis>1507639317887</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;4.8.0.2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">4.8.0.2</property>
+</record>
+<record>
+  <date>2017-10-10T15:41:58</date>
+  <millis>1507639318468</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/LOGIN </message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/LOGIN </property>
+  <property name="description">authenticating a VSMS user</property>
+  <property name="id">Test Cases/LOGIN </property>
+  <property name="source">C:\\Users\\Stella\\git\\VSMS-Test-AutomationTest Cases\\LOGIN .tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2017-10-10T15:41:58</date>
+  <millis>1507639318491</millis>
+  <sequence>6</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/LOGIN  has ERROR(s) because (of) java.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2017-10-10T15:41:58</date>
+  <millis>1507639318493</millis>
+  <sequence>7</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/LOGIN </message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-10T15:41:58</date>
+  <millis>1507639318594</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : LogIn</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

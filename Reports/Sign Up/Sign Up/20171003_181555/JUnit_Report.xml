@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="69" tests="0" failures="1" errors="0">
+   <testsuite name="Sign Up" tests="0" failures="1" errors="0" time="69" timestamp="2017-10-03 18:16:02" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/Sign Up/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_181555"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_181555\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_181555\\1507043831282.png"/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="8544257b-9c9c-41c8-a24a-5867351074b4"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign Up" classname="Test Cases/Sign Up" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id(&quot;signup-form&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-md-9&quot;]/span[@class=&quot;select2 select2-container select2-container--bootstrap&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;]) = count(id(&quot;signup-form&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-md-9&quot;]/span[@class=&quot;select2 select2-container select2-container--bootstrap&quot;]/span[@class=&quot;selection&quot;]/span[@class=&quot;select2-selection select2-selection--single&quot;]/span[@class=&quot;select2-selection__arrow&quot;])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)"/>
+         <system-out><![CDATA[2017-10-03 18:16:03 - [TEST_CASE][FAILED] - Test Cases/Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"]) = count(id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)
+
+2017-10-03 18:16:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-03 18:16:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-03 18:16:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 18:16:22 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-03 18:16:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 18:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_VSMS Overview/a_Log in' is clicked on
+
+2017-10-03 18:16:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-03 18:16:25 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-03 18:16:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up/Page_Visitor Security Management Sy/a_Dont have an account' is clicked on
+
+2017-10-03 18:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_Visitor Security Management Sy/a_Dont have an account' is clicked on
+
+2017-10-03 18:16:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign Up/Page_VSMS Pricing/a_Subscribe' is clicked on
+
+2017-10-03 18:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign Up/Page_VSMS Pricing/a_Subscribe' is clicked on
+
+2017-10-03 18:16:27 - [TEST_STEP][PASSED] - setText: Text 'Tezza Test' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_name'
+
+2017-10-03 18:16:32 - [MESSAGE][PASSED] - Text 'Tezza Test' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_name'
+
+2017-10-03 18:16:32 - [TEST_STEP][PASSED] - setText: Text 'Chweya' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_first_name'
+
+2017-10-03 18:16:32 - [MESSAGE][PASSED] - Text 'Chweya' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_first_name'
+
+2017-10-03 18:16:32 - [TEST_STEP][PASSED] - setText: Text 'Charles' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_last_name'
+
+2017-10-03 18:16:33 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_last_name'
+
+2017-10-03 18:16:33 - [TEST_STEP][PASSED] - setText: Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_email'
+
+2017-10-03 18:16:33 - [MESSAGE][PASSED] - Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_email'
+
+2017-10-03 18:16:33 - [TEST_STEP][PASSED] - setText: Text '0725165219' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_phone'
+
+2017-10-03 18:16:33 - [MESSAGE][PASSED] - Text '0725165219' is set on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/input_tenant_phone'
+
+2017-10-03 18:16:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-03 18:16:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-03 18:16:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"]) = count(id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)
+
+2017-10-03 18:17:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"]) = count(id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Sign Up\\Sign Up\\20171003_181555\\1507043831282.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-03 18:16:03 - [TEST_CASE][FAILED] - Test Cases/Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"]) = count(id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-03 18:16:02 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"]) = count(id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-10-03 18:16:02 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Sign Up FAILED because (of) Unable to click on object 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Sign Up/Page_VSMS VSMS Sign Up/span_select2-selection__arrow' located by 'By.xpath: //span[count(. | id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"]) = count(id("signup-form")/div[@class="form-group"]/div[@class="col-md-9"]/span[@class="select2 select2-container select2-container--bootstrap"]/span[@class="selection"]/span[@class="select2-selection select2-selection--single"]/span[@class="select2-selection__arrow"])][count(. | //*[@role = 'presentation']) = count(//*[@role = 'presentation'])][count(. | //*[@class = 'select2-selection__arrow']) = count(//*[@class = 'select2-selection__arrow'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

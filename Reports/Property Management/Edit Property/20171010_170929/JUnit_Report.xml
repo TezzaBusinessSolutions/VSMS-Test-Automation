@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Property" time="55" tests="0" failures="1" errors="0">
+   <testsuite name="Edit Property" tests="0" failures="1" errors="0" time="55" timestamp="2017-10-10 17:09:32" hostname="Stella - 192.168.56.1" id="Test Suites/Property Management/Edit Property">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171010_170929"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171010_170929\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171010_170929\\1507644618980.png"/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="89e025c0-c8e5-4fc3-99d9-b16bb5f8644a"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Property management/Edit Property" classname="Test Cases/Property management/Edit Property" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)"/>
+         <system-out><![CDATA[2017-10-10 17:09:32 - [TEST_CASE][FAILED] - Test Cases/Property management/Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)
+
+2017-10-10 17:09:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-10 17:09:33 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-10 17:09:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 17:10:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 17:10:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 17:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 17:10:04 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 17:10:07 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 17:10:07 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 17:10:07 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 17:10:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 17:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 17:10:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-10 17:10:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property/Modules' is clicked on
+
+2017-10-10 17:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property/Modules' is clicked on
+
+2017-10-10 17:10:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property/Property Management' is clicked on
+
+2017-10-10 17:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property/Property Management' is clicked on
+
+2017-10-10 17:10:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property/Property' is clicked on
+
+2017-10-10 17:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property/Property' is clicked on
+
+2017-10-10 17:10:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 17:10:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 17:10:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Edit Property/Edit' is clicked on
+
+2017-10-10 17:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Edit Property/Edit' is clicked on
+
+2017-10-10 17:10:18 - [TEST_STEP][FAILED] - setText: Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)
+
+2017-10-10 17:10:19 - [MESSAGE][FAILED] - Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)
+[[ATTACHMENT|C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171010_170929\\1507644618980.png]]
+
+2017-10-10 17:10:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 17:10:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 17:10:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Edit Property/Update' is clicked on
+
+2017-10-10 17:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Edit Property/Update' is clicked on]]></system-out>
+         <system-err><![CDATA[2017-10-10 17:09:32 - [TEST_CASE][FAILED] - Test Cases/Property management/Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 17:09:32 - [TEST_SUITE][FAILED] - Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)]]></system-out>
+      <system-err><![CDATA[2017-10-10 17:09:32 - [TEST_SUITE][FAILED] - Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text '62' of object 'Object Repository/Property Management/Edit Property/property_address2' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 89e025c0-c8e5-4fc3-99d9-b16bb5f8644a)]]></system-err>
+   </testsuite>
+</testsuites>

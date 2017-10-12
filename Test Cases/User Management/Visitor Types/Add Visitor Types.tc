@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>managing VSMS visitor types</description>
+   <name>Add Visitor Types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>634e040e-cd8b-46e3-b011-008324afb7b9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ba3f4aa-053d-48c5-8d30-285ebb103523</id>
+      <masked>false</masked>
+      <name>var_typename</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>78f2051e-ef7d-43c8-84ae-f09d91f8996c</id>
+      <masked>false</masked>
+      <name>var_typedescription</name>
+   </variable>
+</TestCaseEntity>

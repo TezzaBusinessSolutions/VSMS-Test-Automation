@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Department</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afc465e0-0cb7-4532-8112-3a3c9815543f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c01fd791-bbea-4099-be84-ddb4ce7eae27</id>
+      <masked>false</masked>
+      <name>var_deptname</name>
+   </variable>
+</TestCaseEntity>

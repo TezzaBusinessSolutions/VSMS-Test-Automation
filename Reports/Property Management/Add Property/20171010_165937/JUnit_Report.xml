@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Property" time="95" tests="1" failures="0" errors="0">
+   <testsuite name="Add Property" tests="1" failures="0" errors="0" time="95" timestamp="2017-10-10 16:59:39" hostname="Stella - 192.168.56.1" id="Test Suites/Property Management/Add Property">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171010_165937"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171010_165937\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="4b03c77f-29a3-4aa6-8716-fd065f8040f7"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Property management/Add Property" classname="Test Cases/Property management/Add Property" status="PASSED">
+         <system-out><![CDATA[2017-10-10 16:59:40 - [TEST_CASE][PASSED] - Test Cases/Property management/Add Property: Test Cases/Property management/Add Property
+
+2017-10-10 16:59:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-10 16:59:42 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-10 16:59:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 17:00:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 17:00:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 17:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 17:00:39 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 17:00:45 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 17:00:45 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 17:00:45 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 17:00:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 17:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 17:00:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-10 17:00:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property/Modules' is clicked on
+
+2017-10-10 17:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property/Modules' is clicked on
+
+2017-10-10 17:00:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property/Property Management' is clicked on
+
+2017-10-10 17:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property/Property Management' is clicked on
+
+2017-10-10 17:00:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property/Property' is clicked on
+
+2017-10-10 17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property/Property' is clicked on
+
+2017-10-10 17:00:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 17:00:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 17:00:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Add New Property/button_Add New' is clicked on
+
+2017-10-10 17:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Add New Property/button_Add New' is clicked on
+
+2017-10-10 17:00:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 17:01:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 17:01:04 - [TEST_STEP][PASSED] - setText: Text 'Kamata Apartments' is set on object 'Object Repository/Property Management/Add New Property/property_name'
+
+2017-10-10 17:01:04 - [MESSAGE][PASSED] - Text 'Kamata Apartments' is set on object 'Object Repository/Property Management/Add New Property/property_name'
+
+2017-10-10 17:01:04 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Building' are selected in object 'Object Repository/Property Management/Add New Property/property_type_id' 
+
+2017-10-10 17:01:05 - [MESSAGE][PASSED] - All options with label 'Building' are selected in object 'Object Repository/Property Management/Add New Property/property_type_id' 
+
+2017-10-10 17:01:05 - [TEST_STEP][PASSED] - setText: Text '12365' is set on object 'Object Repository/Property Management/Add New Property/property_address1'
+
+2017-10-10 17:01:06 - [MESSAGE][PASSED] - Text '12365' is set on object 'Object Repository/Property Management/Add New Property/property_address1'
+
+2017-10-10 17:01:06 - [TEST_STEP][PASSED] - setText: Text '89' is set on object 'Object Repository/Property Management/Add New Property/property_address2'
+
+2017-10-10 17:01:07 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Property Management/Add New Property/property_address2'
+
+2017-10-10 17:01:07 - [TEST_STEP][PASSED] - setText: Text 'kilome' is set on object 'Object Repository/Property Management/Add New Property/property_city'
+
+2017-10-10 17:01:07 - [MESSAGE][PASSED] - Text 'kilome' is set on object 'Object Repository/Property Management/Add New Property/property_city'
+
+2017-10-10 17:01:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Kenya' are selected in object 'Object Repository/Property Management/Add New Property/property_country' 
+
+2017-10-10 17:01:07 - [MESSAGE][PASSED] - All options with value 'Kenya' are selected in object 'Object Repository/Property Management/Add New Property/property_country' 
+
+2017-10-10 17:01:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Makueni' are selected in object 'Object Repository/Property Management/Add New Property/property_state' 
+
+2017-10-10 17:01:08 - [MESSAGE][PASSED] - All options with value 'Makueni' are selected in object 'Object Repository/Property Management/Add New Property/property_state' 
+
+2017-10-10 17:01:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 17:01:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 17:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Add New Property/button_Add' is clicked on
+
+2017-10-10 17:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Add New Property/button_Add' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 16:59:39 - [TEST_SUITE][PASSED] - Add Property: Test Cases/Property management/Add Property]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

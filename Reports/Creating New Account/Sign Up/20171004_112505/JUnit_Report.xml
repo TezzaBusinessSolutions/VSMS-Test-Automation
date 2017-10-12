@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="37" tests="1" failures="0" errors="0">
+   <testsuite name="Sign Up" tests="1" failures="0" errors="0" time="37" timestamp="2017-10-04 11:25:07" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/Creating New Account/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Creating New Account\\Sign Up\\20171004_112505"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Creating New Account\\Sign Up\\20171004_112505\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="039d2f61ee2078d05d507199785fc4c3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Creating New Account/Sign Up" classname="Test Cases/Creating New Account/Sign Up" status="PASSED">
+         <system-out><![CDATA[2017-10-04 11:25:08 - [TEST_CASE][PASSED] - Test Cases/Creating New Account/Sign Up: Test Cases/Creating New Account/Sign Up
+
+2017-10-04 11:25:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-04 11:25:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-04 11:25:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 11:25:19 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-04 11:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Login Link/a_Log in' is clicked on
+
+2017-10-04 11:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Login Link/a_Log in' is clicked on
+
+2017-10-04 11:25:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-04 11:25:22 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-04 11:25:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Dont have account link/a_Dont have an account' is clicked on
+
+2017-10-04 11:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Dont have account link/a_Dont have an account' is clicked on
+
+2017-10-04 11:25:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Subscribe/a_Subscribe' is clicked on
+
+2017-10-04 11:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Subscribe/a_Subscribe' is clicked on
+
+2017-10-04 11:25:29 - [TEST_STEP][PASSED] - setText: Text 'Tezza Test' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_name'
+
+2017-10-04 11:25:29 - [MESSAGE][PASSED] - Text 'Tezza Test' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_name'
+
+2017-10-04 11:25:29 - [TEST_STEP][PASSED] - setText: Text 'Chweya' is set on object 'Object Repository/Creating New Account/Sign Up/input_first_name'
+
+2017-10-04 11:25:30 - [MESSAGE][PASSED] - Text 'Chweya' is set on object 'Object Repository/Creating New Account/Sign Up/input_first_name'
+
+2017-10-04 11:25:30 - [TEST_STEP][PASSED] - setText: Text 'Charles' is set on object 'Object Repository/Creating New Account/Sign Up/input_last_name'
+
+2017-10-04 11:25:30 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Creating New Account/Sign Up/input_last_name'
+
+2017-10-04 11:25:30 - [TEST_STEP][PASSED] - setText: Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_email'
+
+2017-10-04 11:25:31 - [MESSAGE][PASSED] - Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_email'
+
+2017-10-04 11:25:31 - [TEST_STEP][PASSED] - setText: Text '0725165219' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_phone'
+
+2017-10-04 11:25:31 - [MESSAGE][PASSED] - Text '0725165219' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_phone'
+
+2017-10-04 11:25:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-04 11:25:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-04 11:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/span_select2-selection__arrow' is clicked on
+
+2017-10-04 11:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/span_select2-selection__arrow' is clicked on
+
+2017-10-04 11:25:36 - [TEST_STEP][PASSED] - setText: Text 'Africa/Nairobi - (UTC+03:00) Nairobi' is set on object 'Object Repository/Creating New Account/Sign Up/Timezone Input'
+
+2017-10-04 11:25:37 - [MESSAGE][PASSED] - Text 'Africa/Nairobi - (UTC+03:00) Nairobi' is set on object 'Object Repository/Creating New Account/Sign Up/Timezone Input'
+
+2017-10-04 11:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/Timezone Input' is clicked on
+
+2017-10-04 11:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/Timezone Input' is clicked on
+
+2017-10-04 11:25:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'KES' are selected in object 'Object Repository/Creating New Account/Sign Up/select_currency'  using regular expression
+
+2017-10-04 11:25:37 - [MESSAGE][PASSED] - All options with value 'KES' are selected in object 'Object Repository/Creating New Account/Sign Up/select_currency'  using regular expression
+
+2017-10-04 11:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/input_terms' is clicked on
+
+2017-10-04 11:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/input_terms' is clicked on
+
+2017-10-04 11:25:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/button_Subscribe' is clicked on
+
+2017-10-04 11:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/button_Subscribe' is clicked on
+
+2017-10-04 11:25:38 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-10-04 11:25:44 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-10-04 11:25:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-04 11:25:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-04 11:25:07 - [TEST_SUITE][PASSED] - Sign Up: Test Cases/Creating New Account/Sign Up]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

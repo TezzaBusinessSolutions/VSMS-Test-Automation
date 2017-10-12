@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn" time="1" tests="0" failures="0" errors="3">
+   <testsuite name="LogIn" tests="0" failures="0" errors="3" time="1" timestamp="2017-10-10 14:30:19" hostname="Stella - 192.168.56.1" id="Test Suites/LogIn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\LogIn\\20171010_143015"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\LogIn\\20171010_143015\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN - Iteration 1" classname="Test Cases/LOGIN" status="ERROR">
+         <error type="ERROR" message="Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case."/>
+         <system-out><![CDATA[2017-10-10 14:30:20 - [TEST_CASE][ERROR] - Test Cases/LOGIN - Iteration 1: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.
+
+2017-10-10 14:30:20 - [TEST_STEP][PASSED] - openBrowser: null]]></system-out>
+         <system-err><![CDATA[2017-10-10 14:30:20 - [TEST_CASE][ERROR] - Test Cases/LOGIN - Iteration 1: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN - Iteration 2" classname="Test Cases/LOGIN" status="ERROR">
+         <error type="ERROR" message="Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case."/>
+         <system-out><![CDATA[2017-10-10 14:30:21 - [TEST_CASE][ERROR] - Test Cases/LOGIN - Iteration 2: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.
+
+2017-10-10 14:30:21 - [TEST_STEP][PASSED] - openBrowser: null]]></system-out>
+         <system-err><![CDATA[2017-10-10 14:30:21 - [TEST_CASE][ERROR] - Test Cases/LOGIN - Iteration 2: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN - Iteration 3" classname="Test Cases/LOGIN" status="ERROR">
+         <error type="ERROR" message="Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case."/>
+         <system-out><![CDATA[2017-10-10 14:30:21 - [TEST_CASE][ERROR] - Test Cases/LOGIN - Iteration 3: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.
+
+2017-10-10 14:30:21 - [TEST_STEP][PASSED] - openBrowser: null]]></system-out>
+         <system-err><![CDATA[2017-10-10 14:30:21 - [TEST_CASE][ERROR] - Test Cases/LOGIN - Iteration 3: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 14:30:19 - [TEST_SUITE][ERROR] - LogIn: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2017-10-10 14:30:19 - [TEST_SUITE][ERROR] - LogIn: Test Cases/LOGIN FAILED because (of) Variable 'var_URL' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

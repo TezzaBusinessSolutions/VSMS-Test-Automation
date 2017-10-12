@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="add visitor Types" time="27" tests="1" failures="0" errors="0">
+   <testsuite name="add visitor Types" tests="1" failures="0" errors="0" time="27" timestamp="2017-10-10 16:16:19" hostname="Stella - 192.168.56.1" id="Test Suites/User Management/Visitor Types/add visitor Types">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Types\\add visitor Types\\20171010_161617"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Types\\add visitor Types\\20171010_161617\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fd6e6db7-b257-4349-b0e4-288aa77cc134"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Visitor Types/Add Visitor Types" classname="Test Cases/User Management/Visitor Types/Add Visitor Types" status="PASSED">
+         <system-out><![CDATA[2017-10-10 16:16:20 - [TEST_CASE][PASSED] - Test Cases/User Management/Visitor Types/Add Visitor Types: Test Cases/User Management/Visitor Types/Add Visitor Types
+
+2017-10-10 16:16:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-10 16:16:20 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-10 16:16:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 16:16:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-10 16:16:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 16:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-10 16:16:36 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 16:16:39 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-10 16:16:39 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 16:16:39 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-10 16:16:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 16:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-10 16:16:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-10 16:16:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Types/a_Modules' is clicked on
+
+2017-10-10 16:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Types/a_Modules' is clicked on
+
+2017-10-10 16:16:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Types/a_User  Management' is clicked on
+
+2017-10-10 16:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Types/a_User  Management' is clicked on
+
+2017-10-10 16:16:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Types/a_User Settings' is clicked on
+
+2017-10-10 16:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Types/a_User Settings' is clicked on
+
+2017-10-10 16:16:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Types/a_Manage Visitor Types' is clicked on
+
+2017-10-10 16:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Types/a_Manage Visitor Types' is clicked on
+
+2017-10-10 16:16:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Types/input_addvisitorbtn' is clicked on
+
+2017-10-10 16:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Types/input_addvisitorbtn' is clicked on
+
+2017-10-10 16:16:44 - [TEST_STEP][PASSED] - setText: Text 'old' is set on object 'Object Repository/Visitor Types/input_name'
+
+2017-10-10 16:16:45 - [MESSAGE][PASSED] - Text 'old' is set on object 'Object Repository/Visitor Types/input_name'
+
+2017-10-10 16:16:45 - [TEST_STEP][PASSED] - setText: Text 'been there more than 10 times' is set on object 'Object Repository/Visitor Types/textarea_description'
+
+2017-10-10 16:16:46 - [MESSAGE][PASSED] - Text 'been there more than 10 times' is set on object 'Object Repository/Visitor Types/textarea_description'
+
+2017-10-10 16:16:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Types/button_Add' is clicked on
+
+2017-10-10 16:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Types/button_Add' is clicked on
+
+2017-10-10 16:16:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-10 16:16:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 16:16:19 - [TEST_SUITE][PASSED] - add visitor Types: Test Cases/User Management/Visitor Types/Add Visitor Types]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

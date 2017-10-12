@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LogIn,,user authentication,2017-10-10 14:52:20,2017-10-10 14:52:21,1.344s,ERROR
+,,,,,,
+Test Cases/LOGIN,,authenticating a VSMS user,2017-10-10 14:52:20,2017-10-10 14:52:21,0.816s,ERROR
+openBrowser,,,2017-10-10 14:52:21,2017-10-10 14:52:21,0.009s,PASSED

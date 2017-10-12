@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Department,Chrome 61.0.3163.100,,2017-10-11 11:52:08,2017-10-11 11:52:21,12.762s,ERROR
+,,,,,,
+Test Cases/User Management/Edit Department/Edit Department,Chrome 61.0.3163.100,,2017-10-11 11:52:09,2017-10-11 11:52:20,11.119s,ERROR
+openBrowser,Chrome 61.0.3163.100,,2017-10-11 11:52:09,2017-10-11 11:52:13,3.832s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-11 11:52:13,2017-10-11 11:52:18,4.480s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-11 11:52:18,2017-10-11 11:52:20,1.851s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-11 11:52:20,2017-10-11 11:52:20,0.012s,PASSED

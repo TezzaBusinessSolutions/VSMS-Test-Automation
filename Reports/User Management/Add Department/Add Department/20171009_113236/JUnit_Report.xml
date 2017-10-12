@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Department" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="Add Department" tests="1" failures="0" errors="0" time="30" timestamp="2017-10-09 11:32:43" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/User Management/Add Department/Add Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Add Department\\Add Department\\20171009_113236"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Add Department\\Add Department\\20171009_113236\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="9915ff8305d3b376db8f3b52fc83382a"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Add Department/Add Department" classname="Test Cases/User Management/Add Department/Add Department" status="PASSED">
+         <system-out><![CDATA[2017-10-09 11:32:44 - [TEST_CASE][PASSED] - Test Cases/User Management/Add Department/Add Department: Test Cases/User Management/Add Department/Add Department
+
+2017-10-09 11:32:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-09 11:32:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-09 11:32:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 11:32:55 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-09 11:32:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 11:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-09 11:32:57 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 11:32:57 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-09 11:32:57 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 11:32:58 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-09 11:32:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 11:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-09 11:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 11:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-09 11:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 11:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-09 11:33:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/User Settings Link/a_User Settings' is clicked on
+
+2017-10-09 11:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/User Settings Link/a_User Settings' is clicked on
+
+2017-10-09 11:33:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-09 11:33:05 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-09 11:33:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/a_Manage Departments' is clicked on
+
+2017-10-09 11:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/a_Manage Departments' is clicked on
+
+2017-10-09 11:33:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-09 11:33:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-09 11:33:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/input_dept_addbtns' is clicked on
+
+2017-10-09 11:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/input_dept_addbtns' is clicked on
+
+2017-10-09 11:33:10 - [TEST_STEP][PASSED] - setText: Text 'Trial' is set on object 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/input_dept_name'
+
+2017-10-09 11:33:11 - [MESSAGE][PASSED] - Text 'Trial' is set on object 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/input_dept_name'
+
+2017-10-09 11:33:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/button_Add' is clicked on
+
+2017-10-09 11:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/button_Add' is clicked on
+
+2017-10-09 11:33:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/p_Trial added successfully' is present
+
+2017-10-09 11:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Add Department/Page_Visitor Security Management Sy (2)/p_Trial added successfully' is present
+
+2017-10-09 11:33:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-09 11:33:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-09 11:32:43 - [TEST_SUITE][PASSED] - Add Department: Test Cases/User Management/Add Department/Add Department]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

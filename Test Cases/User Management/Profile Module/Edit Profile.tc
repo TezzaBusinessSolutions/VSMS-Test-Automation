@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92b78172-324d-4631-acdf-49dc70cf6fe8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d7ebc4d-94a0-43ed-8f8d-0ae2cfa77b87</id>
+      <masked>false</masked>
+      <name>var_ProfName</name>
+   </variable>
+</TestCaseEntity>

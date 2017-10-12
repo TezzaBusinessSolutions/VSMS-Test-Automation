@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LogIn,,user authentication,2017-10-10 14:30:19,2017-10-10 14:30:21,1.850s,ERROR
+,,,,,,
+Test Cases/LOGIN - Iteration 1,,authenticating a VSMS user,2017-10-10 14:30:20,2017-10-10 14:30:20,0.897s,ERROR
+openBrowser,,,2017-10-10 14:30:20,2017-10-10 14:30:20,0.010s,PASSED
+,,,,,,
+Test Cases/LOGIN - Iteration 2,,authenticating a VSMS user,2017-10-10 14:30:21,2017-10-10 14:30:21,0.100s,ERROR
+openBrowser,,,2017-10-10 14:30:21,2017-10-10 14:30:21,0.003s,PASSED
+,,,,,,
+Test Cases/LOGIN - Iteration 3,,authenticating a VSMS user,2017-10-10 14:30:21,2017-10-10 14:30:21,0.124s,ERROR
+openBrowser,,,2017-10-10 14:30:21,2017-10-10 14:30:21,0.002s,PASSED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Department,Chrome 61.0.3163.100,,2017-10-11 11:15:54,2017-10-11 11:16:11,16.704s,ERROR
+,,,,,,
+Test Cases/User Management/Add Department/Add Department,Chrome 61.0.3163.100,,2017-10-11 11:15:54,2017-10-11 11:16:09,14.609s,ERROR
+openBrowser,Chrome 61.0.3163.100,,2017-10-11 11:15:55,2017-10-11 11:16:01,5.347s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-11 11:16:01,2017-10-11 11:16:06,5.487s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-11 11:16:06,2017-10-11 11:16:09,2.778s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-11 11:16:09,2017-10-11 11:16:09,0.011s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add New User,Firefox 39.0,,2017-10-04 10:42:56,2017-10-04 10:43:06,10.441s,FAILED
+,,,,,,
+Test Cases/Add New User/New User,Firefox 39.0,,2017-10-04 10:42:56,2017-10-04 10:43:05,8.970s,FAILED
+openBrowser,Firefox 39.0,,2017-10-04 10:42:58,2017-10-04 10:43:05,7.293s,PASSED
+navigateToUrl,Firefox 39.0,,2017-10-04 10:43:05,2017-10-04 10:43:05,0.192s,FAILED

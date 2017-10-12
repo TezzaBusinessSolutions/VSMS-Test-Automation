@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+User Login,Firefox 39.0,,2017-10-03 11:39:43,2017-10-03 11:40:06,22.881s,PASSED
+,,,,,,
+Test Cases/User Login Page/Login,Firefox 39.0,,2017-10-03 11:39:44,2017-10-03 11:40:06,22.331s,PASSED
+openBrowser,Firefox 39.0,,2017-10-03 11:39:45,2017-10-03 11:39:55,9.504s,PASSED
+navigateToUrl,Firefox 39.0,,2017-10-03 11:39:55,2017-10-03 11:40:00,5.638s,PASSED
+maximizeWindow,Firefox 39.0,,2017-10-03 11:40:00,2017-10-03 11:40:01,0.192s,PASSED
+click,Firefox 39.0,,2017-10-03 11:40:01,2017-10-03 11:40:01,0.298s,PASSED
+setText,Firefox 39.0,,2017-10-03 11:40:01,2017-10-03 11:40:04,2.754s,PASSED
+setText,Firefox 39.0,,2017-10-03 11:40:04,2017-10-03 11:40:04,0.159s,PASSED
+click,Firefox 39.0,,2017-10-03 11:40:04,2017-10-03 11:40:05,1.501s,PASSED
+verifyElementPresent,Firefox 39.0,,2017-10-03 11:40:05,2017-10-03 11:40:05,0.070s,PASSED
+closeBrowser,Firefox 39.0,,2017-10-03 11:40:05,2017-10-03 11:40:06,0.803s,PASSED

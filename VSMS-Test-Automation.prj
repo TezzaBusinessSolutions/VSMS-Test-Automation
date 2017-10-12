@@ -4,5 +4,5 @@
    <name>VSMS-Test-Automation</name>
    <tag></tag>
    <UUID>aab400b7-4eb5-4fc8-bfb7-998be9dd1fc2</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

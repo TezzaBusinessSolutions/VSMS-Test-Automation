@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit User" time="27" tests="1" failures="0" errors="0">
+   <testsuite name="Edit User" tests="1" failures="0" errors="0" time="27" timestamp="2017-10-11 12:33:04" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/User Management/User Module/Edit User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\User Module\\Edit User\\20171011_123256"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\User Module\\Edit User\\20171011_123256\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="126544401172dccc7ba865a804b400dd"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/User Module/Edit User" classname="Test Cases/User Management/User Module/Edit User" status="PASSED">
+         <system-out><![CDATA[2017-10-11 12:33:04 - [TEST_CASE][PASSED] - Test Cases/User Management/User Module/Edit User: Test Cases/User Management/User Module/Edit User
+
+2017-10-11 12:33:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-11 12:33:06 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-11 12:33:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-11 12:33:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-11 12:33:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-11 12:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-11 12:33:16 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-11 12:33:17 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-11 12:33:17 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-11 12:33:17 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-11 12:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-11 12:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-11 12:33:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-11 12:33:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-11 12:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-11 12:33:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-11 12:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-11 12:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/a_User' is clicked on
+
+2017-10-11 12:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/a_User' is clicked on
+
+2017-10-11 12:33:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit User/Edit User Details/a_Chalo' is clicked on
+
+2017-10-11 12:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit User/Edit User Details/a_Chalo' is clicked on
+
+2017-10-11 12:33:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-11 12:33:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-11 12:33:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-11 12:33:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-11 12:33:30 - [TEST_STEP][PASSED] - setText: Text 'Chalo7' is set on object 'Object Repository/User Management/Edit User/Edit User Details/input_firstname'
+
+2017-10-11 12:33:30 - [MESSAGE][PASSED] - Text 'Chalo7' is set on object 'Object Repository/User Management/Edit User/Edit User Details/input_firstname'
+
+2017-10-11 12:33:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit User/Edit User Details/button_Update User' is clicked on
+
+2017-10-11 12:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit User/Edit User Details/button_Update User' is clicked on
+
+2017-10-11 12:33:30 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-11 12:33:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-11 12:33:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-11 12:33:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-11 12:33:04 - [TEST_SUITE][PASSED] - Edit User: Test Cases/User Management/User Module/Edit User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

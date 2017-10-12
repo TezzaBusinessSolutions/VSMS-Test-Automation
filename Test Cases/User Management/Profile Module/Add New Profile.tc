@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb313977-e8eb-4470-8d44-d6ce5ab3dba7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eaa2c6ca-c670-4684-b881-a0864a227234</id>
+      <masked>false</masked>
+      <name>var_profilename</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03d35118-d4d6-4061-97bf-6d332aa73bcd</id>
+      <masked>false</masked>
+      <name>var_profiledesc</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LogIn,Firefox 55.0,user authentication,2017-10-10 16:04:26,2017-10-10 16:04:50,23.627s,PASSED
+,,,,,,
+Test Cases/LOGIN,Firefox 55.0,authenticating a VSMS user,2017-10-10 16:04:26,2017-10-10 16:04:49,22.692s,PASSED
+openBrowser,Firefox 55.0,,2017-10-10 16:04:27,2017-10-10 16:04:43,15.700s,PASSED
+click,Firefox 55.0,,2017-10-10 16:04:43,2017-10-10 16:04:44,0.687s,PASSED
+setText,Firefox 55.0,,2017-10-10 16:04:44,2017-10-10 16:04:47,3.221s,PASSED
+setText,Firefox 55.0,,2017-10-10 16:04:47,2017-10-10 16:04:47,0.210s,PASSED
+click,Firefox 55.0,,2017-10-10 16:04:47,2017-10-10 16:04:49,2.095s,PASSED

@@ -22,6 +22,8 @@ import internal.GlobalVariable as GlobalVariable
 //launch VSMS application
 WebUI.openBrowser(GlobalVariable.var_URL)
 
+WebUI.maximizeWindow()
+
 //click on LOGIN button
 WebUI.click(findTestObject('login/a_Log in'))
 

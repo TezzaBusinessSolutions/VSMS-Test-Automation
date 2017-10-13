@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit visitor" time="31" tests="0" failures="1" errors="0">
+   <testsuite name="Edit visitor" tests="0" failures="1" errors="0" time="31" timestamp="2017-10-13 13:08:30" hostname="Stella - 192.168.56.1" id="Test Suites/Visitor Management/Edit visitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Visitor Management\\Edit visitor\\20171013_130826"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Visitor Management\\Edit visitor\\20171013_130826\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Visitor Management\\Edit visitor\\20171013_130826\\1507889338756.png"/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="ffbab187-2584-4fc5-855d-82c70dca3e33"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Visitor Management/Edit visitor" classname="Test Cases/Visitor Management/Edit visitor" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)"/>
+         <system-out><![CDATA[2017-10-13 13:08:30 - [TEST_CASE][FAILED] - Test Cases/Visitor Management/Edit visitor: Test Cases/Visitor Management/Edit visitor FAILED because (of) Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)
+
+2017-10-13 13:08:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 13:08:31 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-13 13:08:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 13:08:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 13:08:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-13 13:08:48 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-13 13:08:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 13:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 13:08:49 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 13:08:52 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 13:08:52 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 13:08:52 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 13:08:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 13:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 13:08:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 13:08:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/common objects/a_Modules' is clicked on
+
+2017-10-13 13:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/common objects/a_Modules' is clicked on
+
+2017-10-13 13:08:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/common objects/a_Visitor Management' is clicked on
+
+2017-10-13 13:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/common objects/a_Visitor Management' is clicked on
+
+2017-10-13 13:08:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/common objects/a_Visitor' is clicked on
+
+2017-10-13 13:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/common objects/a_Visitor' is clicked on
+
+2017-10-13 13:08:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/Edit visitor/a_bella' is clicked on
+
+2017-10-13 13:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/Edit visitor/a_bella' is clicked on
+
+2017-10-13 13:08:58 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)
+
+2017-10-13 13:09:00 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)
+[[ATTACHMENT|C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Visitor Management\\Edit visitor\\20171013_130826\\1507889338756.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-13 13:08:30 - [TEST_CASE][FAILED] - Test Cases/Visitor Management/Edit visitor: Test Cases/Visitor Management/Edit visitor FAILED because (of) Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-13 13:08:30 - [TEST_SUITE][FAILED] - Edit visitor: Test Cases/Visitor Management/Edit visitor FAILED because (of) Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)]]></system-out>
+      <system-err><![CDATA[2017-10-13 13:08:30 - [TEST_SUITE][FAILED] - Edit visitor: Test Cases/Visitor Management/Edit visitor FAILED because (of) Unable to set text '' of object 'Object Repository/Visitor Management/Edit visitor/input_first_name' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'STEGAHZ', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ffbab187-2584-4fc5-855d-82c70dca3e33)]]></system-err>
+   </testsuite>
+</testsuites>

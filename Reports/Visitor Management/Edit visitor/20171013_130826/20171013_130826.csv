@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit visitor,Firefox 55.0,,2017-10-13 13:08:30,2017-10-13 13:09:02,31.980s,FAILED
+,,,,,,
+Test Cases/Visitor Management/Edit visitor,Firefox 55.0,editing a visitors details,2017-10-13 13:08:30,2017-10-13 13:09:00,29.417s,FAILED
+callTestCase,Firefox 55.0,,2017-10-13 13:08:31,2017-10-13 13:08:54,23.143s,PASSED
+click,Firefox 55.0,,2017-10-13 13:08:54,2017-10-13 13:08:54,0.229s,PASSED
+click,Firefox 55.0,,2017-10-13 13:08:54,2017-10-13 13:08:55,0.225s,PASSED
+click,Firefox 55.0,,2017-10-13 13:08:55,2017-10-13 13:08:55,0.344s,PASSED
+click,Firefox 55.0,,2017-10-13 13:08:55,2017-10-13 13:08:58,3.145s,PASSED
+setText,Firefox 55.0,,2017-10-13 13:08:58,2017-10-13 13:09:00,1.469s,FAILED

@@ -21,25 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Visitor Types/a_Modules'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_Modules'))
 
-WebUI.click(findTestObject('Visitor Types/a_User  Management'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_User  Management'))
 
-WebUI.click(findTestObject('Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
 
-WebUI.click(findTestObject('Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Visitor Asset Types/input_addassetbtn'))
+WebUI.click(findTestObject('User Management/Visitor Asset Types/input_addassetbtn'))
 
-WebUI.setText(findTestObject('Visitor Asset Types/asset_name'), var_assetName)
+WebUI.setText(findTestObject('User Management/Visitor Asset Types/asset_name'), var_assetName)
 
-WebUI.setText(findTestObject('Visitor Asset Types/asset_description'), var_assetDescription)
+WebUI.setText(findTestObject('User Management/Visitor Asset Types/asset_description'), var_assetDescription)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Visitor Asset Types/button_Add'))
+WebUI.click(findTestObject('User Management/Visitor Asset Types/button_Add'))
 
 WebUI.closeBrowser()
 

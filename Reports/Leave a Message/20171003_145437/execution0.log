@@ -2610,3 +2610,40 @@ Session ID: 929ccea2633212605a6cc064a78a6ecc)</message>
   <nestedLevel>0</nestedLevel>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-12T09:51:58</date>
+  <millis>1507791118138</millis>
+  <sequence>1736</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>318</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Leave a Message&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-12T09:51:58</date>
+  <millis>1507791118238</millis>
+  <sequence>1737</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>318</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-12T09:51:58</date>
+  <millis>1507791118238</millis>
+  <sequence>1738</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>318</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Data Files\\Leave A Message in Unscheduled Visit.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

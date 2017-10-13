@@ -19,27 +19,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Dashboard Page/a_Modules'))
 
 WebUI.click(findTestObject('Dashboard Page/a_Self-Service Management'))
 
 WebUI.click(findTestObject('Dashboard Page/a_Self-Service'))
 
-WebUI.click(findTestObject('Self-Service Page/Unscheduled Button'))
+WebUI.click(findTestObject('Self Service Management/Self-Service Page/Unscheduled Button'))
 
-WebUI.click(findTestObject('Leave a message Page/Leave Message Button'))
+WebUI.click(findTestObject('Self Service Management/Leave a message Page/Leave Message Button'))
 
-WebUI.setText(findTestObject('Leave a message Page/input_first_name'), 'Dennis')
+WebUI.setText(findTestObject('Self Service Management/Leave a message Page/input_first_name'), var_firstName)
 
-WebUI.setText(findTestObject('Leave a message Page/input_last_name'), 'Gituto')
+WebUI.setText(findTestObject('Self Service Management/Leave a message Page/input_last_name'), var_lastName)
 
-WebUI.setText(findTestObject('Leave a message Page/input_email'), 'dennisgituto1@gmail.com')
+WebUI.setText(findTestObject('Self Service Management/Leave a message Page/input_email'), var_email)
 
-WebUI.setText(findTestObject('Leave a message Page/input_staff_name'), 'Shila Zahra')
+WebUI.setText(findTestObject('Self Service Management/Leave a message Page/input_staff_name'), var_staffFullName)
 
-WebUI.setText(findTestObject('Leave a message Page/textarea_comment'), 'Call me ASAP')
+WebUI.setText(findTestObject('Self Service Management/Leave a message Page/textarea_comment'), var_comment)
 
-WebUI.click(findTestObject('Leave a message Page/button_Submit'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Self Service Management/Leave a message Page/button_Submit'))
+
+WebUI.verifyElementNotPresent(findTestObject('Self Service Management/Leave a message Page/Error Message'), 5)
 
 WebUI.closeBrowser()
 

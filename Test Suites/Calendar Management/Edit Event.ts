@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Edit Event in Calendar Management Module</description>
+   <name>Edit Event</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-10-12T11:56:20</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ece9d2a8-cb34-4f48-8d71-50d32d0e874f</testSuiteGuid>
+   <testCaseLink>
+      <guid>ff36be6a-7b64-43b1-990f-7e8ec4f86ada</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Calendar Management/Update Event</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>69bc6edc-4e03-4b42-b572-50192b9be68a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Edit Event </testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>69bc6edc-4e03-4b42-b572-50192b9be68a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>8947582b-2c55-44b9-a459-7e4e64e90bdf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>69bc6edc-4e03-4b42-b572-50192b9be68a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>startDate</value>
+         <variableId>f9bc7f45-886e-4056-9c19-a42725d98c06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>69bc6edc-4e03-4b42-b572-50192b9be68a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>startTime</value>
+         <variableId>99ba00d9-3150-46c2-a39a-c8846d127f00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>69bc6edc-4e03-4b42-b572-50192b9be68a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>endDate</value>
+         <variableId>c51ef490-d6cc-42cc-8d66-88e96bdb3f99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>69bc6edc-4e03-4b42-b572-50192b9be68a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>endTime</value>
+         <variableId>e924e0ea-e800-45a9-9a97-95d6ecf9e073</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>69bc6edc-4e03-4b42-b572-50192b9be68a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>32fe99bc-a160-48f6-9099-e41b770ec6c8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign up,Chrome 61.0.3163.100,Sign up in order to request a meeting,2017-10-11 16:43:57,2017-10-11 16:44:21,24.954s,ERROR
+,,,,,,
+Test Cases/Request A Meeting/Sign Up in Request Meeting,Chrome 61.0.3163.100,Sign Up in Request Meeting in Homepage,2017-10-11 16:43:57,2017-10-11 16:44:19,21.833s,ERROR
+openBrowser,Chrome 61.0.3163.100,,2017-10-11 16:43:59,2017-10-11 16:44:04,5.065s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-11 16:44:04,2017-10-11 16:44:11,7.289s,PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-10-11 16:44:11,2017-10-11 16:44:12,1.341s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-11 16:44:12,2017-10-11 16:44:14,1.249s,PASSED
+delay,Chrome 61.0.3163.100,,2017-10-11 16:44:14,2017-10-11 16:44:19,5.139s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-11 16:44:19,2017-10-11 16:44:19,0.091s,PASSED

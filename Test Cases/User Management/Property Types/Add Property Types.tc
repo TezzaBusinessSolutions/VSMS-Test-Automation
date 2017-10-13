@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>adding property types</description>
+   <name>Add Property Types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b396837b-becc-4927-83cb-7bb2b1e598d9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb10e2af-1d0f-4bdc-b5ba-87207d8566ae</id>
+      <masked>false</masked>
+      <name>var_typeName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5a96b69-3bc2-4135-ac2c-8edb00148f60</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

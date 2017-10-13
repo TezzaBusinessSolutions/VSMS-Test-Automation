@@ -27,19 +27,13 @@ WebUI.click(findTestObject('User Management/Visitor Types/a_User  Management'))
 
 WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Property types/Manage Property Types'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('User Management/Property types/Add new P_Type'))
 
-WebUI.click(findTestObject('User Management/Visitor Asset Types/input_addassetbtn'))
+WebUI.setText(findTestObject('User Management/Property types/P_Type name'), var_typeName)
 
-WebUI.setText(findTestObject('User Management/Visitor Asset Types/asset_name'), var_assetName)
+WebUI.setText(findTestObject('User Management/Property types/P_Type description'), var_typeDescription)
 
-WebUI.setText(findTestObject('User Management/Visitor Asset Types/asset_description'), var_assetDescription)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('User Management/Visitor Asset Types/button_Add'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('User Management/Property types/Add P_type'))
 

@@ -30,11 +30,11 @@ WebUI.click(findTestObject('User Management/Add New Group/Group Module Selection
 
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('User Management/Edit Group/Edit Group Details/Automation Link'))
+WebUI.click(findTestObject('User Management/Edit Group/Edit Group Details/a_Automation'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('User Management/Edit Group/Edit Group Details/Groupname Input Field'), var_gpname)
 

@@ -4,7 +4,7 @@
    <name>Sign Up</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-12T11:48:30</lastRun>
+   <lastRun>2017-10-12T14:19:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -66,6 +66,12 @@
          <type>DATA_COLUMN</type>
          <value>timezone</value>
          <variableId>6a0978af-ad73-4844-a3f3-291a8e4e121d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd60105d-8d5a-4f6d-a138-1e2a8e96762b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Currecy</value>
+         <variableId>6fb38ef6-aeae-47b5-91e4-201b51ad1436</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

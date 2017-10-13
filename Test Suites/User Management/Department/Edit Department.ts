@@ -4,7 +4,7 @@
    <name>Edit Department</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-11T14:35:47</lastRun>
+   <lastRun>2017-10-13T10:48:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -30,6 +30,12 @@
          <type>DATA_COLUMN</type>
          <value>deptname</value>
          <variableId>78c7f95b-a51a-4daa-90c9-33a1da7766a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d8278437-39e2-4ce9-842b-eb52ddb4b64a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SearchDept</value>
+         <variableId>a932a60e-5e02-46aa-9475-fa5635db09f0</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

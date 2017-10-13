@@ -54,4 +54,11 @@
       <masked>false</masked>
       <name>var_timezone</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6fb38ef6-aeae-47b5-91e4-201b51ad1436</id>
+      <masked>false</masked>
+      <name>var_currency</name>
+   </variable>
 </TestCaseEntity>

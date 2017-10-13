@@ -48,11 +48,11 @@ WebUI.click(findTestObject('Creating New Account/Sign Up/span_select2-selection_
 
 WebUI.setText(findTestObject('Creating New Account/Sign Up/input_select2-search__field'), var_timezone)
 
-WebUI.click(findTestObject('Creating New Account/Sign Up/li_AfricaNairobi - (UTC0300) N'))
+WebUI.click(findTestObject('Creating New Account/Sign Up/AfricaNairobi - (UTC0300) N'))
 
-WebUI.selectOptionByValue(findTestObject('Creating New Account/Sign Up/select_currency'), 'KES', true)
+WebUI.selectOptionByValue(findTestObject('Creating New Account/Sign Up/select_currency'), var_currency, true)
 
-WebUI.click(findTestObject('Creating New Account/Sign Up/input_terms'))
+WebUI.click(findTestObject('Creating New Account/Sign Up/Terms and Conditions'))
 
 WebUI.click(findTestObject('Creating New Account/Sign Up/button_Subscribe'))
 

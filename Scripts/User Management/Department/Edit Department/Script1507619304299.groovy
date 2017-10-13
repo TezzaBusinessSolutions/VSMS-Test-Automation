@@ -34,7 +34,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/Manage Departments Link'))
 
-WebUI.setText(findTestObject('User Management/Edit Department/Edit Department Details/Search Department Input Field'), 'Trial')
+WebUI.setText(findTestObject('User Management/Edit Department/Edit Department Details/Search Department Input Field'), var_searchdept)
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('User Management/Edit Department/Edit Department Details/Edit button'))
 

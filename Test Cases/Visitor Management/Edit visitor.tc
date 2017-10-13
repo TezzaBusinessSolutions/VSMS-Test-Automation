@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>editing a visitors details</description>
+   <name>Edit visitor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16b07e6d-637b-44d0-96b7-e1d3a8ffec6f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65f915d4-1627-4a0f-b53c-7dcf6036ea06</id>
+      <masked>false</masked>
+      <name>var_editname</name>
+   </variable>
+</TestCaseEntity>

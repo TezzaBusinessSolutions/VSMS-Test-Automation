@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add property types" time="82" tests="1" failures="0" errors="0">
+   <testsuite name="Add property types" tests="1" failures="0" errors="0" time="82" timestamp="2017-10-12 12:21:39" hostname="Stella - 192.168.56.1" id="Test Suites/User Management/Property Types/Add property types">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Property Types\\Add property types\\20171012_122136"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Property Types\\Add property types\\20171012_122136\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="d5897f10-dc86-426d-955e-1bb618526d24"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Property Types/Add Property Types" classname="Test Cases/User Management/Property Types/Add Property Types" status="PASSED">
+         <system-out><![CDATA[2017-10-12 12:21:40 - [TEST_CASE][PASSED] - Test Cases/User Management/Property Types/Add Property Types: Test Cases/User Management/Property Types/Add Property Types
+
+2017-10-12 12:21:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-12 12:21:41 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-12 12:21:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-12 12:22:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-12 12:22:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-12 12:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-12 12:22:38 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-12 12:22:44 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-12 12:22:44 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-12 12:22:44 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-12 12:22:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-12 12:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-12 12:22:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-12 12:22:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_Modules' is clicked on
+
+2017-10-12 12:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_Modules' is clicked on
+
+2017-10-12 12:22:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_User  Management' is clicked on
+
+2017-10-12 12:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_User  Management' is clicked on
+
+2017-10-12 12:22:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_User Settings' is clicked on
+
+2017-10-12 12:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_User Settings' is clicked on
+
+2017-10-12 12:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Property types/Manage Property Types' is clicked on
+
+2017-10-12 12:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Property types/Manage Property Types' is clicked on
+
+2017-10-12 12:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Property types/Add new P_Type' is clicked on
+
+2017-10-12 12:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Property types/Add new P_Type' is clicked on
+
+2017-10-12 12:22:58 - [TEST_STEP][PASSED] - setText: Text 'homes' is set on object 'Object Repository/User Management/Property types/P_Type name'
+
+2017-10-12 12:22:58 - [MESSAGE][PASSED] - Text 'homes' is set on object 'Object Repository/User Management/Property types/P_Type name'
+
+2017-10-12 12:22:58 - [TEST_STEP][PASSED] - setText: Text 'homes for all people' is set on object 'Object Repository/User Management/Property types/P_Type description'
+
+2017-10-12 12:23:00 - [MESSAGE][PASSED] - Text 'homes for all people' is set on object 'Object Repository/User Management/Property types/P_Type description'
+
+2017-10-12 12:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Property types/Add P_type' is clicked on
+
+2017-10-12 12:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Property types/Add P_type' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-12 12:21:39 - [TEST_SUITE][PASSED] - Add property types: Test Cases/User Management/Property Types/Add Property Types]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

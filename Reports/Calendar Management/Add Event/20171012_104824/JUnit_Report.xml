@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Event" time="61" tests="1" failures="0" errors="0">
+   <testsuite name="Add Event" tests="1" failures="0" errors="0" time="61" timestamp="2017-10-12 10:48:31" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Calendar Management/Add Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171012_104824"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171012_104824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="8caa4acb95cc687e9d25b2beee5b8ed3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Add new Event" classname="Test Cases/Calendar Management/Add new Event" status="PASSED">
+         <system-out><![CDATA[2017-10-12 10:48:32 - [TEST_CASE][PASSED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event
+
+2017-10-12 10:48:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-12 10:48:34 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-12 10:48:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-12 10:49:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-12 10:49:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-12 10:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-12 10:49:05 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-12 10:49:06 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-12 10:49:06 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-12 10:49:07 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-12 10:49:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-12 10:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-12 10:49:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-12 10:49:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-12 10:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-12 10:49:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-10-12 10:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-10-12 10:49:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-10-12 10:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-10-12 10:49:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add new Event/New Event' is clicked on
+
+2017-10-12 10:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Add new Event/New Event' is clicked on
+
+2017-10-12 10:49:17 - [TEST_STEP][PASSED] - setText: Text 'Developer's Interview' is set on object 'Object Repository/Add new Event/Title'
+
+2017-10-12 10:49:19 - [MESSAGE][PASSED] - Text 'Developer's Interview' is set on object 'Object Repository/Add new Event/Title'
+
+2017-10-12 10:49:19 - [TEST_STEP][PASSED] - setText: Text '10/12/17' is set on object 'Object Repository/Add new Event/Start Date'
+
+2017-10-12 10:49:20 - [MESSAGE][PASSED] - Text '10/12/17' is set on object 'Object Repository/Add new Event/Start Date'
+
+2017-10-12 10:49:20 - [TEST_STEP][PASSED] - setText: Text '1300' is set on object 'Object Repository/Add new Event/Start Time'
+
+2017-10-12 10:49:21 - [MESSAGE][PASSED] - Text '1300' is set on object 'Object Repository/Add new Event/Start Time'
+
+2017-10-12 10:49:21 - [TEST_STEP][PASSED] - setText: Text '10/12/17' is set on object 'Object Repository/Add new Event/End Date'
+
+2017-10-12 10:49:22 - [MESSAGE][PASSED] - Text '10/12/17' is set on object 'Object Repository/Add new Event/End Date'
+
+2017-10-12 10:49:22 - [TEST_STEP][PASSED] - setText: Text '1800' is set on object 'Object Repository/Add new Event/End Time'
+
+2017-10-12 10:49:23 - [MESSAGE][PASSED] - Text '1800' is set on object 'Object Repository/Add new Event/End Time'
+
+2017-10-12 10:49:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Add new Event/Location' 
+
+2017-10-12 10:49:24 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Add new Event/Location' 
+
+2017-10-12 10:49:24 - [TEST_STEP][PASSED] - setText: Text 'C# Developers Interview' is set on object 'Object Repository/Add new Event/Description'
+
+2017-10-12 10:49:25 - [MESSAGE][PASSED] - Text 'C# Developers Interview' is set on object 'Object Repository/Add new Event/Description'
+
+2017-10-12 10:49:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add new Event/Save Event Button' is clicked on
+
+2017-10-12 10:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Add new Event/Save Event Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-12 10:48:31 - [TEST_SUITE][PASSED] - Add Event: Test Cases/Calendar Management/Add new Event]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

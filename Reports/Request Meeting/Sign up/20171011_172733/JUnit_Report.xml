@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign up" time="46" tests="1" failures="0" errors="0">
+   <testsuite name="Sign up" tests="1" failures="0" errors="0" time="46" timestamp="2017-10-11 17:27:39" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Request Meeting/Sign up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Sign up\\20171011_172733"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Sign up\\20171011_172733\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="9ae321adb54e9d0dea1803e9169fe2d8"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Request A Meeting/Sign Up in Request Meeting" classname="Test Cases/Request A Meeting/Sign Up in Request Meeting" status="PASSED">
+         <system-out><![CDATA[2017-10-11 17:27:40 - [TEST_CASE][PASSED] - Test Cases/Request A Meeting/Sign Up in Request Meeting: Test Cases/Request A Meeting/Sign Up in Request Meeting
+
+2017-10-11 17:27:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-11 17:27:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-11 17:27:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-11 17:28:02 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-11 17:28:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-11 17:28:03 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-11 17:28:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-10-11 17:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-10-11 17:28:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-11 17:28:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-11 17:28:09 - [TEST_STEP][PASSED] - setText: Text 'Mr' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_title'
+
+2017-10-11 17:28:11 - [MESSAGE][PASSED] - Text 'Mr' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_title'
+
+2017-10-11 17:28:11 - [TEST_STEP][PASSED] - setText: Text 'Samuel' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_firstname'
+
+2017-10-11 17:28:12 - [MESSAGE][PASSED] - Text 'Samuel' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_firstname'
+
+2017-10-11 17:28:12 - [TEST_STEP][PASSED] - setText: Text 'Onyango' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_lastname'
+
+2017-10-11 17:28:13 - [MESSAGE][PASSED] - Text 'Onyango' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_lastname'
+
+2017-10-11 17:28:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '3' are selected in object 'Object Repository/Request A meeting/Sign Up In Request Meeting/select_tenant_id' 
+
+2017-10-11 17:28:14 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Request A meeting/Sign Up In Request Meeting/select_tenant_id' 
+
+2017-10-11 17:28:14 - [TEST_STEP][PASSED] - setText: Text 'samuelkariuki@gmail.com' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_email'
+
+2017-10-11 17:28:14 - [MESSAGE][PASSED] - Text 'samuelkariuki@gmail.com' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_email'
+
+2017-10-11 17:28:14 - [TEST_STEP][PASSED] - setText: Text 'desteg' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password'
+
+2017-10-11 17:28:15 - [MESSAGE][PASSED] - Text 'desteg' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password'
+
+2017-10-11 17:28:15 - [TEST_STEP][PASSED] - setText: Text 'var_confirmPassword' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password_confirmation'
+
+2017-10-11 17:28:16 - [MESSAGE][PASSED] - Text 'var_confirmPassword' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password_confirmation'
+
+2017-10-11 17:28:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request A meeting/Sign Up In Request Meeting/button_Sign Up' is clicked on
+
+2017-10-11 17:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Request A meeting/Sign Up In Request Meeting/button_Sign Up' is clicked on
+
+2017-10-11 17:28:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-11 17:28:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-11 17:28:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-11 17:28:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-11 17:27:39 - [TEST_SUITE][PASSED] - Sign up: Test Cases/Request A Meeting/Sign Up in Request Meeting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

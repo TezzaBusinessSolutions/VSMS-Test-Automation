@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login and Request for a Meeting,Chrome 61.0.3163.100,Login with correct credentials and request for a meeting,2017-10-04 13:11:36,2017-10-04 13:12:04,27.698s,FAILED
+,,,,,,
+Test Cases/Request of a meeting using a correct login credentials,Chrome 61.0.3163.100,Request for a meeting using correct login Credentials in Home Page,2017-10-04 13:11:38,2017-10-04 13:12:01,23.778s,FAILED
+openBrowser,Chrome 61.0.3163.100,,2017-10-04 13:11:39,2017-10-04 13:11:47,7.136s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-04 13:11:47,2017-10-04 13:11:55,8.115s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-04 13:11:55,2017-10-04 13:11:56,1.313s,PASSED
+selectOptionByValue,Chrome 61.0.3163.100,,2017-10-04 13:11:56,2017-10-04 13:11:57,1.378s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-04 13:11:57,2017-10-04 13:11:59,1.678s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-04 13:11:59,2017-10-04 13:12:00,0.717s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-04 13:12:00,2017-10-04 13:12:00,0.433s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-04 13:12:00,2017-10-04 13:12:01,1.069s,FAILED

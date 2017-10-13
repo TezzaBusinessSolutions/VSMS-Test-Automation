@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Group,Firefox 39.0,,2017-10-13 11:38:10,2017-10-13 11:38:44,34.338s,FAILED
+,,,,,,
+Test Cases/User Management/Group Module/Edit Group,Firefox 39.0,,2017-10-13 11:38:10,2017-10-13 11:38:44,33.811s,FAILED
+callTestCase,Firefox 39.0,,2017-10-13 11:38:11,2017-10-13 11:38:31,19.359s,PASSED
+click,Firefox 39.0,,2017-10-13 11:38:31,2017-10-13 11:38:31,0.155s,PASSED
+click,Firefox 39.0,,2017-10-13 11:38:31,2017-10-13 11:38:31,0.665s,PASSED
+click,Firefox 39.0,,2017-10-13 11:38:31,2017-10-13 11:38:33,1.253s,PASSED
+maximizeWindow,Firefox 39.0,,2017-10-13 11:38:33,2017-10-13 11:38:33,0.167s,PASSED
+delay,Firefox 39.0,,2017-10-13 11:38:33,2017-10-13 11:38:36,3.023s,PASSED
+click,Firefox 39.0,,2017-10-13 11:38:36,2017-10-13 11:38:36,0.144s,PASSED
+delay,Firefox 39.0,,2017-10-13 11:38:36,2017-10-13 11:38:39,3.004s,PASSED
+setText,Firefox 39.0,,2017-10-13 11:38:39,2017-10-13 11:38:39,0.272s,FAILED
+click,Firefox 39.0,,2017-10-13 11:38:39,2017-10-13 11:38:40,0.335s,FAILED
+verifyElementPresent,Firefox 39.0,,2017-10-13 11:38:40,2017-10-13 11:38:43,3.525s,FAILED
+closeBrowser,Firefox 39.0,,2017-10-13 11:38:43,2017-10-13 11:38:44,0.781s,PASSED

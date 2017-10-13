@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://sandbox.vsms.tezzasolutions.com/index')
+WebUI.navigateToUrl(var_url)
 
 WebUI.click(findTestObject('Sign Up In Request Meeting/button_REQUEST A MEETING'))
 
-WebUI.setText(findTestObject('Sign Up In Request Meeting/input_title'), 'Miss')
+WebUI.setText(findTestObject('Sign Up In Request Meeting/input_title'), var_title)
 
-WebUI.setText(findTestObject('Sign Up In Request Meeting/input_firstname'), 'Shila')
+WebUI.setText(findTestObject('Sign Up In Request Meeting/input_firstname'), var_firstname)
 
-WebUI.setText(findTestObject('Sign Up In Request Meeting/input_lastname'), 'Zahra')
+WebUI.setText(findTestObject('Sign Up In Request Meeting/input_lastname'), var_lastname)
 
 WebUI.selectOptionByValue(findTestObject('Sign Up In Request Meeting/select_tenant_id'), '3', false)
 

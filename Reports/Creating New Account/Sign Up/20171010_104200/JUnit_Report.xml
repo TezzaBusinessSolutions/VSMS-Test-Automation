@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign Up" time="36" tests="0" failures="1" errors="0">
+   <testsuite name="Sign Up" tests="0" failures="1" errors="0" time="36" timestamp="2017-10-10 10:42:02" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/Creating New Account/Sign Up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Creating New Account\\Sign Up\\20171010_104200"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Creating New Account\\Sign Up\\20171010_104200\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Creating New Account\\Sign Up\\20171010_104200\\1507621350657.png"/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="cd9c3015816894c62ff4cf075d059cc3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Creating New Account/Sign Up" classname="Test Cases/Creating New Account/Sign Up" status="FAILED">
+         <failure type="FAILED" message="Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)"/>
+         <system-out><![CDATA[2017-10-10 10:42:03 - [TEST_CASE][FAILED] - Test Cases/Creating New Account/Sign Up: Test Cases/Creating New Account/Sign Up FAILED because (of) Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)
+
+2017-10-10 10:42:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-10 10:42:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-10 10:42:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-10 10:42:13 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-10 10:42:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Login Link/a_Log in' is clicked on
+
+2017-10-10 10:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Login Link/a_Log in' is clicked on
+
+2017-10-10 10:42:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-10 10:42:16 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-10 10:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Dont have account link/a_Dont have an account' is clicked on
+
+2017-10-10 10:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Dont have account link/a_Dont have an account' is clicked on
+
+2017-10-10 10:42:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Subscribe/a_Subscribe' is clicked on
+
+2017-10-10 10:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Subscribe/a_Subscribe' is clicked on
+
+2017-10-10 10:42:22 - [TEST_STEP][PASSED] - setText: Text 'Tezza Test' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_name'
+
+2017-10-10 10:42:22 - [MESSAGE][PASSED] - Text 'Tezza Test' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_name'
+
+2017-10-10 10:42:22 - [TEST_STEP][PASSED] - setText: Text 'Chweya' is set on object 'Object Repository/Creating New Account/Sign Up/input_first_name'
+
+2017-10-10 10:42:23 - [MESSAGE][PASSED] - Text 'Chweya' is set on object 'Object Repository/Creating New Account/Sign Up/input_first_name'
+
+2017-10-10 10:42:23 - [TEST_STEP][PASSED] - setText: Text 'Charles' is set on object 'Object Repository/Creating New Account/Sign Up/input_last_name'
+
+2017-10-10 10:42:23 - [MESSAGE][PASSED] - Text 'Charles' is set on object 'Object Repository/Creating New Account/Sign Up/input_last_name'
+
+2017-10-10 10:42:23 - [TEST_STEP][PASSED] - setText: Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_email'
+
+2017-10-10 10:42:24 - [MESSAGE][PASSED] - Text 'charles.chweyaa@tezzasolutions.com' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_email'
+
+2017-10-10 10:42:24 - [TEST_STEP][PASSED] - setText: Text '0725165219' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_phone'
+
+2017-10-10 10:42:24 - [MESSAGE][PASSED] - Text '0725165219' is set on object 'Object Repository/Creating New Account/Sign Up/input_tenant_phone'
+
+2017-10-10 10:42:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 10:42:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 10:42:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/span_select2-selection__arrow' is clicked on
+
+2017-10-10 10:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/span_select2-selection__arrow' is clicked on
+
+2017-10-10 10:42:29 - [TEST_STEP][PASSED] - setText: Text 'Africa/Nairobi - (UTC+03:00) Nairobi' is set on object 'Object Repository/Creating New Account/Sign Up/Timezone Input'
+
+2017-10-10 10:42:30 - [MESSAGE][PASSED] - Text 'Africa/Nairobi - (UTC+03:00) Nairobi' is set on object 'Object Repository/Creating New Account/Sign Up/Timezone Input'
+
+2017-10-10 10:42:30 - [TEST_STEP][FAILED] - submit: Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)
+
+2017-10-10 10:42:31 - [MESSAGE][FAILED] - Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)
+[[ATTACHMENT|C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\Creating New Account\\Sign Up\\20171010_104200\\1507621350657.png]]
+
+2017-10-10 10:42:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'KES' are selected in object 'Object Repository/Creating New Account/Sign Up/select_currency'  using regular expression
+
+2017-10-10 10:42:31 - [MESSAGE][PASSED] - All options with value 'KES' are selected in object 'Object Repository/Creating New Account/Sign Up/select_currency'  using regular expression
+
+2017-10-10 10:42:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/input_terms' is clicked on
+
+2017-10-10 10:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/input_terms' is clicked on
+
+2017-10-10 10:42:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Creating New Account/Sign Up/button_Subscribe' is clicked on
+
+2017-10-10 10:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Creating New Account/Sign Up/button_Subscribe' is clicked on
+
+2017-10-10 10:42:31 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-10-10 10:42:37 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-10-10 10:42:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-10 10:42:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-10 10:42:03 - [TEST_CASE][FAILED] - Test Cases/Creating New Account/Sign Up: Test Cases/Creating New Account/Sign Up FAILED because (of) Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 10:42:02 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Creating New Account/Sign Up FAILED because (of) Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)]]></system-out>
+      <system-err><![CDATA[2017-10-10 10:42:02 - [TEST_SUITE][FAILED] - Sign Up: Test Cases/Creating New Account/Sign Up FAILED because (of) Unable to submit the form containing object 'Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N' (Root cause: org.openqa.selenium.NoSuchElementException: no such element: Element was not in a form, so could not submit.
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-QAVLP3L', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\CHWEYA~1\AppData\Local\Temp\scoped_dir6924_11769}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd9c3015816894c62ff4cf075d059cc3)]]></system-err>
+   </testsuite>
+</testsuites>

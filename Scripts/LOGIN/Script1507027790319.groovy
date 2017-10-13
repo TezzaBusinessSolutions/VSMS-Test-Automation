@@ -20,15 +20,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 //launch VSMS application
-WebUI.openBrowser('https://sandbox.vsms.tezzasolutions.com/index')
+WebUI.openBrowser(GlobalVariable.var_URL)
+
+WebUI.maximizeWindow()
 
 //click on LOGIN button
 WebUI.click(findTestObject('login/a_Log in'))
 
 //enter your login credentials
-WebUI.setText(findTestObject('login/input_email'), 'stella.ireri@tezzasolutions.com')
+WebUI.setText(findTestObject('login/input_email'), GlobalVariable.var_email)
 
-WebUI.setText(findTestObject('login/input_password'), 'adminPass')
+WebUI.setText(findTestObject('login/input_password'), GlobalVariable.var_Password)
 
 WebUI.click(findTestObject('login/button_Login'))
 

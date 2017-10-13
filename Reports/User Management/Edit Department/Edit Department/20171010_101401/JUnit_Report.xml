@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Department" time="40" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Department" tests="1" failures="0" errors="0" time="40" timestamp="2017-10-10 10:14:04" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/User Management/Edit Department/Edit Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Edit Department\\Edit Department\\20171010_101401"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Edit Department\\Edit Department\\20171010_101401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="1b8dd5f1-a8b1-44b7-b4df-4f91f1409fd3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Edit Department/Edit Department" classname="Test Cases/User Management/Edit Department/Edit Department" status="PASSED">
+         <system-out><![CDATA[2017-10-10 10:14:05 - [TEST_CASE][PASSED] - Test Cases/User Management/Edit Department/Edit Department: Test Cases/User Management/Edit Department/Edit Department
+
+2017-10-10 10:14:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-10 10:14:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-10 10:14:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-10 10:14:18 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-10-10 10:14:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-10 10:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/a_Log in' is clicked on
+
+2017-10-10 10:14:18 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-10 10:14:21 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_email'
+
+2017-10-10 10:14:21 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-10 10:14:21 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/User Management/Add New User/Login Page Objects/input_password'
+
+2017-10-10 10:14:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-10 10:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Login Page Objects/button_Login' is clicked on
+
+2017-10-10 10:14:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-10 10:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-10 10:14:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-10 10:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-10 10:14:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 10:14:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 10:14:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Department/User Settings Link/a_User Settings' is clicked on
+
+2017-10-10 10:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Department/User Settings Link/a_User Settings' is clicked on
+
+2017-10-10 10:14:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-10 10:14:31 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-10 10:14:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Department/Edit Department Details/a_Manage Departments' is clicked on
+
+2017-10-10 10:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Department/Edit Department Details/a_Manage Departments' is clicked on
+
+2017-10-10 10:14:32 - [TEST_STEP][PASSED] - setText: Text 'Trial' is set on object 'Object Repository/User Management/Edit Department/Edit Department Details/input_search_dept'
+
+2017-10-10 10:14:32 - [MESSAGE][PASSED] - Text 'Trial' is set on object 'Object Repository/User Management/Edit Department/Edit Department Details/input_search_dept'
+
+2017-10-10 10:14:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Department/Edit Department Details/i_fa fa-edit' is clicked on
+
+2017-10-10 10:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Department/Edit Department Details/i_fa fa-edit' is clicked on
+
+2017-10-10 10:14:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 10:14:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 10:14:38 - [TEST_STEP][PASSED] - setText: Text 'Trial1' is set on object 'Object Repository/User Management/Edit Department/Edit Department Details/input_dept_name'
+
+2017-10-10 10:14:39 - [MESSAGE][PASSED] - Text 'Trial1' is set on object 'Object Repository/User Management/Edit Department/Edit Department Details/input_dept_name'
+
+2017-10-10 10:14:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Department/Edit Department Details/button_Update' is clicked on
+
+2017-10-10 10:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Department/Edit Department Details/button_Update' is clicked on
+
+2017-10-10 10:14:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-10 10:14:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-10 10:14:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Department/Edit Department Details/p_Trial1 updated successfully' is clicked on
+
+2017-10-10 10:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Department/Edit Department Details/p_Trial1 updated successfully' is clicked on
+
+2017-10-10 10:14:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-10 10:14:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-10 10:14:04 - [TEST_SUITE][PASSED] - Edit Department: Test Cases/User Management/Edit Department/Edit Department]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

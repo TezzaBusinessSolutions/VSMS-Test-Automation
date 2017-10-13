@@ -22,15 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(var_url)
+WebUI.navigateToUrl(GlobalVariable.var_URL)
 
-WebUI.click(findTestObject('Creating New Account/Login Link/a_Log in'))
+WebUI.click(findTestObject('Creating New Account/Login Link/Log in Link'))
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Creating New Account/Dont have account link/a_Dont have an account'))
+WebUI.click(findTestObject('Creating New Account/Dont have account link/Dont have an account Link'))
 
-WebUI.click(findTestObject('Creating New Account/Subscribe/a_Subscribe'))
+WebUI.click(findTestObject('Creating New Account/Subscribe/Subscribe Button'))
 
 WebUI.setText(findTestObject('Creating New Account/Sign Up/input_tenant_name'), var_tenantname)
 
@@ -46,11 +46,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Creating New Account/Sign Up/span_select2-selection__arrow'))
 
-WebUI.setText(findTestObject('Creating New Account/Sign Up/Timezone Input'), var_timezone)
+WebUI.setText(findTestObject('Creating New Account/Sign Up/input_select2-search__field'), var_timezone)
 
-WebUI.selectOptionByValue(findTestObject('Creating New Account/Sign Up/select_currency'), 'KES', true)
+WebUI.click(findTestObject('Creating New Account/Sign Up/AfricaNairobi - (UTC0300) N'))
 
-WebUI.click(findTestObject('Creating New Account/Sign Up/input_terms'))
+WebUI.selectOptionByValue(findTestObject('Creating New Account/Sign Up/select_currency'), var_currency, true)
+
+WebUI.click(findTestObject('Creating New Account/Sign Up/Terms and Conditions'))
 
 WebUI.click(findTestObject('Creating New Account/Sign Up/button_Subscribe'))
 

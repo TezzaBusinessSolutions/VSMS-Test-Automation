@@ -8,6 +8,13 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>a932a60e-5e02-46aa-9475-fa5635db09f0</id>
+      <masked>false</masked>
+      <name>var_searchdept</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>78c7f95b-a51a-4daa-90c9-33a1da7766a0</id>
       <masked>false</masked>
       <name>var_deptname</name>

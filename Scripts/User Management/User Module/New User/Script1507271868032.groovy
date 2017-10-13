@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('User Management/Add New User/Add New User Objects/
 
 WebUI.setText(findTestObject('User Management/Add New User/Add New User Objects/input_job_title'), var_jobtitle)
 
-WebUI.selectOptionByValue(findTestObject('User Management/Add New User/Add New User Objects/select_department_id'), 'number:71', 
+WebUI.selectOptionByValue(findTestObject('User Management/Add New User/Add New User Objects/select_department_id'), 'number:102', 
     true)
 
 WebUI.setText(findTestObject('User Management/Add New User/Add New User Objects/input_email3'), var_email)

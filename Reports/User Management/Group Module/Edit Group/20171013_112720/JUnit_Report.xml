@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Group" time="40" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Group" tests="1" failures="0" errors="0" time="40" timestamp="2017-10-13 11:27:22" hostname="ChweyaJnr - 192.168.56.1" id="Test Suites/User Management/Group Module/Edit Group">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Group Module\\Edit Group\\20171013_112720"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Group Module\\Edit Group\\20171013_112720\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 39.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="76a1c59f-52d4-46cd-92c9-23ea417e249c"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Group Module/Edit Group" classname="Test Cases/User Management/Group Module/Edit Group" status="PASSED">
+         <system-out><![CDATA[2017-10-13 11:27:23 - [TEST_CASE][PASSED] - Test Cases/User Management/Group Module/Edit Group: Test Cases/User Management/Group Module/Edit Group
+
+2017-10-13 11:27:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 11:27:24 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-13 11:27:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 11:27:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 11:27:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 11:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 11:27:38 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 11:27:41 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 11:27:41 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 11:27:41 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 11:27:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 11:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 11:27:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 11:27:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-13 11:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-13 11:27:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-13 11:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-13 11:27:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New Group/Group Module Selection/Group Module' is clicked on
+
+2017-10-13 11:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New Group/Group Module Selection/Group Module' is clicked on
+
+2017-10-13 11:27:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-13 11:27:45 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-13 11:27:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-13 11:27:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-13 11:27:48 - [TEST_STEP][PASSED] - setText: Text 'Automation' is set on object 'Object Repository/User Management/Edit Group/Edit Group Details/Search Group Input Field'
+
+2017-10-13 11:27:48 - [MESSAGE][PASSED] - Text 'Automation' is set on object 'Object Repository/User Management/Edit Group/Edit Group Details/Search Group Input Field'
+
+2017-10-13 11:27:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-13 11:27:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-13 11:27:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Edit Group/Edit Group Details/Automation Link' is clicked on
+
+2017-10-13 11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Edit Group/Edit Group Details/Automation Link' is clicked on
+
+2017-10-13 11:27:52 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-10-13 11:28:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-10-13 11:28:02 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-10-13 11:28:02 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-10-13 11:28:02 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-13 11:28:02 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-13 11:28:02 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2017-10-13 11:28:02 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2017-10-13 11:28:02 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2017-10-13 11:28:02 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-13 11:27:22 - [TEST_SUITE][PASSED] - Edit Group: Test Cases/User Management/Group Module/Edit Group]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

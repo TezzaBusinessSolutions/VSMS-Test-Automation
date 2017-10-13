@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Department" time="29" tests="1" failures="0" errors="0">
+   <testsuite name="Add Department" tests="1" failures="0" errors="0" time="29" timestamp="2017-10-12 15:08:24" hostname="ChweyaJnr - DESKTOP-QAVLP3L" id="Test Suites/User Management/Department/Add Department">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Department\\Add Department\\20171012_150817"/>
+         <property name="logFiles" value="C:\\Users\\ChweyaJnr\\git\\VSMS-Test-Automation\\Reports\\User Management\\Department\\Add Department\\20171012_150817\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ChweyaJnr - DESKTOP-QAVLP3L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="6085c1698dfc8e977c43a827b026eee3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Department/Add Department" classname="Test Cases/User Management/Department/Add Department" status="PASSED">
+         <system-out><![CDATA[2017-10-12 15:08:25 - [TEST_CASE][PASSED] - Test Cases/User Management/Department/Add Department: Test Cases/User Management/Department/Add Department
+
+2017-10-12 15:08:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-12 15:08:26 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-12 15:08:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-12 15:08:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-12 15:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-12 15:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-12 15:08:38 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-12 15:08:39 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-12 15:08:39 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-12 15:08:39 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-12 15:08:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-12 15:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-12 15:08:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-12 15:08:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-12 15:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/Modules dropdown' is clicked on
+
+2017-10-12 15:08:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-12 15:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add New User/Module Dropdown Objects/User Management Dropdown' is clicked on
+
+2017-10-12 15:08:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/User Settings Link/User Settings' is clicked on
+
+2017-10-12 15:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/User Settings Link/User Settings' is clicked on
+
+2017-10-12 15:08:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-12 15:08:45 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-12 15:08:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/Manage Department/Manage Departments Link' is clicked on
+
+2017-10-12 15:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/Manage Department/Manage Departments Link' is clicked on
+
+2017-10-12 15:08:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-12 15:08:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-12 15:08:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/Manage Department/Add New Button' is clicked on
+
+2017-10-12 15:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/Manage Department/Add New Button' is clicked on
+
+2017-10-12 15:08:51 - [TEST_STEP][PASSED] - setText: Text 'Trial' is set on object 'Object Repository/User Management/Add Department/Manage Department/Department Name Input Field'
+
+2017-10-12 15:08:51 - [MESSAGE][PASSED] - Text 'Trial' is set on object 'Object Repository/User Management/Add Department/Manage Department/Department Name Input Field'
+
+2017-10-12 15:08:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Add Department/Manage Department/Add Department Button' is clicked on
+
+2017-10-12 15:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Add Department/Manage Department/Add Department Button' is clicked on
+
+2017-10-12 15:08:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Add Department/Manage Department/Trial added successfully' is present
+
+2017-10-12 15:08:52 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Add Department/Manage Department/Trial added successfully' is present
+
+2017-10-12 15:08:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-12 15:08:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-12 15:08:24 - [TEST_SUITE][PASSED] - Add Department: Test Cases/User Management/Department/Add Department]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

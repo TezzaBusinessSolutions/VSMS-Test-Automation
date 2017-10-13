@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Update Profile,,Updating Profile,2017-10-12 14:04:24,2017-10-12 14:04:28,3.459s,ERROR
+,,,,,,
+Test Cases/Profile/Update Profile - Iteration 1,,"Update profile, Excluding the Profile Pic",2017-10-12 14:04:25,2017-10-12 14:04:27,2.027s,ERROR
+callTestCase,,,2017-10-12 14:04:26,2017-10-12 14:04:27,0.616s,FAILED
+,,,,,,
+Test Cases/Profile/Update Profile - Iteration 2,,"Update profile, Excluding the Profile Pic",2017-10-12 14:04:27,2017-10-12 14:04:27,0.403s,ERROR
+callTestCase,,,2017-10-12 14:04:27,2017-10-12 14:04:27,0.150s,FAILED

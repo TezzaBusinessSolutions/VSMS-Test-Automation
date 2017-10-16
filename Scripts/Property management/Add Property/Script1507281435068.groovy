@@ -52,3 +52,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
 
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
+

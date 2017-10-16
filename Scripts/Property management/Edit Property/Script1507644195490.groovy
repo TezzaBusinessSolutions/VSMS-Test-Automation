@@ -37,3 +37,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Property Management/Edit Property/Update'))
 
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

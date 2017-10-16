@@ -34,3 +34,5 @@ WebUI.setText(findTestObject('Visitor Management/Edit visitor/Page_Visitor Secur
 
 WebUI.click(findTestObject('Visitor Management/Edit visitor/button_Update'))
 
+WebUI.closeBrowser()
+

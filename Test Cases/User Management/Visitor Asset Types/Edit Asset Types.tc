@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>updating asset types</description>
+   <name>Edit Asset Types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de91b99b-e54b-4344-b75d-318e6f0b5873</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99eaf7e4-2263-4421-acc3-0c05c51a96d4</id>
+      <masked>false</masked>
+      <name>var_editAssetName</name>
+   </variable>
+</TestCaseEntity>

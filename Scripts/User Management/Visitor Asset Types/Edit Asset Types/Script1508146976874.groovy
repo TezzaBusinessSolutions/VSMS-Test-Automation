@@ -21,18 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Visitor Management/common objects/a_Modules'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_Modules'))
 
-WebUI.click(findTestObject('Visitor Management/common objects/a_Visitor Management'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_User  Management'))
 
-WebUI.click(findTestObject('Visitor Management/common objects/a_Visitor'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
 
-WebUI.click(findTestObject('Visitor Management/Edit visitor/a_bella'))
+WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
 
-WebUI.setText(findTestObject('Visitor Management/Edit visitor/Page_Visitor Security Management Sy/input_first_name'), var_editname, 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('User Management/Visitor Asset Types/i_fa fa-edit'))
 
-WebUI.click(findTestObject('Visitor Management/Edit visitor/button_Update'))
+WebUI.setText(findTestObject('User Management/Visitor Asset Types/edit_asset_description'), var_editAssetName)
+
+WebUI.click(findTestObject('User Management/Visitor Asset Types/button_Update'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

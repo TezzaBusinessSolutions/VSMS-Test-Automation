@@ -58,3 +58,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Visitor Management/Add Visitor/Save Visitor'))
 
+WebUI.closeBrowser()
+

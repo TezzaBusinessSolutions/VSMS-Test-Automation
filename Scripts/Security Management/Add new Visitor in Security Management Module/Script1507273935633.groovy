@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Dashboard Page/a_Modules'))
 
 WebUI.click(findTestObject('Dashboard Page/a_Security Management'))

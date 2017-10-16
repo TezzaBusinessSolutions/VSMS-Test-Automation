@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Update Profile" time="109" tests="0" failures="2" errors="0">
+   <testsuite name="Update Profile" tests="0" failures="2" errors="0" time="109" timestamp="2017-10-13 10:12:15" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Profile/Update Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878783711.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878790003.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878830375.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878836516.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="63f428e2ea0a0bbca3b25bf51dbcceef"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Profile/Update Profile - Iteration 1" classname="Test Cases/Profile/Update Profile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-10-13 10:12:15 - [TEST_CASE][FAILED] - Test Cases/Profile/Update Profile - Iteration 1: Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-13 10:12:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 10:12:16 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-13 10:12:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 10:12:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 10:12:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 10:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 10:12:44 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 10:12:46 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 10:12:46 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 10:12:46 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 10:12:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 10:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 10:12:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 10:12:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-13 10:12:53 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-13 10:12:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Nav Bar/a_dropdown-toggle' is clicked on
+
+2017-10-13 10:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Nav Bar/a_dropdown-toggle' is clicked on
+
+2017-10-13 10:12:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Nav Bar/a_My Profile' is clicked on
+
+2017-10-13 10:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Nav Bar/a_My Profile' is clicked on
+
+2017-10-13 10:12:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mr' are selected in object 'Object Repository/Profile/Profile Page/select_title' 
+
+2017-10-13 10:12:57 - [MESSAGE][PASSED] - All options with value 'Mr' are selected in object 'Object Repository/Profile/Profile Page/select_title' 
+
+2017-10-13 10:12:57 - [TEST_STEP][PASSED] - setText: Text 'Madiba' is set on object 'Object Repository/Profile/Profile Page/FirstName'
+
+2017-10-13 10:12:59 - [MESSAGE][PASSED] - Text 'Madiba' is set on object 'Object Repository/Profile/Profile Page/FirstName'
+
+2017-10-13 10:12:59 - [TEST_STEP][PASSED] - setText: Text 'Mandela' is set on object 'Object Repository/Profile/Profile Page/LastName'
+
+2017-10-13 10:12:59 - [MESSAGE][PASSED] - Text 'Mandela' is set on object 'Object Repository/Profile/Profile Page/LastName'
+
+2017-10-13 10:12:59 - [TEST_STEP][PASSED] - setText: Text 'Tester' is set on object 'Object Repository/Profile/Profile Page/Job Title'
+
+2017-10-13 10:13:00 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Profile/Profile Page/Job Title'
+
+2017-10-13 10:13:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'number:101' are selected in object 'Object Repository/Profile/Profile Page/Department' 
+
+2017-10-13 10:13:00 - [MESSAGE][PASSED] - All options with value 'number:101' are selected in object 'Object Repository/Profile/Profile Page/Department' 
+
+2017-10-13 10:13:00 - [TEST_STEP][PASSED] - setText: Text '0725165229' is set on object 'Object Repository/Profile/Profile Page/Phone'
+
+2017-10-13 10:13:01 - [MESSAGE][PASSED] - Text '0725165229' is set on object 'Object Repository/Profile/Profile Page/Phone'
+
+2017-10-13 10:13:01 - [TEST_STEP][PASSED] - setText: Text '0725167892' is set on object 'Object Repository/Profile/Profile Page/Alt Phone'
+
+2017-10-13 10:13:01 - [MESSAGE][PASSED] - Text '0725167892' is set on object 'Object Repository/Profile/Profile Page/Alt Phone'
+
+2017-10-13 10:13:01 - [TEST_STEP][PASSED] - setText: Text 'dennisgituto@yahoo.com' is set on object 'Object Repository/Profile/Profile Page/Alt Email'
+
+2017-10-13 10:13:02 - [MESSAGE][PASSED] - Text 'dennisgituto@yahoo.com' is set on object 'Object Repository/Profile/Profile Page/Alt Email'
+
+2017-10-13 10:13:02 - [TEST_STEP][PASSED] - setText: Text '6789' is set on object 'Object Repository/Profile/Profile Page/Address 1'
+
+2017-10-13 10:13:02 - [MESSAGE][PASSED] - Text '6789' is set on object 'Object Repository/Profile/Profile Page/Address 1'
+
+2017-10-13 10:13:02 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Profile/Profile Page/Address 2'
+
+2017-10-13 10:13:02 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Profile/Profile Page/Address 2'
+
+2017-10-13 10:13:02 - [TEST_STEP][PASSED] - setText: Text 'Nairobi' is set on object 'Object Repository/Profile/Profile Page/City'
+
+2017-10-13 10:13:03 - [MESSAGE][PASSED] - Text 'Nairobi' is set on object 'Object Repository/Profile/Profile Page/City'
+
+2017-10-13 10:13:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Kenya' are selected in object 'Object Repository/Profile/Profile Page/Country' 
+
+2017-10-13 10:13:03 - [MESSAGE][PASSED] - All options with value 'Kenya' are selected in object 'Object Repository/Profile/Profile Page/Country' 
+
+2017-10-13 10:13:03 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-13 10:13:04 - [MESSAGE][FAILED] - Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878783711.png]]
+
+2017-10-13 10:13:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-13 10:13:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-13 10:13:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Profile/Profile Page/button_Update' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-primary pull-right" ng-click="updatemyprofile(myprofileForm.$valid, myprofile.id)">...</button> is not clickable at point (1159, 495). Other element would receive the click: <div class="fab" id="fabs">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 246 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir6664_10057}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 584c2639a1cd06145b49f6d881c0299e)
+
+2017-10-13 10:13:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Profile/Profile Page/button_Update' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-primary pull-right" ng-click="updatemyprofile(myprofileForm.$valid, myprofile.id)">...</button> is not clickable at point (1159, 495). Other element would receive the click: <div class="fab" id="fabs">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 246 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir6664_10057}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 584c2639a1cd06145b49f6d881c0299e)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878790003.png]]
+
+2017-10-13 10:13:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-13 10:13:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-13 10:13:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-13 10:13:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-13 10:12:15 - [TEST_CASE][FAILED] - Test Cases/Profile/Update Profile - Iteration 1: Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Profile/Update Profile - Iteration 2" classname="Test Cases/Profile/Update Profile" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2017-10-13 10:13:20 - [TEST_CASE][FAILED] - Test Cases/Profile/Update Profile - Iteration 2: Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-13 10:13:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 10:13:20 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-13 10:13:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 10:13:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-13 10:13:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 10:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-13 10:13:35 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 10:13:36 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-13 10:13:36 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 10:13:36 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-13 10:13:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 10:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-13 10:13:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-13 10:13:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-13 10:13:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-13 10:13:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Nav Bar/a_dropdown-toggle' is clicked on
+
+2017-10-13 10:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Nav Bar/a_dropdown-toggle' is clicked on
+
+2017-10-13 10:13:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Nav Bar/a_My Profile' is clicked on
+
+2017-10-13 10:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Nav Bar/a_My Profile' is clicked on
+
+2017-10-13 10:13:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mr' are selected in object 'Object Repository/Profile/Profile Page/select_title' 
+
+2017-10-13 10:13:45 - [MESSAGE][PASSED] - All options with value 'Mr' are selected in object 'Object Repository/Profile/Profile Page/select_title' 
+
+2017-10-13 10:13:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/FirstName'
+
+2017-10-13 10:13:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/FirstName'
+
+2017-10-13 10:13:46 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/LastName'
+
+2017-10-13 10:13:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/LastName'
+
+2017-10-13 10:13:46 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/Job Title'
+
+2017-10-13 10:13:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/Job Title'
+
+2017-10-13 10:13:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'number:101' are selected in object 'Object Repository/Profile/Profile Page/Department' 
+
+2017-10-13 10:13:47 - [MESSAGE][PASSED] - All options with value 'number:101' are selected in object 'Object Repository/Profile/Profile Page/Department' 
+
+2017-10-13 10:13:47 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/Phone'
+
+2017-10-13 10:13:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/Phone'
+
+2017-10-13 10:13:47 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/Alt Phone'
+
+2017-10-13 10:13:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/Alt Phone'
+
+2017-10-13 10:13:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/Alt Email'
+
+2017-10-13 10:13:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/Alt Email'
+
+2017-10-13 10:13:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/Address 1'
+
+2017-10-13 10:13:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/Address 1'
+
+2017-10-13 10:13:49 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/Address 2'
+
+2017-10-13 10:13:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/Address 2'
+
+2017-10-13 10:13:49 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Profile/Profile Page/City'
+
+2017-10-13 10:13:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Profile/Profile Page/City'
+
+2017-10-13 10:13:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Kenya' are selected in object 'Object Repository/Profile/Profile Page/Country' 
+
+2017-10-13 10:13:50 - [MESSAGE][PASSED] - All options with value 'Kenya' are selected in object 'Object Repository/Profile/Profile Page/Country' 
+
+2017-10-13 10:13:50 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-13 10:13:50 - [MESSAGE][FAILED] - Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878830375.png]]
+
+2017-10-13 10:13:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-13 10:13:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-13 10:13:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Profile/Profile Page/button_Update' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-primary pull-right" ng-click="updatemyprofile(myprofileForm.$valid, myprofile.id)">...</button> is not clickable at point (1159, 494). Other element would receive the click: <div class="fab" id="fabs">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 291 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10372_20691}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 63f428e2ea0a0bbca3b25bf51dbcceef)
+
+2017-10-13 10:13:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Profile/Profile Page/button_Update' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-primary pull-right" ng-click="updatemyprofile(myprofileForm.$valid, myprofile.id)">...</button> is not clickable at point (1159, 494). Other element would receive the click: <div class="fab" id="fabs">...</div>
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 291 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10372_20691}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 63f428e2ea0a0bbca3b25bf51dbcceef)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171013_101209\\1507878836516.png]]
+
+2017-10-13 10:13:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-13 10:14:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-13 10:14:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-13 10:14:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-13 10:13:20 - [TEST_CASE][FAILED] - Test Cases/Profile/Update Profile - Iteration 2: Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-13 10:12:15 - [TEST_SUITE][FAILED] - Update Profile: Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2017-10-13 10:12:15 - [TEST_SUITE][FAILED] - Update Profile: Test Cases/Profile/Update Profile FAILED because (of) Unable to select option by value 'Nairobi' of object 'Object Repository/Profile/Profile Page/State'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Nairobi
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

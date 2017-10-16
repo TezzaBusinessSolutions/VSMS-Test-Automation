@@ -25,8 +25,6 @@ WebUI.navigateToUrl(var_url)
 
 WebUI.maximizeWindow()
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('Request A meeting/Request meeting Page/button_REQUEST A MEETING'))
 
 WebUI.delay(5)

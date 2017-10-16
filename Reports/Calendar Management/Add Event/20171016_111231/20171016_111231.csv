@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Event,,Add Event in the Calendar Management Module,2017-10-16 11:13:23,2017-10-16 11:14:26,1m - 3.273s,FAILED
+,,,,,,
+Test Cases/Calendar Management/Add new Event,,Add new Event,2017-10-16 11:13:27,2017-10-16 11:14:26,58.121s,FAILED
+callTestCase,,,2017-10-16 11:13:34,2017-10-16 11:14:25,51.506s,FAILED

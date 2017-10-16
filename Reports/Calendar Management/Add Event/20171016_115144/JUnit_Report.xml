@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Event" time="95" tests="0" failures="1" errors="0">
+   <testsuite name="Add Event" tests="0" failures="1" errors="0" time="95" timestamp="2017-10-16 11:51:55" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Calendar Management/Add Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144000188.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144001987.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144003346.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144004388.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144005232.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144006126.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144007631.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144008486.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="6f859287-c3f3-4c73-a4f4-52785a190e74"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Add new Event" classname="Test Cases/Calendar Management/Add new Event" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;button class=&quot;btn btn-default&quot; ng-click=&quot;addevent()&quot; data-toggle=&quot;tooltip&quot; title=&quot;Add New Event&quot;>&lt;/button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: &lt;div class=&quot;loader&quot; ng-show=&quot;loader&quot;>&lt;/div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)"/>
+         <system-out><![CDATA[2017-10-16 11:51:56 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element <button class="btn btn-default" ng-click="addevent()" data-toggle="tooltip" title="Add New Event"></button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: <div class="loader" ng-show="loader"></div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:51:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-16 11:51:58 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-16 11:51:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-16 11:52:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-16 11:52:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-16 11:52:43 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-16 11:52:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-16 11:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-16 11:52:45 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-16 11:52:57 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-16 11:52:57 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-16 11:52:59 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-16 11:52:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-16 11:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-16 11:53:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-16 11:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-16 11:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-16 11:53:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-10-16 11:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-10-16 11:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-10-16 11:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-10-16 11:53:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element <button class="btn btn-default" ng-click="addevent()" data-toggle="tooltip" title="Add New Event"></button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: <div class="loader" ng-show="loader"></div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element <button class="btn btn-default" ng-click="addevent()" data-toggle="tooltip" title="Add New Event"></button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: <div class="loader" ng-show="loader"></div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144000188.png]]
+
+2017-10-16 11:53:21 - [TEST_STEP][FAILED] - setText: Unable to set text 'Developer's Interview' of object 'Object Repository/Calendar Management/Add new Event/Title' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 165 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:22 - [MESSAGE][FAILED] - Unable to set text 'Developer's Interview' of object 'Object Repository/Calendar Management/Add new Event/Title' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 165 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144001987.png]]
+
+2017-10-16 11:53:22 - [TEST_STEP][FAILED] - setText: Unable to set text '10/12/17' of object 'Object Repository/Calendar Management/Add new Event/Start Date' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 108 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:23 - [MESSAGE][FAILED] - Unable to set text '10/12/17' of object 'Object Repository/Calendar Management/Add new Event/Start Date' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 108 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144003346.png]]
+
+2017-10-16 11:53:23 - [TEST_STEP][FAILED] - setText: Unable to set text '1300' of object 'Object Repository/Calendar Management/Add new Event/Start Time' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 83 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:24 - [MESSAGE][FAILED] - Unable to set text '1300' of object 'Object Repository/Calendar Management/Add new Event/Start Time' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 83 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144004388.png]]
+
+2017-10-16 11:53:24 - [TEST_STEP][FAILED] - setText: Unable to set text '10/12/17' of object 'Object Repository/Calendar Management/Add new Event/End Date' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 51 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:25 - [MESSAGE][FAILED] - Unable to set text '10/12/17' of object 'Object Repository/Calendar Management/Add new Event/End Date' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 51 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144005232.png]]
+
+2017-10-16 11:53:25 - [TEST_STEP][FAILED] - setText: Unable to set text '1800' of object 'Object Repository/Calendar Management/Add new Event/End Time' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 118 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:26 - [MESSAGE][FAILED] - Unable to set text '1800' of object 'Object Repository/Calendar Management/Add new Event/End Time' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 118 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144006126.png]]
+
+2017-10-16 11:53:26 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-10-16 11:53:27 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-10-16 11:53:27 - [TEST_STEP][FAILED] - setText: Unable to set text 'C# Developers Interview' of object 'Object Repository/Calendar Management/Add new Event/Description' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 93 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:28 - [MESSAGE][FAILED] - Unable to set text 'C# Developers Interview' of object 'Object Repository/Calendar Management/Add new Event/Description' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 93 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144007631.png]]
+
+2017-10-16 11:53:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Calendar Management/Add new Event/Save Event Button' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 60 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+
+2017-10-16 11:53:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Calendar Management/Add new Event/Save Event Button' (Root cause: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 60 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_115144\\1508144008486.png]]
+
+2017-10-16 11:53:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-16 11:53:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-10-16 11:51:56 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element <button class="btn btn-default" ng-click="addevent()" data-toggle="tooltip" title="Add New Event"></button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: <div class="loader" ng-show="loader"></div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-16 11:51:55 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element <button class="btn btn-default" ng-click="addevent()" data-toggle="tooltip" title="Add New Event"></button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: <div class="loader" ng-show="loader"></div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)]]></system-out>
+      <system-err><![CDATA[2017-10-16 11:51:55 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Calendar Management/Add new Event/New Event' (Root cause: org.openqa.selenium.WebDriverException: Element <button class="btn btn-default" ng-click="addevent()" data-toggle="tooltip" title="Add New Event"></button> is not clickable at point (1151.4666748046875, 379.20001220703125). Other element would receive the click: <div class="loader" ng-show="loader"></div>
+Command duration or timeout: 3.92 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=55.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6f859287-c3f3-4c73-a4f4-52785a190e74)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Event" time="63" tests="0" failures="1" errors="0">
+   <testsuite name="Add Event" tests="0" failures="1" errors="0" time="63" timestamp="2017-10-16 11:13:23" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Calendar Management/Add Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_111231"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171016_111231\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Add new Event" classname="Test Cases/Calendar Management/Add new Event" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)"/>
+         <system-out><![CDATA[2017-10-16 11:13:27 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2017-10-16 11:13:34 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/LOGIN' (Root cause: Call Test Case 'Test Cases/LOGIN' failed)
+
+2017-10-16 11:13:34 - [TEST_CASE][FAILED] - Test Cases/LOGIN: Test Cases/LOGIN FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2017-10-16 11:13:35 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2017-10-16 11:14:23 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2017-10-16 11:14:23 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-16 11:14:24 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-16 11:14:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [TEST_STEP][FAILED] - setText: Unable to set text 'clarinenyauncho@gmail.com' of object 'Object Repository/login/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-16 11:14:25 - [MESSAGE][FAILED] - Unable to set text 'clarinenyauncho@gmail.com' of object 'Object Repository/login/input_email' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [TEST_STEP][FAILED] - setText: Unable to set text 'changeme' of object 'Object Repository/login/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-16 11:14:25 - [MESSAGE][FAILED] - Unable to set text 'changeme' of object 'Object Repository/login/input_password' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/login/button_Login' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-16 11:14:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login/button_Login' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-16 11:14:25 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/LOGIN' (Root cause: Call Test Case 'Test Cases/LOGIN' failed)]]></system-out>
+         <system-err><![CDATA[2017-10-16 11:13:27 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-16 11:13:23 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)]]></system-out>
+      <system-err><![CDATA[2017-10-16 11:13:23 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)]]></system-err>
+   </testsuite>
+</testsuites>

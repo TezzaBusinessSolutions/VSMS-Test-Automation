@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Event,Firefox 55.0,Add Event in the Calendar Management Module,2017-10-16 11:51:55,2017-10-16 11:53:31,1m - 35.968s,FAILED
+,,,,,,
+Test Cases/Calendar Management/Add new Event,Firefox 55.0,Add new Event,2017-10-16 11:51:56,2017-10-16 11:53:31,1m - 34.587s,FAILED
+callTestCase,Firefox 55.0,,2017-10-16 11:51:58,2017-10-16 11:53:07,1m - 9.504s,PASSED
+click,Firefox 55.0,,2017-10-16 11:53:07,2017-10-16 11:53:09,1.524s,PASSED
+click,Firefox 55.0,,2017-10-16 11:53:09,2017-10-16 11:53:10,0.711s,PASSED
+click,Firefox 55.0,,2017-10-16 11:53:10,2017-10-16 11:53:10,0.596s,PASSED
+click,Firefox 55.0,,2017-10-16 11:53:10,2017-10-16 11:53:21,10.331s,FAILED
+setText,Firefox 55.0,,2017-10-16 11:53:21,2017-10-16 11:53:22,1.455s,FAILED
+setText,Firefox 55.0,,2017-10-16 11:53:22,2017-10-16 11:53:23,1.204s,FAILED
+setText,Firefox 55.0,,2017-10-16 11:53:23,2017-10-16 11:53:24,1.002s,FAILED
+setText,Firefox 55.0,,2017-10-16 11:53:24,2017-10-16 11:53:25,0.741s,FAILED
+setText,Firefox 55.0,,2017-10-16 11:53:25,2017-10-16 11:53:26,1.039s,FAILED
+selectOptionByValue,Firefox 55.0,,2017-10-16 11:53:26,2017-10-16 11:53:27,0.825s,PASSED
+setText,Firefox 55.0,,2017-10-16 11:53:27,2017-10-16 11:53:28,0.641s,FAILED
+click,Firefox 55.0,,2017-10-16 11:53:28,2017-10-16 11:53:28,0.711s,FAILED
+closeBrowser,Firefox 55.0,,2017-10-16 11:53:28,2017-10-16 11:53:31,2.607s,PASSED

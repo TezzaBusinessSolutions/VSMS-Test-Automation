@@ -45,3 +45,5 @@ WebUI.setText(findTestObject('Calendar Management/Add new Event/Description'), v
 
 WebUI.click(findTestObject('Calendar Management/Add new Event/Save Event Button'))
 
+WebUI.closeBrowser()
+

@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;step11&quot;)</value>
+      <value>.//*[contains(@id,'step11')]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

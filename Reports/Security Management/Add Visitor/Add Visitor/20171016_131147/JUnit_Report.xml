@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Visitor" time="51" tests="1" failures="0" errors="0">
+   <testsuite name="Add Visitor" tests="1" failures="0" errors="0" time="51" timestamp="2017-10-16 13:11:52" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Security Management/Add Visitor/Add Visitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171016_131147"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171016_131147\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="05fcba6bd7a55866fe87f222e62ad26a"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Security Management/Add new Visitor in Security Management Module" classname="Test Cases/Security Management/Add new Visitor in Security Management Module" status="PASSED">
+         <system-out><![CDATA[2017-10-16 13:11:54 - [TEST_CASE][PASSED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module
+
+2017-10-16 13:11:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-16 13:11:56 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-16 13:11:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-16 13:12:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-16 13:12:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-16 13:12:12 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-16 13:12:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-16 13:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-16 13:12:15 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-16 13:12:16 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-16 13:12:16 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-16 13:12:17 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-16 13:12:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-16 13:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-16 13:12:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-16 13:12:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-16 13:12:21 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-16 13:12:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-16 13:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-16 13:12:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Security Management' is clicked on
+
+2017-10-16 13:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Security Management' is clicked on
+
+2017-10-16 13:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Security' is clicked on
+
+2017-10-16 13:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Security' is clicked on
+
+2017-10-16 13:12:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Visitor Page/New Visitor Button' is clicked on
+
+2017-10-16 13:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Visitor Page/New Visitor Button' is clicked on
+
+2017-10-16 13:12:25 - [TEST_STEP][PASSED] - setText: Text 'samwesh@gmail.com' is set on object 'Object Repository/Add Visitor Page/input_email'
+
+2017-10-16 13:12:26 - [MESSAGE][PASSED] - Text 'samwesh@gmail.com' is set on object 'Object Repository/Add Visitor Page/input_email'
+
+2017-10-16 13:12:26 - [TEST_STEP][PASSED] - setText: Text 'Sam' is set on object 'Object Repository/Add Visitor Page/input_first_name'
+
+2017-10-16 13:12:27 - [MESSAGE][PASSED] - Text 'Sam' is set on object 'Object Repository/Add Visitor Page/input_first_name'
+
+2017-10-16 13:12:27 - [TEST_STEP][PASSED] - setText: Text 'Wesh' is set on object 'Object Repository/Add Visitor Page/input_last_name'
+
+2017-10-16 13:12:28 - [MESSAGE][PASSED] - Text 'Wesh' is set on object 'Object Repository/Add Visitor Page/input_last_name'
+
+2017-10-16 13:12:28 - [TEST_STEP][PASSED] - setText: Text '0725167892' is set on object 'Object Repository/Add Visitor Page/input_phone'
+
+2017-10-16 13:12:28 - [MESSAGE][PASSED] - Text '0725167892' is set on object 'Object Repository/Add Visitor Page/input_phone'
+
+2017-10-16 13:12:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-16 13:12:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-16 13:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Visitor Page/button_Add Visitor' is clicked on
+
+2017-10-16 13:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Visitor Page/button_Add Visitor' is clicked on
+
+2017-10-16 13:12:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-16 13:12:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-16 13:12:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-16 13:12:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-16 13:11:52 - [TEST_SUITE][PASSED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

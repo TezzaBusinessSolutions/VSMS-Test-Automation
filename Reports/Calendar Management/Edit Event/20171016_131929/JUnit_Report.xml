@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Event" time="47" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Event" tests="1" failures="0" errors="0" time="47" timestamp="2017-10-16 13:19:34" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Calendar Management/Edit Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Edit Event\\20171016_131929"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Edit Event\\20171016_131929\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.43.189"/>
+         <property name="sessionId" value="a22cd119e5bae193bc5fb4315a7c7bb7"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Update Event" classname="Test Cases/Calendar Management/Update Event" status="PASSED">
+         <system-out><![CDATA[2017-10-16 13:19:35 - [TEST_CASE][PASSED] - Test Cases/Calendar Management/Update Event: Test Cases/Calendar Management/Update Event
+
+2017-10-16 13:19:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-16 13:19:36 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2017-10-16 13:19:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-16 13:19:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-16 13:19:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-16 13:19:49 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-16 13:19:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-16 13:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-16 13:19:53 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-16 13:19:54 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-16 13:19:54 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-16 13:19:55 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-16 13:19:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-16 13:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-16 13:19:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LOGIN' successfully
+
+2017-10-16 13:19:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-16 13:19:59 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-16 13:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-16 13:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-16 13:20:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-10-16 13:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-10-16 13:20:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-10-16 13:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-10-16 13:20:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Calendar Management/Update Event/Even to update' is clicked on
+
+2017-10-16 13:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar Management/Update Event/Even to update' is clicked on
+
+2017-10-16 13:20:07 - [TEST_STEP][PASSED] - setText: Text 'Board Meetings' is set on object 'Object Repository/Calendar Management/Add new Event/Title'
+
+2017-10-16 13:20:09 - [MESSAGE][PASSED] - Text 'Board Meetings' is set on object 'Object Repository/Calendar Management/Add new Event/Title'
+
+2017-10-16 13:20:09 - [TEST_STEP][PASSED] - setText: Text '10/28/17' is set on object 'Object Repository/Calendar Management/Add new Event/Start Date'
+
+2017-10-16 13:20:10 - [MESSAGE][PASSED] - Text '10/28/17' is set on object 'Object Repository/Calendar Management/Add new Event/Start Date'
+
+2017-10-16 13:20:10 - [TEST_STEP][PASSED] - setText: Text '1300' is set on object 'Object Repository/Calendar Management/Add new Event/Start Time'
+
+2017-10-16 13:20:10 - [MESSAGE][PASSED] - Text '1300' is set on object 'Object Repository/Calendar Management/Add new Event/Start Time'
+
+2017-10-16 13:20:10 - [TEST_STEP][PASSED] - setText: Text '10/28/17' is set on object 'Object Repository/Calendar Management/Add new Event/End Date'
+
+2017-10-16 13:20:11 - [MESSAGE][PASSED] - Text '10/28/17' is set on object 'Object Repository/Calendar Management/Add new Event/End Date'
+
+2017-10-16 13:20:11 - [TEST_STEP][PASSED] - setText: Text '1800' is set on object 'Object Repository/Calendar Management/Add new Event/End Time'
+
+2017-10-16 13:20:12 - [MESSAGE][PASSED] - Text '1800' is set on object 'Object Repository/Calendar Management/Add new Event/End Time'
+
+2017-10-16 13:20:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-10-16 13:20:12 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-10-16 13:20:12 - [TEST_STEP][PASSED] - setText: Text 'Share-Holders Meeting' is set on object 'Object Repository/Calendar Management/Add new Event/Description'
+
+2017-10-16 13:20:13 - [MESSAGE][PASSED] - Text 'Share-Holders Meeting' is set on object 'Object Repository/Calendar Management/Add new Event/Description'
+
+2017-10-16 13:20:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-16 13:20:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-16 13:20:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Calendar Management/Update Event/button_Update Event' is clicked on
+
+2017-10-16 13:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar Management/Update Event/button_Update Event' is clicked on
+
+2017-10-16 13:20:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-16 13:20:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-16 13:19:34 - [TEST_SUITE][PASSED] - Edit Event: Test Cases/Calendar Management/Update Event]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

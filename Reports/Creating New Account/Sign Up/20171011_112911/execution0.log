@@ -1134,3 +1134,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/Creating New Account/Dont have account link/a_Dont have an account&amp;apos; located by &amp;apos;By.xpath: id(\&amp;quot;wrapper\&amp;quot;)/div[@class=\&amp;quot;container\&amp;quot;]/div[@class=\&amp;quot;row\&amp;quot;]/div[@class=\&amp;quot;col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2 lgin\&amp;quot;]/div[@class=\&amp;quot;login-panel panel panel-default\&amp;quot;]/div[@class=\&amp;quot;panel-body\&amp;quot;]/form[@class=\&amp;quot;form-horizontal\&amp;quot;]/fieldset[1]/a[@class=\&amp;quot;btn btn-link\&amp;quot;][count(. | //*[@href = &amp;apos;https://sandbox.vsms.tezzasolutions.com/pricing&amp;apos;]) = count(//*[@href = &amp;apos;https://sandbox.vsms.tezzasolutions.com/pricing&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

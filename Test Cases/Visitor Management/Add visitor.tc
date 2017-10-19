@@ -3,6 +3,32 @@
    <description>adding a visitor in VSMS</description>
    <name>Add visitor</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998746</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add visitor</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312662</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-25</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567114</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>221af866-6dd8-4223-aef6-a120506cd821</testCaseGuid>
    <variable>

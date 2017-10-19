@@ -3,6 +3,32 @@
    <description>Add new Event</description>
    <name>Add new Event</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998701</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add new Event</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312641</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-1</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567062</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>f79fd9c7-54ad-4347-94c3-4798c89cb03f</testCaseGuid>
    <variable>

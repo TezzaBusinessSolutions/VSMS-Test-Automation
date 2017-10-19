@@ -1685,3 +1685,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/Page_VSMS VSMS Sign Up (1)/li_AfricaNairobi - (UTC0300) N&amp;apos; located by &amp;apos;By.xpath: //li[count(. | id(\&amp;quot;select2-timezone-result-vp9s-Africa/Nairobi\&amp;quot;)) = count(id(\&amp;quot;select2-timezone-result-vp9s-Africa/Nairobi\&amp;quot;))][count(. | //*[@id = &amp;apos;select2-timezone-result-vp9s-Africa/Nairobi&amp;apos;]) = count(//*[@id = &amp;apos;select2-timezone-result-vp9s-Africa/Nairobi&amp;apos;])][count(. | //*[contains(.,&amp;apos;Africa/Nairobi - (UTC+03:00) Nairobi&amp;apos;)]) = count(//*[contains(.,&amp;apos;Africa/Nairobi - (UTC+03:00) Nairobi&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

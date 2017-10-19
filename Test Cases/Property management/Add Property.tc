@@ -3,6 +3,32 @@
    <description>adding a new property</description>
    <name>Add Property</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998709</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add Property</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312645</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-6</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567070</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>7183c7cb-1a59-4e2e-b819-a69c654a5d40</testCaseGuid>
    <variable>

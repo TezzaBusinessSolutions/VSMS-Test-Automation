@@ -2022,3 +2022,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/User Management/Edit Department/Edit Department Details/Trial1 updated successfully&amp;apos; located by &amp;apos;By.xpath: //p[count(. | //*[contains(.,&amp;apos;[Trial1] updated successfully&amp;apos;)]) = count(//*[contains(.,&amp;apos;[Trial1] updated successfully&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

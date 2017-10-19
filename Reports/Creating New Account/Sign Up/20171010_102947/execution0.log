@@ -1776,3 +1776,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/Creating New Account/Sign Up/Page_VSMS VSMS Sign Up/li_AfricaNairobi - (UTC0300) N&amp;apos; located by &amp;apos;By.xpath: //*[@id = &amp;apos;select2-timezone-result-h0z9-Africa/Nairobi&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

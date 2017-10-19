@@ -3,6 +3,32 @@
    <description></description>
    <name>Add New Group</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998719</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add New Group</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312652</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-14</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567083</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>b2e40df5-9be9-40a4-bb7b-ccdbc44b2386</testCaseGuid>
    <variable>

@@ -3,6 +3,32 @@
    <description>Add new Visitor in Security Management Module</description>
    <name>Add new Visitor in Security Management Module</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998715</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add new Visitor in Security Management Module</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312647</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-10</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567077</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>dbaa0995-67ca-4879-9fdf-548b6bedbc7a</testCaseGuid>
    <variable>

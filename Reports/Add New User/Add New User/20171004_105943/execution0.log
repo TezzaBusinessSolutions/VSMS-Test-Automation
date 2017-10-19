@@ -1996,3 +1996,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/Create New User/Add New User Objects/div_selected-flag&amp;apos; located by &amp;apos;By.xpath: //div[count(. | //*[@title = &amp;apos;Unknown&amp;apos;]) = count(//*[@title = &amp;apos;Unknown&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

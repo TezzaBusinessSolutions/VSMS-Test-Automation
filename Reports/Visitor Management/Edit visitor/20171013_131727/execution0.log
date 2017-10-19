@@ -1266,3 +1266,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/Visitor Management/Edit visitor/a_bella&amp;apos; located by &amp;apos;By.xpath: //a[count(. | //*[contains(.,&amp;apos;bella&amp;apos;)]) = count(//*[contains(.,&amp;apos;bella&amp;apos;)])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

@@ -3,6 +3,32 @@
    <description>Leave Message</description>
    <name>Leave Message in Unscheduled Visit</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998716</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Leave Message in Unscheduled Visit</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312649</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-11</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567078</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>00ff40ff-dd9b-4d65-a8a4-6290f123a950</testCaseGuid>
    <variable>

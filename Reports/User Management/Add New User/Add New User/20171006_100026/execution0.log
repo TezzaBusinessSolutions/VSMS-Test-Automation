@@ -2380,3 +2380,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/User Management/Add New User/Add New User Objects/input_phone&amp;apos; located by &amp;apos;By.xpath: //input[count(. | //*[@id = &amp;apos;phone&amp;apos;]) = count(//*[@id = &amp;apos;phone&amp;apos;])][count(. | //*[@placeholder = &amp;apos;0712 123456&amp;apos;]) = count(//*[@placeholder = &amp;apos;0712 123456&amp;apos;])][count(. | //*[@type = &amp;apos;tel&amp;apos;]) = count(//*[@type = &amp;apos;tel&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

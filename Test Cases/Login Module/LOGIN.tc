@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>authenticating a VSMS user</description>
+   <name>LOGIN</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>17568339</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>LOGIN</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-29</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>14999573</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312830</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>d7048feb-783b-474e-97d4-2868fa94d379</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42143b0e-2ca2-4be5-b67b-09df69774589</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>094464f7-d019-4fc9-aaa1-c891fcd44ba7</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>

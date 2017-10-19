@@ -3,6 +3,32 @@
    <description>managing VSMS visitor types</description>
    <name>Add Visitor Types</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998744</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add Visitor Types</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312661</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-23</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567111</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>634e040e-cd8b-46e3-b011-008324afb7b9</testCaseGuid>
    <variable>

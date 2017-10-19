@@ -3,6 +3,32 @@
    <description></description>
    <name>Edit Department</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998718</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Edit Department</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312651</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-13</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567082</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>ee881276-7234-4968-8017-68df5bfabe82</testCaseGuid>
    <variable>

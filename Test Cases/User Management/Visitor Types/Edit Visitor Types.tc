@@ -3,6 +3,32 @@
    <description>editing the visitor types</description>
    <name>Edit Visitor Types</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998745</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Edit Visitor Types</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312661</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-24</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567112</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>14c75428-6fb1-4ce5-9e75-2cfd98ce0c03</testCaseGuid>
    <variable>

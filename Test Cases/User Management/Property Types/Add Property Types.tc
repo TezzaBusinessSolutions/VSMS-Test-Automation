@@ -3,6 +3,32 @@
    <description>adding property types</description>
    <name>Add Property Types</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998737</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Add Property Types</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312657</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-18</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567102</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>b396837b-becc-4927-83cb-7bb2b1e598d9</testCaseGuid>
    <variable>

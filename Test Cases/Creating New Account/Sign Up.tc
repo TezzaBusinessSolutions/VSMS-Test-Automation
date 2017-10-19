@@ -3,6 +3,32 @@
    <description></description>
    <name>Sign Up</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998703</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>Sign Up</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312642</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-3</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567064</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>773cfd32-70ce-4acc-8837-564e1661ebe3</testCaseGuid>
    <variable>

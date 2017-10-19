@@ -5018,7 +5018,6 @@ Session ID: 06e84c51918e372c8cb6c91ecd201fe7)</message>
 </record>
 </log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2017-10-04T10:30:15</date>
   <millis>1507102215203</millis>

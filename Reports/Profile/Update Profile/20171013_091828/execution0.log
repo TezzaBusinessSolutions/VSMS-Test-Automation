@@ -4186,3 +4186,4 @@ Driver info: driver.version: unknown)</message>
   <message>Finding web element with id: &amp;apos;Object Repository/login/button_Login&amp;apos; located by &amp;apos;By.xpath: //button[count(. | //*[contains(.,&amp;apos;Login&amp;apos;)]) = count(//*[contains(.,&amp;apos;Login&amp;apos;)])][count(. | //*[@type = &amp;apos;submit&amp;apos;]) = count(//*[@type = &amp;apos;submit&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>2</nestedLevel>
 </record>
+</log>

@@ -1888,3 +1888,4 @@
   <message>Finding web element with id: &amp;apos;Object Repository/Creating New Account/Sign Up/select_currency&amp;apos; located by &amp;apos;By.xpath: //select[count(. | //*[@name = &amp;apos;currency&amp;apos;]) = count(//*[@name = &amp;apos;currency&amp;apos;])][count(. | //*[@id = &amp;apos;currency&amp;apos;]) = count(//*[@id = &amp;apos;currency&amp;apos;])]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
   <nestedLevel>1</nestedLevel>
 </record>
+</log>

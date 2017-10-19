@@ -2011,10 +2011,7 @@ Session ID: 6eb10385-8124-4f38-8703-f16a7976b2af)</message>
   <message>End Test Suite : Sign Up</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2017-10-03T17:41:51</date>
   <millis>1507041711954</millis>

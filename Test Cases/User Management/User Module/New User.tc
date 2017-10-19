@@ -3,6 +3,32 @@
    <description></description>
    <name>New User</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>14998741</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>New User</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>3312658</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-21</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>17567107</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>e31fbdff-23b3-4e2b-84dd-5e557f71eae3</testCaseGuid>
    <variable>

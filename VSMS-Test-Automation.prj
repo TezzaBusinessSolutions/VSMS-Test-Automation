@@ -3,6 +3,20 @@
    <description></description>
    <name>VSMS-Test-Automation</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>0</key>
+            <value>{'testSuiteFolderMappeds':[],'name':'qConnect - Sample Project','testCaseFolderMappeds':[],'id':56715}</value>
+         </entry>
+         <entry>
+            <key>1</key>
+            <value>{'testSuiteFolderMappeds':['Test Suites'],'name':'VSMS Regression Testing','testCaseFolderMappeds':['Test Cases'],'id':57758}</value>
+         </entry>
+      </properties>
+      <type>PROJECT</type>
+   </integratedEntity>
    <UUID>aab400b7-4eb5-4fc8-bfb7-998be9dd1fc2</UUID>
    <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

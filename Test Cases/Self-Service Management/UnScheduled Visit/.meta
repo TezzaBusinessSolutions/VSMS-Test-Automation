@@ -3,23 +3,5 @@
    <description></description>
    <name>UnScheduled Visit</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>3312649</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>UnScheduled Visit</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312648</value>
-         </entry>
-      </properties>
-      <type>FOLDER</type>
-   </integratedEntity>
    <folderType>TESTCASE</folderType>
 </FolderEntity>

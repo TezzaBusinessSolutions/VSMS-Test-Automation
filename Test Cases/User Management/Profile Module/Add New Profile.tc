@@ -3,32 +3,6 @@
    <description></description>
    <name>Add New Profile</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>14998735</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Add New Profile</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312656</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-16</value>
-         </entry>
-         <entry>
-            <key>versionId</key>
-            <value>17567100</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>bb313977-e8eb-4470-8d44-d6ce5ab3dba7</testCaseGuid>
    <variable>

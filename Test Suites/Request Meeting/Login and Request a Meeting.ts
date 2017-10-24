@@ -4,7 +4,6 @@
    <name>Login and Request a Meeting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

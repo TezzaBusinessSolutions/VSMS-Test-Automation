@@ -3,32 +3,6 @@
    <description></description>
    <name>Edit Profile</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>14998736</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Edit Profile</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312656</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-17</value>
-         </entry>
-         <entry>
-            <key>versionId</key>
-            <value>17567101</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>92b78172-324d-4631-acdf-49dc70cf6fe8</testCaseGuid>
    <variable>

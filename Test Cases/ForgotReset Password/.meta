@@ -3,23 +3,5 @@
    <description>folder</description>
    <name>ForgotReset Password</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>3312643</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>ForgotReset Password</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312551</value>
-         </entry>
-      </properties>
-      <type>FOLDER</type>
-   </integratedEntity>
    <folderType>TESTCASE</folderType>
 </FolderEntity>

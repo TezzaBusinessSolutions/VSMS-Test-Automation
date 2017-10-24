@@ -3,32 +3,6 @@
    <description>editing property types</description>
    <name>Edit Property Types</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>14998738</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Edit Property Types</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312657</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-19</value>
-         </entry>
-         <entry>
-            <key>versionId</key>
-            <value>17567104</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>7f1c7926-87bb-44e0-9289-59f43c411cff</testCaseGuid>
    <variable>

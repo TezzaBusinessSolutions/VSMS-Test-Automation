@@ -3,32 +3,6 @@
    <description></description>
    <name>Add Asset Types</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>14998742</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Add Asset Types</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312660</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-22</value>
-         </entry>
-         <entry>
-            <key>versionId</key>
-            <value>17567109</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>9bb52ecd-d63d-4eeb-a1bf-e64942940c4c</testCaseGuid>
    <variable>

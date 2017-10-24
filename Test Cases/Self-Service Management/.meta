@@ -3,23 +3,5 @@
    <description></description>
    <name>Self-Service Management</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>3312648</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Self-Service Management</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312551</value>
-         </entry>
-      </properties>
-      <type>FOLDER</type>
-   </integratedEntity>
    <folderType>TESTCASE</folderType>
 </FolderEntity>

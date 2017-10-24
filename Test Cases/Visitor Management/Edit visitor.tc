@@ -3,32 +3,6 @@
    <description>editing a visitors details</description>
    <name>Edit visitor</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>14998747</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Edit visitor</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312662</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-26</value>
-         </entry>
-         <entry>
-            <key>versionId</key>
-            <value>17567116</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>16b07e6d-637b-44d0-96b7-e1d3a8ffec6f</testCaseGuid>
    <variable>

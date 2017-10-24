@@ -3,23 +3,5 @@
    <description></description>
    <name>Visitor Types</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>3312661</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Visitor Types</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312650</value>
-         </entry>
-      </properties>
-      <type>FOLDER</type>
-   </integratedEntity>
    <folderType>TESTCASE</folderType>
 </FolderEntity>

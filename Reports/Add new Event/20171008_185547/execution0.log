@@ -2515,4 +2515,72 @@ Driver info: driver.version: unknown)</message>
   <message>End Test Suite : Add new Event</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-24T12:28:22</date>
+  <millis>1508837302223</millis>
+  <sequence>2536</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>358</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Credentials&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-24T12:28:22</date>
+  <millis>1508837302286</millis>
+  <sequence>2537</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>358</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-24T12:28:22</date>
+  <millis>1508837302286</millis>
+  <sequence>2538</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>358</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Data Files\\Login Credentials.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-24T12:32:25</date>
+  <millis>1508837545291</millis>
+  <sequence>3250</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>387</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Credentials&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-24T12:32:25</date>
+  <millis>1508837545291</millis>
+  <sequence>3251</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>387</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-10-24T12:32:25</date>
+  <millis>1508837545291</millis>
+  <sequence>3252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>387</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Data Files\\Login Credentials.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>

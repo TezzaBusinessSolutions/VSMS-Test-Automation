@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="240" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="240" timestamp="2017-10-24 11:45:43" hostname="Stella - 192.168.56.1" id="Test Suites/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Login\\Login\\20171024_114521"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Login\\Login\\20171024_114521\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="48fe13828581774f21958c89ffc52fce"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Login Module/LOGIN - Iteration 1" classname="Test Cases/Login Module/LOGIN" status="PASSED">
+         <system-out><![CDATA[2017-10-24 11:45:44 - [TEST_CASE][PASSED] - Test Cases/Login Module/LOGIN - Iteration 1: Test Cases/Login Module/LOGIN
+
+2017-10-24 11:45:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-24 11:47:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-24 11:47:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-24 11:47:03 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-24 11:47:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-24 11:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-24 11:47:10 - [TEST_STEP][PASSED] - setText: Text 'changeme@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-24 11:47:11 - [MESSAGE][PASSED] - Text 'changeme@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-24 11:47:11 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-24 11:47:11 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-24 11:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-24 11:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/LOGIN - Iteration 2" classname="Test Cases/Login Module/LOGIN" status="PASSED">
+         <system-out><![CDATA[2017-10-24 11:47:12 - [TEST_CASE][PASSED] - Test Cases/Login Module/LOGIN - Iteration 2: Test Cases/Login Module/LOGIN
+
+2017-10-24 11:47:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-24 11:47:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-10-24 11:48:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-24 11:48:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-24 11:48:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-24 11:48:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-24 11:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-24 11:48:45 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-24 11:48:45 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-24 11:48:45 - [TEST_STEP][PASSED] - setText: Text 'wrongpass' is set on object 'Object Repository/login/input_password'
+
+2017-10-24 11:48:45 - [MESSAGE][PASSED] - Text 'wrongpass' is set on object 'Object Repository/login/input_password'
+
+2017-10-24 11:48:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-24 11:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/LOGIN - Iteration 3" classname="Test Cases/Login Module/LOGIN" status="PASSED">
+         <system-out><![CDATA[2017-10-24 11:48:50 - [TEST_CASE][PASSED] - Test Cases/Login Module/LOGIN - Iteration 3: Test Cases/Login Module/LOGIN
+
+2017-10-24 11:48:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-24 11:48:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-10-24 11:49:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-24 11:49:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-24 11:49:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-24 11:49:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-24 11:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-24 11:49:33 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-24 11:49:33 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-24 11:49:33 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-24 11:49:33 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-24 11:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-24 11:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-24 11:45:43 - [TEST_SUITE][PASSED] - Login: Test Cases/Login Module/LOGIN]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

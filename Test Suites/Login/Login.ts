@@ -3,8 +3,19 @@
    <description></description>
    <name>Login</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>0</key>
+            <value>{'parent':{'parentName':'','name':'VSMS Regression Testing','id':0,'type':6,'parentId':0},
+'default':true,'name':'Login','pid':'TS-13','id':1437161,'testRuns':[]}</value>
+         </entry>
+      </properties>
+      <type>TESTSUITE</type>
+   </integratedEntity>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-19T09:58:55</lastRun>
+   <lastRun>2017-10-24T12:32:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,13 +26,13 @@
       <guid>4404305c-e9e2-4e78-939f-a66766636e01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Module/LOGIN</testCaseId>
+      <testCaseId>Test Cases/Login Module/Test Login</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
          <id>07b7fcfc-60ce-4a16-a086-6c9b8416eaba</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>1-3</value>
          </iterationEntity>
          <testDataId>Data Files/Login Credentials</testDataId>
       </testDataLink>

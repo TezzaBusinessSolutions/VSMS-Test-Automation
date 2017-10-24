@@ -3,6 +3,7 @@
    <description></description>
    <name>Profile</name>
    <tag></tag>
+
    <integratedEntity>
       <productName>qTest</productName>
       <properties>
@@ -21,5 +22,6 @@
       </properties>
       <type>FOLDER</type>
    </integratedEntity>
+
    <folderType>TESTCASE</folderType>
 </FolderEntity>

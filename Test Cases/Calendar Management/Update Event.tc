@@ -3,32 +3,6 @@
    <description>Update Event in Calendar Management</description>
    <name>Update Event</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>id</key>
-            <value>14998702</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>Update Event</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312641</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-2</value>
-         </entry>
-         <entry>
-            <key>versionId</key>
-            <value>17567063</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>11a3538d-80f7-4e95-86a3-bb45f4948053</testCaseGuid>
    <variable>

@@ -3,32 +3,6 @@
    <description>authenticating a VSMS user</description>
    <name>LOGIN</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>qTest</productName>
-      <properties>
-         <entry>
-            <key>versionId</key>
-            <value>17568339</value>
-         </entry>
-         <entry>
-            <key>name</key>
-            <value>LOGIN</value>
-         </entry>
-         <entry>
-            <key>pid</key>
-            <value>TC-29</value>
-         </entry>
-         <entry>
-            <key>id</key>
-            <value>14999573</value>
-         </entry>
-         <entry>
-            <key>parentId</key>
-            <value>3312830</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
    <testCaseGuid>d7048feb-783b-474e-97d4-2868fa94d379</testCaseGuid>
    <variable>

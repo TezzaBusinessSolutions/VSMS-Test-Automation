@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn" time="166" tests="0" failures="1" errors="0">
+   <testsuite name="LogIn" tests="0" failures="1" errors="0" time="166" timestamp="2017-10-30 13:34:58" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/User Login/LogIn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359756039.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359790323.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359824014.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359860491.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="70c303638dc16ed8765411e15f4c4b9b"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common/LOGIN" classname="Test Cases/Common/LOGIN" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)"/>
+         <system-out><![CDATA[2017-10-30 13:35:01 - [TEST_CASE][FAILED] - Test Cases/Common/LOGIN: Test Cases/Common/LOGIN FAILED because (of) Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)
+
+2017-10-30 13:35:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-30 13:35:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-30 13:35:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-30 13:35:22 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-30 13:35:22 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)
+
+2017-10-30 13:35:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359756039.png]]
+
+2017-10-30 13:35:57 - [TEST_STEP][FAILED] - setText: Unable to set text 'clarinenyauncho@gmail.com' of object 'Object Repository/login/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/input_email' located by 'By.xpath: //input[count(. | //*[@name = 'email']) = count(//*[@name = 'email'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+
+2017-10-30 13:36:31 - [MESSAGE][FAILED] - Unable to set text 'clarinenyauncho@gmail.com' of object 'Object Repository/login/input_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/input_email' located by 'By.xpath: //input[count(. | //*[@name = 'email']) = count(//*[@name = 'email'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359790323.png]]
+
+2017-10-30 13:36:31 - [TEST_STEP][FAILED] - setText: Unable to set text 'changeme' of object 'Object Repository/login/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/input_password' located by 'By.xpath: //input[count(. | //*[@name = 'password']) = count(//*[@name = 'password'])][count(. | //*[@type = 'password']) = count(//*[@type = 'password'])]' not found)
+
+2017-10-30 13:37:04 - [MESSAGE][FAILED] - Unable to set text 'changeme' of object 'Object Repository/login/input_password' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/input_password' located by 'By.xpath: //input[count(. | //*[@name = 'password']) = count(//*[@name = 'password'])][count(. | //*[@type = 'password']) = count(//*[@type = 'password'])]' not found)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359824014.png]]
+
+2017-10-30 13:37:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/login/button_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/button_Login' located by 'By.xpath: //button[count(. | //*[contains(.,'Login')]) = count(//*[contains(.,'Login')])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]' not found)
+
+2017-10-30 13:37:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login/button_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/button_Login' located by 'By.xpath: //button[count(. | //*[contains(.,'Login')]) = count(//*[contains(.,'Login')])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]' not found)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171030_133445\\1509359860491.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-30 13:35:01 - [TEST_CASE][FAILED] - Test Cases/Common/LOGIN: Test Cases/Common/LOGIN FAILED because (of) Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-30 13:34:58 - [TEST_SUITE][FAILED] - LogIn: Test Cases/Common/LOGIN FAILED because (of) Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-10-30 13:34:58 - [TEST_SUITE][FAILED] - LogIn: Test Cases/Common/LOGIN FAILED because (of) Unable to click on object 'Object Repository/login/a_Log in' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/login/a_Log in' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/login']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/login'])][count(. | //*[contains(.,'Log in')]) = count(//*[contains(.,'Log in')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

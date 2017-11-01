@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Request Meeting,Chrome 61.0.3163.100,Request meeting commom steps,2017-11-01 15:54:44,2017-11-01 15:55:23,38.477s,PASSED
+,,,,,,
+Test Cases/Common/Request a Meeting,Chrome 61.0.3163.100,Contains all the common steps in Request Meeting,2017-11-01 15:54:45,2017-11-01 15:55:16,30.524s,PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-11-01 15:54:47,2017-11-01 15:55:04,17.590s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-11-01 15:55:04,2017-11-01 15:55:12,7.286s,PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-11-01 15:55:12,2017-11-01 15:55:13,1.703s,PASSED
+click,Chrome 61.0.3163.100,,2017-11-01 15:55:13,2017-11-01 15:55:16,2.452s,PASSED

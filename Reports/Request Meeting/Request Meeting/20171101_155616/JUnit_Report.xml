@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Request Meeting" time="28" tests="1" failures="0" errors="0">
+   <testsuite name="Request Meeting" tests="1" failures="0" errors="0" time="28" timestamp="2017-11-01 15:56:21" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Request Meeting/Request Meeting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Request Meeting\\20171101_155616"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Request Meeting\\20171101_155616\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.128"/>
+         <property name="sessionId" value="87f8eee1c230d772b3b30cc0effeb7b4"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Common/Request a Meeting" classname="Test Cases/Common/Request a Meeting" status="PASSED">
+         <system-out><![CDATA[2017-11-01 15:56:22 - [TEST_CASE][PASSED] - Test Cases/Common/Request a Meeting: Test Cases/Common/Request a Meeting
+
+2017-11-01 15:56:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-11-01 15:56:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-11-01 15:56:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-11-01 15:56:40 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-11-01 15:56:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-01 15:56:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-01 15:56:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-11-01 15:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-11-01 15:56:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-01 15:56:47 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-01 15:56:21 - [TEST_SUITE][PASSED] - Request Meeting: Test Cases/Common/Request a Meeting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -28,12 +28,6 @@
       <variableLink>
          <testDataLinkId>9981eb41-1a7d-44df-b142-59328080df24</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>url</value>
-         <variableId>155b6071-9428-477f-9952-94fab37dba83</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>9981eb41-1a7d-44df-b142-59328080df24</testDataLinkId>
-         <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>b44884a6-314a-4cc8-b78d-45a5f0072e31</variableId>
       </variableLink>

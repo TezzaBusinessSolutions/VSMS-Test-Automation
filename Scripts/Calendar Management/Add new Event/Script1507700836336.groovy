@@ -21,11 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard Page/a_Modules'))
-
-WebUI.click(findTestObject('Dashboard Page/a_Calendar Management'))
-
-WebUI.click(findTestObject('Dashboard Page/a_Calendar'))
+WebUI.callTestCase(findTestCase('Common/Calendar Management'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Calendar Management/Add new Event/New Event'))
 

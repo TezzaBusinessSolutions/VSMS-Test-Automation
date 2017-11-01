@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Contains the steps that are common across the st</description>
+   <name>Security Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1e5ae43-8a3f-4d9d-a401-9a47218ff25a</testCaseGuid>
+</TestCaseEntity>

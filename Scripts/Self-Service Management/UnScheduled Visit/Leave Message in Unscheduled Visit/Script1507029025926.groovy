@@ -23,11 +23,7 @@ WebUI.callTestCase(findTestCase('Common/LOGIN'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Dashboard Page/a_Modules'))
-
-WebUI.click(findTestObject('Dashboard Page/a_Self-Service Management'))
-
-WebUI.click(findTestObject('Dashboard Page/a_Self-Service'))
+WebUI.callTestCase(findTestCase('Common/Self-Service'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Self Service Management/Self-Service Page/Unscheduled Button'))
 

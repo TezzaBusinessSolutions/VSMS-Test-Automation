@@ -23,9 +23,7 @@ WebUI.callTestCase(findTestCase('Common/LOGIN'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Profile/Nav Bar/a_dropdown-toggle'))
-
-WebUI.click(findTestObject('Profile/Nav Bar/a_My Profile'))
+WebUI.callTestCase(findTestCase('Common/Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/select_title'), 'Mr', false)
 

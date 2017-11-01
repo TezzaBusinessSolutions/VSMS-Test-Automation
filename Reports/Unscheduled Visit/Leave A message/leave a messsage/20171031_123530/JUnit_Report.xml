@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="leave a messsage" time="55" tests="1" failures="0" errors="0">
+   <testsuite name="leave a messsage" tests="1" failures="0" errors="0" time="55" timestamp="2017-10-31 12:35:36" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Unscheduled Visit/Leave A message/leave a messsage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171031_123530"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171031_123530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.136"/>
+         <property name="sessionId" value="7de500a34cbde5db6aa6d7b8526891a8"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit" classname="Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit" status="PASSED">
+         <system-out><![CDATA[2017-10-31 12:35:37 - [TEST_CASE][PASSED] - Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit
+
+2017-10-31 12:35:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/LOGIN' successfully
+
+2017-10-31 12:35:40 - [TEST_CASE][PASSED] - Test Cases/Common/LOGIN: Test Cases/Common/LOGIN
+
+2017-10-31 12:35:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-31 12:36:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-31 12:36:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-31 12:36:01 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-31 12:36:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-31 12:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-31 12:36:06 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-31 12:36:07 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-31 12:36:07 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-31 12:36:08 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-31 12:36:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-31 12:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-31 12:36:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/LOGIN' successfully
+
+2017-10-31 12:36:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-31 12:36:11 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-31 12:36:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-31 12:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-10-31 12:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-10-31 12:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-10-31 12:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-10-31 12:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-10-31 12:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-10-31 12:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-10-31 12:36:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Leave a message Page/Leave Message Button' is clicked on
+
+2017-10-31 12:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Leave a message Page/Leave Message Button' is clicked on
+
+2017-10-31 12:36:17 - [TEST_STEP][PASSED] - setText: Text 'Shila' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_first_name'
+
+2017-10-31 12:36:18 - [MESSAGE][PASSED] - Text 'Shila' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_first_name'
+
+2017-10-31 12:36:18 - [TEST_STEP][PASSED] - setText: Text 'Zahra' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_last_name'
+
+2017-10-31 12:36:18 - [MESSAGE][PASSED] - Text 'Zahra' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_last_name'
+
+2017-10-31 12:36:18 - [TEST_STEP][PASSED] - setText: Text 'millicentkimwaki@gmail.com' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_email'
+
+2017-10-31 12:36:19 - [MESSAGE][PASSED] - Text 'millicentkimwaki@gmail.com' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_email'
+
+2017-10-31 12:36:19 - [TEST_STEP][PASSED] - setText: Text 'Shila Zahra' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_staff_name'
+
+2017-10-31 12:36:20 - [MESSAGE][PASSED] - Text 'Shila Zahra' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_staff_name'
+
+2017-10-31 12:36:20 - [TEST_STEP][PASSED] - setText: Text 'I was at your office we had the date set for today' is set on object 'Object Repository/Self Service Management/Leave a message Page/textarea_comment'
+
+2017-10-31 12:36:21 - [MESSAGE][PASSED] - Text 'I was at your office we had the date set for today' is set on object 'Object Repository/Self Service Management/Leave a message Page/textarea_comment'
+
+2017-10-31 12:36:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-31 12:36:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-31 12:36:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Leave a message Page/button_Submit' is clicked on
+
+2017-10-31 12:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Leave a message Page/button_Submit' is clicked on
+
+2017-10-31 12:36:27 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Error Message' located by 'By.xpath: //p[count(. | //*[@id = 'error']) = count(//*[@id = 'error'])][count(. | //*[contains(.,'Sorry that staff name does not exist')]) = count(//*[contains(.,'Sorry that staff name does not exist')])]' is not present after '5' second(s)
+
+2017-10-31 12:36:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Error Message' located by 'By.xpath: //p[count(. | //*[@id = 'error']) = count(//*[@id = 'error'])][count(. | //*[contains(.,'Sorry that staff name does not exist')]) = count(//*[contains(.,'Sorry that staff name does not exist')])]' is not present after '5' second(s)
+
+2017-10-31 12:36:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-31 12:36:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-31 12:35:36 - [TEST_SUITE][PASSED] - leave a messsage: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -8,13 +8,6 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>155b6071-9428-477f-9952-94fab37dba83</id>
-      <masked>false</masked>
-      <name>var_url</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>b44884a6-314a-4cc8-b78d-45a5f0072e31</id>
       <masked>false</masked>
       <name>var_email</name>

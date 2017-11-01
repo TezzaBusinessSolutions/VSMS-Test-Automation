@@ -19,15 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(var_url)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Request A meeting/Request meeting Page/button_REQUEST A MEETING'))
-
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Common/Request a Meeting'), [('var_url') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Request A meeting/Sign Up In Request Meeting/input_title'), var_title)
 

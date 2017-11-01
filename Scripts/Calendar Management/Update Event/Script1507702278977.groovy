@@ -23,11 +23,7 @@ WebUI.callTestCase(findTestCase('Common/LOGIN'), [:], FailureHandling.STOP_ON_FA
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Dashboard Page/a_Modules'))
-
-WebUI.click(findTestObject('Dashboard Page/a_Calendar Management'))
-
-WebUI.click(findTestObject('Dashboard Page/a_Calendar'))
+WebUI.callTestCase(findTestCase('Common/Calendar Management'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Calendar Management/Update Event/Even to update'))
 

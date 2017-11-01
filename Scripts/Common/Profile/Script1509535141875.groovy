@@ -19,31 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common/Request a Meeting'), [('var_url') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Profile/Nav Bar/a_dropdown-toggle'))
 
-WebUI.selectOptionByValue(findTestObject('Request A meeting/Login and Request a Meeting/select_tenant_id'), '3', false)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/input_email'), var_email)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/input_password'), var_password)
-
-WebUI.click(findTestObject('Request A meeting/Login and Request a Meeting/button_Login'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/input_staff_title'), var_staffTitle)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/input_staff_firstname'), var_firstName)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/input_staff_lastname'), var_lastName)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/input_staff_jobtitle'), var_staffJobTitle)
-
-WebUI.setText(findTestObject('Request A meeting/Login and Request a Meeting/textarea_purpose'), var_purpose)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Request A meeting/Login and Request a Meeting/button_Send'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Profile/Nav Bar/a_My Profile'))
 

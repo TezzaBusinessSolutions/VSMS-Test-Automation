@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 61.0.3163.100,,2017-10-31 11:34:42,2017-10-31 11:36:41,1m - 59.114s,PASSED
+,,,,,,
+Test Cases/Login Module/Test Login - Iteration 1,Chrome 61.0.3163.100,authenticating a VSMS user,2017-10-31 11:34:44,2017-10-31 11:35:41,56.376s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-31 11:34:46,2017-10-31 11:35:41,54.154s,PASSED
+,,,,,,
+Test Cases/Login Module/Test Login - Iteration 2,Chrome 61.0.3163.100,authenticating a VSMS user,2017-10-31 11:35:41,2017-10-31 11:36:15,34.088s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-31 11:35:41,2017-10-31 11:36:15,33.946s,PASSED
+,,,,,,
+Test Cases/Login Module/Test Login - Iteration 3,Chrome 61.0.3163.100,authenticating a VSMS user,2017-10-31 11:36:15,2017-10-31 11:36:39,24.364s,PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-31 11:36:15,2017-10-31 11:36:39,24.254s,PASSED

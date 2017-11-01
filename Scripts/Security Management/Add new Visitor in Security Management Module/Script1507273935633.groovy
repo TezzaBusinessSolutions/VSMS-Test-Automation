@@ -43,11 +43,6 @@ WebUI.setText(findTestObject('Add Visitor Page/input_phone'), var_phone)
 
 WebUI.delay(5)
 
-WebUI.acceptAlert()
-
-if (var_email == true) {
-}
-
 WebUI.click(findTestObject('Add Visitor Page/button_Add Visitor'))
 
 WebUI.delay(5)

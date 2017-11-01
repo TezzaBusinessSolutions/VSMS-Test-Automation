@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Visitor" time="56" tests="1" failures="0" errors="0">
+   <testsuite name="Add Visitor" tests="1" failures="0" errors="0" time="56" timestamp="2017-10-30 15:00:58" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Visitor Management/Add Visitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Visitor Management\\Add Visitor\\20171030_150052"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Visitor Management\\Add Visitor\\20171030_150052\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="f716a7d73d7a1d6e43d57bdac4924fcc"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visitor Management/Add visitor" classname="Test Cases/Visitor Management/Add visitor" status="PASSED">
+         <system-out><![CDATA[2017-10-30 15:01:00 - [TEST_CASE][PASSED] - Test Cases/Visitor Management/Add visitor: Test Cases/Visitor Management/Add visitor
+
+2017-10-30 15:01:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/LOGIN' successfully
+
+2017-10-30 15:01:05 - [TEST_CASE][PASSED] - Test Cases/Common/LOGIN: Test Cases/Common/LOGIN
+
+2017-10-30 15:01:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-30 15:01:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-10-30 15:01:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-30 15:01:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-30 15:01:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-30 15:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-10-30 15:01:27 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-30 15:01:29 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-10-30 15:01:29 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-30 15:01:30 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-10-30 15:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-30 15:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-10-30 15:01:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/LOGIN' successfully
+
+2017-10-30 15:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/common objects/a_Modules' is clicked on
+
+2017-10-30 15:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/common objects/a_Modules' is clicked on
+
+2017-10-30 15:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/common objects/a_Visitor Management' is clicked on
+
+2017-10-30 15:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/common objects/a_Visitor Management' is clicked on
+
+2017-10-30 15:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/common objects/a_Visitor' is clicked on
+
+2017-10-30 15:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/common objects/a_Visitor' is clicked on
+
+2017-10-30 15:01:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/Add Visitor/button_Add New' is clicked on
+
+2017-10-30 15:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/Add Visitor/button_Add New' is clicked on
+
+2017-10-30 15:01:41 - [TEST_STEP][PASSED] - setText: Text 'wesly' is set on object 'Object Repository/Visitor Management/Add Visitor/Page_Visitor Security Management Sy/input_first_name'
+
+2017-10-30 15:01:42 - [MESSAGE][PASSED] - Text 'wesly' is set on object 'Object Repository/Visitor Management/Add Visitor/Page_Visitor Security Management Sy/input_first_name'
+
+2017-10-30 15:01:42 - [TEST_STEP][PASSED] - setText: Text 'karish' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_last_name'
+
+2017-10-30 15:01:43 - [MESSAGE][PASSED] - Text 'karish' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_last_name'
+
+2017-10-30 15:01:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Male' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_gender' 
+
+2017-10-30 15:01:44 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_gender' 
+
+2017-10-30 15:01:44 - [TEST_STEP][PASSED] - setText: Text 'kariswes@gmail.com' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_email'
+
+2017-10-30 15:01:44 - [MESSAGE][PASSED] - Text 'kariswes@gmail.com' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_email'
+
+2017-10-30 15:01:44 - [TEST_STEP][PASSED] - setText: Text '254720258985' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_phone'
+
+2017-10-30 15:01:45 - [MESSAGE][PASSED] - Text '254720258985' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_phone'
+
+2017-10-30 15:01:45 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'old' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_type' 
+
+2017-10-30 15:01:45 - [MESSAGE][PASSED] - All options with label 'old' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_type' 
+
+2017-10-30 15:01:45 - [TEST_STEP][PASSED] - setText: Text 'Wes Entreprises' is set on object 'Object Repository/Visitor Management/Add Visitor/Visitor_company_name'
+
+2017-10-30 15:01:46 - [MESSAGE][PASSED] - Text 'Wes Entreprises' is set on object 'Object Repository/Visitor Management/Add Visitor/Visitor_company_name'
+
+2017-10-30 15:01:46 - [TEST_STEP][PASSED] - setText: Text 'Rongai' is set on object 'Object Repository/Visitor Management/Add Visitor/Visitor city'
+
+2017-10-30 15:01:46 - [MESSAGE][PASSED] - Text 'Rongai' is set on object 'Object Repository/Visitor Management/Add Visitor/Visitor city'
+
+2017-10-30 15:01:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Kenya' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_country' 
+
+2017-10-30 15:01:46 - [MESSAGE][PASSED] - All options with value 'Kenya' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_country' 
+
+2017-10-30 15:01:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Kajiado' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_state' 
+
+2017-10-30 15:01:47 - [MESSAGE][PASSED] - All options with value 'Kajiado' are selected in object 'Object Repository/Visitor Management/Add Visitor/visitor_state' 
+
+2017-10-30 15:01:47 - [TEST_STEP][PASSED] - setText: Text '2599' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_address1'
+
+2017-10-30 15:01:47 - [MESSAGE][PASSED] - Text '2599' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_address1'
+
+2017-10-30 15:01:47 - [TEST_STEP][PASSED] - setText: Text '559' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_address2'
+
+2017-10-30 15:01:47 - [MESSAGE][PASSED] - Text '559' is set on object 'Object Repository/Visitor Management/Add Visitor/visitor_address2'
+
+2017-10-30 15:01:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-30 15:01:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-30 15:01:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Visitor Management/Add Visitor/Save Visitor' is clicked on
+
+2017-10-30 15:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Visitor Management/Add Visitor/Save Visitor' is clicked on
+
+2017-10-30 15:01:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-30 15:01:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-30 15:00:58 - [TEST_SUITE][PASSED] - Add Visitor: Test Cases/Visitor Management/Add visitor]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

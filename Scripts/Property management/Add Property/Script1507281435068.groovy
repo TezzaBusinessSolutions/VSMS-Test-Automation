@@ -21,11 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Property Management/Property/Modules'))
-
-WebUI.click(findTestObject('Property Management/Property/Property Management'))
-
-WebUI.click(findTestObject('Property Management/Property/Property'))
+WebUI.callTestCase(findTestCase('Common/Property management module'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 

@@ -15,7 +15,7 @@
       <type>TESTSUITE</type>
    </integratedEntity>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-24T12:32:25</lastRun>
+   <lastRun>2017-10-31T11:34:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

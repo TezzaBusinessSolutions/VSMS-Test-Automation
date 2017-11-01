@@ -22,11 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Visitor Management/common objects/a_Modules'))
-
-WebUI.click(findTestObject('Visitor Management/common objects/a_Visitor Management'))
-
-WebUI.click(findTestObject('Visitor Management/common objects/a_Visitor'))
+WebUI.callTestCase(findTestCase('Common/Visitor management module'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Visitor Management/Add Visitor/button_Add New'))
 

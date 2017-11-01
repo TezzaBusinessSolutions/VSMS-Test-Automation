@@ -4,7 +4,7 @@
    <name>Update Profile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-13T12:22:25</lastRun>
+   <lastRun>2017-10-31T12:06:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>943ba2ca-a5ec-44ae-b01c-387f30069cf0</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Profile </testDataId>
       </testDataLink>

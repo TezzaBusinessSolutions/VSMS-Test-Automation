@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Contains all the common steps in Request Meeting</description>
-   <name>Request a Meeting</name>
+   <name>Request a Meeting Menu</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c3a6fe8b-33d2-41c8-b2ca-fc8b39e759ab</testCaseGuid>

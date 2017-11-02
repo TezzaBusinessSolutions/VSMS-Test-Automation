@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Visitor management module</name>
+   <name>User management menu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c1c6ec59-ed20-42eb-9c56-8a0138bbd781</testCaseGuid>
+   <testCaseGuid>594b1f62-f2a1-4bcd-a08b-ae3bd0c63a92</testCaseGuid>
 </TestCaseEntity>

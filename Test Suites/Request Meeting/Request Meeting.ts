@@ -15,7 +15,7 @@
       <guid>4e828967-e951-4d5f-938c-6e10359f2ebf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common/Request a Meeting</testCaseId>
+      <testCaseId>Test Cases/Request A Meeting/Request a Meeting Menu</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>84cf0b86-cd2b-4b46-b1bb-6162e27d2fa7</id>

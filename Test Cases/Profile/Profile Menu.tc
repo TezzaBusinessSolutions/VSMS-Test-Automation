@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Handles user Profile page common steps</description>
-   <name>Profile</name>
+   <name>Profile Menu</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5ad86be0-4025-461b-84aa-e993e2dbe3d8</testCaseGuid>

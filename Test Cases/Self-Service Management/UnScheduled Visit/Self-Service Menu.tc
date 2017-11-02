@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Common steps for Self service</description>
-   <name>Self-Service</name>
+   <name>Self-Service Menu</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ee9a2e1c-9c01-496d-a7c3-dac678bbad9d</testCaseGuid>

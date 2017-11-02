@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Common/Visitor management module'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Visitor Management/Visitor management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Visitor Management/Edit visitor/a_bella'))
 

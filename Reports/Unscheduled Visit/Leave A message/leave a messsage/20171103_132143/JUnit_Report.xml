@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="leave a messsage" time="125" tests="1" failures="0" errors="0">
+   <testsuite name="leave a messsage" tests="1" failures="0" errors="0" time="125" timestamp="2017-11-03 13:21:50" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Unscheduled Visit/Leave A message/leave a messsage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171103_132143"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171103_132143\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.127"/>
+         <property name="sessionId" value="a5de614c7c368c8ab59573cba5b1705b"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit" classname="Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit" status="PASSED">
+         <system-out><![CDATA[2017-11-03 13:21:52 - [TEST_CASE][PASSED] - Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit
+
+2017-11-03 13:21:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:21:54 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 13:21:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 13:22:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 13:22:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:22:46 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:22:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:22:54 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:22:56 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:22:56 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:22:56 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:22:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:23:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:23:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:23:20 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:23:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu' successfully
+
+2017-11-03 13:23:20 - [TEST_CASE][PASSED] - Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu: Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu
+
+2017-11-03 13:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 13:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 13:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-11-03 13:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-11-03 13:23:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-11-03 13:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-11-03 13:23:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu' successfully
+
+2017-11-03 13:23:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-11-03 13:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-11-03 13:23:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Leave a message Page/Leave Message Button' is clicked on
+
+2017-11-03 13:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Leave a message Page/Leave Message Button' is clicked on
+
+2017-11-03 13:23:38 - [TEST_STEP][PASSED] - setText: Text 'Stella' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_first_name'
+
+2017-11-03 13:23:39 - [MESSAGE][PASSED] - Text 'Stella' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_first_name'
+
+2017-11-03 13:23:39 - [TEST_STEP][PASSED] - setText: Text 'Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_last_name'
+
+2017-11-03 13:23:40 - [MESSAGE][PASSED] - Text 'Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_last_name'
+
+2017-11-03 13:23:40 - [TEST_STEP][PASSED] - setText: Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_email'
+
+2017-11-03 13:23:41 - [MESSAGE][PASSED] - Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_email'
+
+2017-11-03 13:23:41 - [TEST_STEP][PASSED] - setText: Text 'Stella Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_staff_name'
+
+2017-11-03 13:23:42 - [MESSAGE][PASSED] - Text 'Stella Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_staff_name'
+
+2017-11-03 13:23:42 - [TEST_STEP][PASSED] - setText: Text 'I was at your office we had the date set for today' is set on object 'Object Repository/Self Service Management/Leave a message Page/textarea_comment'
+
+2017-11-03 13:23:42 - [MESSAGE][PASSED] - Text 'I was at your office we had the date set for today' is set on object 'Object Repository/Self Service Management/Leave a message Page/textarea_comment'
+
+2017-11-03 13:23:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 13:23:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 13:23:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Leave a message Page/button_Submit' is clicked on
+
+2017-11-03 13:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Leave a message Page/button_Submit' is clicked on
+
+2017-11-03 13:23:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' is present
+
+2017-11-03 13:23:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-03 13:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' is present
+
+2017-11-03 13:23:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 13:23:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 13:23:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 13:23:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 13:21:50 - [TEST_SUITE][PASSED] - leave a messsage: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

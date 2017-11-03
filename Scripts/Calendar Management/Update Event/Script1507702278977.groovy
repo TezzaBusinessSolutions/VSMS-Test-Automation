@@ -45,5 +45,10 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Calendar Management/Update Event/button_Update Event'))
 
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Calendar Management/Update Event/Verify Update Event/Verification Event updated successfully'), 
+    0)
+
 WebUI.closeBrowser()
 

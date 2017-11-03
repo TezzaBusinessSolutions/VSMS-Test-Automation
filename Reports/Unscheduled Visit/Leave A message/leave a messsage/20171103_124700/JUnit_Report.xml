@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="leave a messsage" time="490" tests="0" failures="1" errors="0">
+   <testsuite name="leave a messsage" tests="0" failures="1" errors="0" time="490" timestamp="2017-11-03 12:47:05" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Unscheduled Visit/Leave A message/leave a messsage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171103_124700"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171103_124700\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171103_124700\\1509702908234.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.127"/>
+         <property name="sessionId" value="1a9cf41c70b1bf8a2c603a6c5e5ca6a5"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit" classname="Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id(&quot;wrapper&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row ng-scope&quot;]/div[@class=&quot;alert-dismissable fade in&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;]) = count(id(&quot;wrapper&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row ng-scope&quot;]/div[@class=&quot;alert-dismissable fade in&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;])]' not found"/>
+         <system-out><![CDATA[2017-11-03 12:47:06 - [TEST_CASE][FAILED] - Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 12:47:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 12:47:08 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 12:47:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 12:51:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 12:51:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 12:51:42 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 12:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 12:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 12:52:42 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 12:52:44 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 12:52:44 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 12:52:45 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 12:52:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 12:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 12:53:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 12:53:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 12:53:57 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 12:53:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu' successfully
+
+2017-11-03 12:53:57 - [TEST_CASE][PASSED] - Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu: Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu
+
+2017-11-03 12:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 12:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-11-03 12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service Management' is clicked on
+
+2017-11-03 12:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-11-03 12:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Self-Service' is clicked on
+
+2017-11-03 12:54:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Self-Service Management/UnScheduled Visit/Self-Service Menu' successfully
+
+2017-11-03 12:54:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-11-03 12:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Self-Service Page/Unscheduled Button' is clicked on
+
+2017-11-03 12:54:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Leave a message Page/Leave Message Button' is clicked on
+
+2017-11-03 12:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Leave a message Page/Leave Message Button' is clicked on
+
+2017-11-03 12:54:51 - [TEST_STEP][PASSED] - setText: Text 'Stella' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_first_name'
+
+2017-11-03 12:54:52 - [MESSAGE][PASSED] - Text 'Stella' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_first_name'
+
+2017-11-03 12:54:52 - [TEST_STEP][PASSED] - setText: Text 'Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_last_name'
+
+2017-11-03 12:54:53 - [MESSAGE][PASSED] - Text 'Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_last_name'
+
+2017-11-03 12:54:53 - [TEST_STEP][PASSED] - setText: Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_email'
+
+2017-11-03 12:54:55 - [MESSAGE][PASSED] - Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_email'
+
+2017-11-03 12:54:55 - [TEST_STEP][PASSED] - setText: Text 'Stella Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_staff_name'
+
+2017-11-03 12:54:56 - [MESSAGE][PASSED] - Text 'Stella Ireri' is set on object 'Object Repository/Self Service Management/Leave a message Page/input_staff_name'
+
+2017-11-03 12:54:56 - [TEST_STEP][PASSED] - setText: Text 'I was at your office we had the date set for today' is set on object 'Object Repository/Self Service Management/Leave a message Page/textarea_comment'
+
+2017-11-03 12:54:57 - [MESSAGE][PASSED] - Text 'I was at your office we had the date set for today' is set on object 'Object Repository/Self Service Management/Leave a message Page/textarea_comment'
+
+2017-11-03 12:54:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 12:55:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 12:55:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Self Service Management/Leave a message Page/button_Submit' is clicked on
+
+2017-11-03 12:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Self Service Management/Leave a message Page/button_Submit' is clicked on
+
+2017-11-03 12:55:03 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 12:55:09 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Unscheduled Visit\\Leave A message\\leave a messsage\\20171103_124700\\1509702908234.png]]
+
+2017-11-03 12:55:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 12:55:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 12:55:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 12:55:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-03 12:47:06 - [TEST_CASE][FAILED] - Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 12:47:05 - [TEST_SUITE][FAILED] - leave a messsage: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-03 12:47:05 - [TEST_SUITE][FAILED] - leave a messsage: Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'parentobj.msg']) = count(//*[@ng-bind = 'parentobj.msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'parentobj.successAlert']) = count(//*[@ng-show = 'parentobj.successAlert'])][count(. | //*[text() = 'Your message has been sent! Redirecting back to homepage...']) = count(//*[text() = 'Your message has been sent! Redirecting back to homepage...'])][count(. | id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("wrapper")/div[@class="container"]/div[@class="row ng-scope"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

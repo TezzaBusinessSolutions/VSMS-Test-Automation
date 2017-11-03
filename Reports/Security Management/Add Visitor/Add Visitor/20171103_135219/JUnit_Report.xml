@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Visitor" time="355" tests="0" failures="1" errors="0">
+   <testsuite name="Add Visitor" tests="0" failures="1" errors="0" time="355" timestamp="2017-11-03 13:52:26" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Security Management/Add Visitor/Add Visitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_135219"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_135219\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.127"/>
+         <property name="sessionId" value="0b59fe99871fc2504949c1ba0629ee19"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Security Management/Add new Visitor in Security Management Module" classname="Test Cases/Security Management/Add new Visitor in Security Management Module" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)"/>
+         <system-out><![CDATA[2017-11-03 13:52:27 - [TEST_CASE][FAILED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)
+
+2017-11-03 13:52:29 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/User Login' (Root cause: Call Test Case 'Test Cases/Common/User Login' failed)
+
+2017-11-03 13:52:29 - [TEST_CASE][FAILED] - Test Cases/Common/User Login: Test Cases/Common/User Login FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)
+
+2017-11-03 13:52:30 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)
+
+2017-11-03 13:57:37 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)
+
+2017-11-03 13:57:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:57:38 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:57:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:57:57 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:58:11 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:58:11 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:58:12 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:58:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:58:18 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/User Login' (Root cause: Call Test Case 'Test Cases/Common/User Login' failed)]]></system-out>
+         <system-err><![CDATA[2017-11-03 13:52:27 - [TEST_CASE][FAILED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 13:52:26 - [TEST_SUITE][FAILED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)]]></system-out>
+      <system-err><![CDATA[2017-11-03 13:52:26 - [TEST_SUITE][FAILED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to open browser with url: 'https://sandbox.vsms.tezzasolutions.com/index' (Root cause: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'Gituto-PC', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\GITUTO~1\AppData\Local\Temp\scoped_dir10776_27806}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0b59fe99871fc2504949c1ba0629ee19)]]></system-err>
+   </testsuite>
+</testsuites>

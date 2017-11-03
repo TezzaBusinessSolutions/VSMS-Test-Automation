@@ -57,5 +57,9 @@ WebUI.click(findTestObject('Profile/Profile Page/button_Update'))
 
 WebUI.delay(5)
 
+WebUI.verifyElementVisible(findTestObject('Profile/Verify Update Profile/Profile Update Verification'))
+
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Visitor,Chrome 61.0.3163.100,Add new Visitor in Security Management Module,2017-11-03 13:52:26,2017-11-03 13:58:21,5m - 55.351s,FAILED
+,,,,,,
+Test Cases/Security Management/Add new Visitor in Security Management Module,Chrome 61.0.3163.100,Add new Visitor in Security Management Module,2017-11-03 13:52:27,2017-11-03 13:58:18,5m - 50.426s,FAILED
+callTestCase,Chrome 61.0.3163.100,,2017-11-03 13:52:29,2017-11-03 13:58:18,5m - 48.524s,FAILED

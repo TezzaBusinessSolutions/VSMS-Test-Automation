@@ -37,7 +37,11 @@ WebUI.setText(findTestObject('Request A meeting/Sign Up In Request Meeting/input
 
 WebUI.click(findTestObject('Request A meeting/Sign Up In Request Meeting/button_Sign Up'))
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('Request A meeting/Sign Up In Request Meeting/Verify Sign Up in Request Meeting/Request Sign up'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

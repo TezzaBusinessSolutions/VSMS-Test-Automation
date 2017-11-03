@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Event" time="151" tests="0" failures="1" errors="0">
+   <testsuite name="Add Event" tests="0" failures="1" errors="0" time="151" timestamp="2017-11-03 14:11:08" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Calendar Management/Add Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171103_141103"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171103_141103\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171103_141103\\1509707612985.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.113"/>
+         <property name="sessionId" value="2248bd55e0268d8d40a7667334b07709"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Add new Event" classname="Test Cases/Calendar Management/Add new Event" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[2]/div[@class=&quot;alert alert-success alert-dismissable fade in ng-binding&quot;]) = count(id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[2]/div[@class=&quot;alert alert-success alert-dismissable fade in ng-binding&quot;])]' not found"/>
+         <system-out><![CDATA[2017-11-03 14:11:09 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"]) = count(id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"])]' not found
+
+2017-11-03 14:11:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:11:10 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 14:11:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:11:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:11:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 14:11:44 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 14:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:12:00 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:12:02 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:12:02 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:12:03 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:12:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:12:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Calendar Management/Calendar Menu' successfully
+
+2017-11-03 14:12:29 - [TEST_CASE][PASSED] - Test Cases/Calendar Management/Calendar Menu: Test Cases/Calendar Management/Calendar Menu
+
+2017-11-03 14:12:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 14:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 14:12:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-11-03 14:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-11-03 14:12:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-11-03 14:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-11-03 14:12:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Calendar Management/Calendar Menu' successfully
+
+2017-11-03 14:12:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Calendar Management/Add new Event/New Event' is clicked on
+
+2017-11-03 14:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar Management/Add new Event/New Event' is clicked on
+
+2017-11-03 14:12:51 - [TEST_STEP][PASSED] - setText: Text 'Developer's Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Title'
+
+2017-11-03 14:12:52 - [MESSAGE][PASSED] - Text 'Developer's Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Title'
+
+2017-11-03 14:12:52 - [TEST_STEP][PASSED] - setText: Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/Start Date'
+
+2017-11-03 14:12:53 - [MESSAGE][PASSED] - Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/Start Date'
+
+2017-11-03 14:12:53 - [TEST_STEP][PASSED] - setText: Text '1300' is set on object 'Object Repository/Calendar Management/Add new Event/Start Time'
+
+2017-11-03 14:12:54 - [MESSAGE][PASSED] - Text '1300' is set on object 'Object Repository/Calendar Management/Add new Event/Start Time'
+
+2017-11-03 14:12:54 - [TEST_STEP][PASSED] - setText: Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/End Date'
+
+2017-11-03 14:12:55 - [MESSAGE][PASSED] - Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/End Date'
+
+2017-11-03 14:12:55 - [TEST_STEP][PASSED] - setText: Text '1800' is set on object 'Object Repository/Calendar Management/Add new Event/End Time'
+
+2017-11-03 14:12:55 - [MESSAGE][PASSED] - Text '1800' is set on object 'Object Repository/Calendar Management/Add new Event/End Time'
+
+2017-11-03 14:12:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-11-03 14:12:55 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-11-03 14:12:55 - [TEST_STEP][PASSED] - setText: Text 'C# Developers Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Description'
+
+2017-11-03 14:12:56 - [MESSAGE][PASSED] - Text 'C# Developers Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Description'
+
+2017-11-03 14:12:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Calendar Management/Add new Event/Save Event Button' is clicked on
+
+2017-11-03 14:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar Management/Add new Event/Save Event Button' is clicked on
+
+2017-11-03 14:12:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 14:13:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 14:13:00 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"]) = count(id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"])]' not found
+
+2017-11-03 14:13:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-03 14:13:33 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"]) = count(id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"])]' not found
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171103_141103\\1509707612985.png]]
+
+2017-11-03 14:13:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 14:13:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 14:13:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 14:13:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-03 14:11:09 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"]) = count(id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 14:11:08 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"]) = count(id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-03 14:11:08 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar Management/Add new Event/Add Event Verfication/Verify Event was Added Succesfully' located by 'By.xpath: //div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event created successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event created successfully!
+                '])][count(. | id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"]) = count(id("page-wrapper")/div[@class="row"]/div[2]/div[@class="alert alert-success alert-dismissable fade in ng-binding"])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

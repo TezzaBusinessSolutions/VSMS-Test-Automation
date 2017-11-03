@@ -43,7 +43,10 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Self Service Management/Leave a message Page/button_Submit'))
 
-WebUI.verifyElementNotPresent(findTestObject('Self Service Management/Leave a message Page/Error Message'), 5)
+WebUI.verifyElementPresent(findTestObject('Self Service Management/Leave a message Page/Verify Leave Message/Verify Leave Message  has been sent'), 
+    0)
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

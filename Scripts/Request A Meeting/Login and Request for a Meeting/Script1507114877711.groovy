@@ -45,5 +45,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Request A meeting/Login and Request a Meeting/button_Send'))
 
+WebUI.delay(3)
+
+WebUI.verifyElementVisible(findTestObject('Request A meeting/Login and Request a Meeting/Veify Login and Request Meeting/Login and Request Meeting Verify'))
+
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 

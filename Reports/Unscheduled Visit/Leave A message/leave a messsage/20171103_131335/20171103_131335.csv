@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+leave a messsage,Chrome 61.0.3163.100,Leave a message in unscheduled Visit,2017-11-03 13:13:42,2017-11-03 13:21:00,7m - 18.647s,FAILED
+,,,,,,
+Test Cases/Self-Service Management/UnScheduled Visit/Leave Message in Unscheduled Visit,Chrome 61.0.3163.100,Leave Message,2017-11-03 13:13:42,2017-11-03 13:20:57,7m - 14.336s,FAILED
+callTestCase,Chrome 61.0.3163.100,,2017-11-03 13:13:43,2017-11-03 13:20:57,7m - 13.321s,FAILED

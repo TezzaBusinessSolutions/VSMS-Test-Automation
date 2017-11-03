@@ -27,21 +27,24 @@ WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Security Management/Security Management Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Add Visitor Page/New Visitor Button'))
+WebUI.click(findTestObject('Security Management/Add Visitor Page/New Visitor Button'))
 
-WebUI.setText(findTestObject('Add Visitor Page/input_email'), var_email)
+WebUI.setText(findTestObject('Security Management/Add Visitor Page/input_email'), var_email)
 
-WebUI.setText(findTestObject('Add Visitor Page/input_first_name'), var_firstName)
+WebUI.setText(findTestObject('Security Management/Add Visitor Page/input_first_name'), var_firstName)
 
-WebUI.setText(findTestObject('Add Visitor Page/input_last_name'), var_lastName)
+WebUI.setText(findTestObject('Security Management/Add Visitor Page/input_last_name'), var_lastName)
 
-WebUI.setText(findTestObject('Add Visitor Page/input_phone'), var_phone)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Add Visitor Page/button_Add Visitor'))
+WebUI.setText(findTestObject('Security Management/Add Visitor Page/input_phone'), var_phone)
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Security Management/Add Visitor Page/button_Add Visitor'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification'), 
+    0)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Visitor" time="118" tests="0" failures="1" errors="0">
+   <testsuite name="Add Visitor" tests="0" failures="1" errors="0" time="118" timestamp="2017-11-03 13:24:55" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Security Management/Add Visitor/Add Visitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_132450"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_132450\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_132450\\1509704810258.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.127"/>
+         <property name="sessionId" value="848ef863eb2f3b0f21581def77086ac1"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Security Management/Add new Visitor in Security Management Module" classname="Test Cases/Security Management/Add new Visitor in Security Management Module" status="FAILED">
+         <failure type="FAILED" message="Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id(&quot;addAsset&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body ng-scope&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;]) = count(id(&quot;addAsset&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body ng-scope&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;])]' not found"/>
+         <system-out><![CDATA[2017-11-03 13:24:57 - [TEST_CASE][FAILED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 13:24:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:24:58 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 13:24:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 13:25:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 13:25:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:25:18 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:25:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:25:23 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:25:24 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:25:24 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:25:25 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:25:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:25:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:25:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:25:30 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:25:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 13:25:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 13:25:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Security Management/Security Management Menu' successfully
+
+2017-11-03 13:25:33 - [TEST_CASE][PASSED] - Test Cases/Security Management/Security Management Menu: Test Cases/Security Management/Security Management Menu
+
+2017-11-03 13:25:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 13:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 13:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Security Management' is clicked on
+
+2017-11-03 13:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Security Management' is clicked on
+
+2017-11-03 13:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Security' is clicked on
+
+2017-11-03 13:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Security' is clicked on
+
+2017-11-03 13:25:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Security Management/Security Management Menu' successfully
+
+2017-11-03 13:25:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Security Management/Add Visitor Page/New Visitor Button' is clicked on
+
+2017-11-03 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Management/Add Visitor Page/New Visitor Button' is clicked on
+
+2017-11-03 13:25:44 - [TEST_STEP][PASSED] - setText: Text 'samwesh@gmail.com' is set on object 'Object Repository/Security Management/Add Visitor Page/input_email'
+
+2017-11-03 13:25:46 - [MESSAGE][PASSED] - Text 'samwesh@gmail.com' is set on object 'Object Repository/Security Management/Add Visitor Page/input_email'
+
+2017-11-03 13:25:46 - [TEST_STEP][PASSED] - setText: Text 'Sam' is set on object 'Object Repository/Security Management/Add Visitor Page/input_first_name'
+
+2017-11-03 13:25:47 - [MESSAGE][PASSED] - Text 'Sam' is set on object 'Object Repository/Security Management/Add Visitor Page/input_first_name'
+
+2017-11-03 13:25:47 - [TEST_STEP][PASSED] - setText: Text 'Wesh' is set on object 'Object Repository/Security Management/Add Visitor Page/input_last_name'
+
+2017-11-03 13:25:48 - [MESSAGE][PASSED] - Text 'Wesh' is set on object 'Object Repository/Security Management/Add Visitor Page/input_last_name'
+
+2017-11-03 13:25:48 - [TEST_STEP][PASSED] - setText: Text '0725167892' is set on object 'Object Repository/Security Management/Add Visitor Page/input_phone'
+
+2017-11-03 13:25:48 - [MESSAGE][PASSED] - Text '0725167892' is set on object 'Object Repository/Security Management/Add Visitor Page/input_phone'
+
+2017-11-03 13:25:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 13:25:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 13:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Security Management/Add Visitor Page/button_Add Visitor' is clicked on
+
+2017-11-03 13:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Management/Add Visitor Page/button_Add Visitor' is clicked on
+
+2017-11-03 13:25:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 13:25:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 13:25:58 - [TEST_STEP][FAILED] - verifyElementVisible: Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 13:26:51 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_132450\\1509704810258.png]]
+
+2017-11-03 13:26:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 13:26:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-03 13:24:57 - [TEST_CASE][FAILED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 13:24:55 - [TEST_SUITE][FAILED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-03 13:24:55 - [TEST_SUITE][FAILED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

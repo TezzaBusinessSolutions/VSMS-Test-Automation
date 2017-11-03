@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Visitor" time="898" tests="0" failures="1" errors="0">
+   <testsuite name="Add Visitor" tests="0" failures="1" errors="0" time="898" timestamp="2017-11-03 13:34:03" hostname="Gituto Nyawira - Gituto-PC" id="Test Suites/Security Management/Add Visitor/Add Visitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_133352"/>
+         <property name="logFiles" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_133352\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_133352\\1509706069718.png, C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_133352\\1509706133543.png"/>
+         <property name="hostName" value="Gituto Nyawira - Gituto-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.1.127"/>
+         <property name="sessionId" value="2c6ae61d6a71b97f80db391bcccbb8d6"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Security Management/Add new Visitor in Security Management Module" classname="Test Cases/Security Management/Add new Visitor in Security Management Module" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)"/>
+         <system-out><![CDATA[2017-11-03 13:34:04 - [TEST_CASE][FAILED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)
+
+2017-11-03 13:34:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:34:05 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 13:34:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 13:38:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 13:38:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:38:12 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:38:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 13:40:27 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:40:28 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 13:40:28 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:40:29 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 13:40:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 13:42:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:42:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 13:42:05 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 13:42:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 13:42:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 13:42:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Security Management/Security Management Menu' successfully
+
+2017-11-03 13:42:09 - [TEST_CASE][PASSED] - Test Cases/Security Management/Security Management Menu: Test Cases/Security Management/Security Management Menu
+
+2017-11-03 13:42:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 13:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-11-03 13:42:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Security Management' is clicked on
+
+2017-11-03 13:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Security Management' is clicked on
+
+2017-11-03 13:42:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Security' is clicked on
+
+2017-11-03 13:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Security' is clicked on
+
+2017-11-03 13:46:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Security Management/Security Management Menu' successfully
+
+2017-11-03 13:46:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Security Management/Add Visitor Page/New Visitor Button' is clicked on
+
+2017-11-03 13:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Management/Add Visitor Page/New Visitor Button' is clicked on
+
+2017-11-03 13:46:57 - [TEST_STEP][PASSED] - setText: Text 'paulmaina@gmail.com' is set on object 'Object Repository/Security Management/Add Visitor Page/input_email'
+
+2017-11-03 13:46:59 - [MESSAGE][PASSED] - Text 'paulmaina@gmail.com' is set on object 'Object Repository/Security Management/Add Visitor Page/input_email'
+
+2017-11-03 13:46:59 - [TEST_STEP][PASSED] - setText: Text 'Paul' is set on object 'Object Repository/Security Management/Add Visitor Page/input_first_name'
+
+2017-11-03 13:47:01 - [MESSAGE][PASSED] - Text 'Paul' is set on object 'Object Repository/Security Management/Add Visitor Page/input_first_name'
+
+2017-11-03 13:47:01 - [TEST_STEP][PASSED] - setText: Text 'Murimi' is set on object 'Object Repository/Security Management/Add Visitor Page/input_last_name'
+
+2017-11-03 13:47:02 - [MESSAGE][PASSED] - Text 'Murimi' is set on object 'Object Repository/Security Management/Add Visitor Page/input_last_name'
+
+2017-11-03 13:47:02 - [TEST_STEP][FAILED] - setText: Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)
+
+2017-11-03 13:47:51 - [MESSAGE][FAILED] - Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_133352\\1509706069718.png]]
+
+2017-11-03 13:47:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 13:47:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 13:47:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Security Management/Add Visitor Page/button_Add Visitor' is clicked on
+
+2017-11-03 13:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Security Management/Add Visitor Page/button_Add Visitor' is clicked on
+
+2017-11-03 13:47:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 13:48:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 13:48:01 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 13:48:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-11-03 13:48:54 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/Verify Add Visitor in Security Management/Added Visitor Verification' located by 'By.xpath: //p[count(. | //*[@ng-bind = 'msg']) = count(//*[@ng-bind = 'msg'])][count(. | //*[@class = 'alert alert-info ng-binding']) = count(//*[@class = 'alert alert-info ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = 'Visitor Den Den created']) = count(//*[text() = 'Visitor Den Den created'])][count(. | id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"]) = count(id("addAsset")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body ng-scope"]/p[@class="alert alert-info ng-binding"])]' not found
+[[ATTACHMENT|C:\\Users\\Gituto Nyawira\\git\\VSMS-Test-Automation\\Reports\\Security Management\\Add Visitor\\Add Visitor\\20171103_133352\\1509706133543.png]]
+
+2017-11-03 13:48:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 13:49:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-03 13:34:04 - [TEST_CASE][FAILED] - Test Cases/Security Management/Add new Visitor in Security Management Module: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 13:34:03 - [TEST_SUITE][FAILED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-11-03 13:34:03 - [TEST_SUITE][FAILED] - Add Visitor: Test Cases/Security Management/Add new Visitor in Security Management Module FAILED because (of) Unable to set text '0725958564' of object 'Object Repository/Security Management/Add Visitor Page/input_phone' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Security Management/Add Visitor Page/input_phone' located by 'By.xpath: //input[count(. | //*[@type = 'tel']) = count(//*[@type = 'tel'])][count(. | //*[@name = 'phone']) = count(//*[@name = 'phone'])][count(. | //*[@id = 'phone']) = count(//*[@id = 'phone'])][count(. | //*[@placeholder = '0712 123456']) = count(//*[@placeholder = '0712 123456'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Asset Type" time="109" tests="1" failures="0" errors="0">
+   <testsuite name="Add Asset Type" tests="1" failures="0" errors="0" time="109" timestamp="2017-11-03 14:55:41" hostname="Stella - STEGAHZ" id="Test Suites/User Management/Visitor Asset Type/Add Asset Type">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Add Asset Type\\20171103_145539"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Add Asset Type\\20171103_145539\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - STEGAHZ"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0cdcd188-f986-43b3-a58f-aec3cf06f7aa"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Visitor Asset Types/Add Asset Types" classname="Test Cases/User Management/Visitor Asset Types/Add Asset Types" status="PASSED">
+         <system-out><![CDATA[2017-11-03 14:55:42 - [TEST_CASE][PASSED] - Test Cases/User Management/Visitor Asset Types/Add Asset Types: Test Cases/User Management/Visitor Asset Types/Add Asset Types
+
+2017-11-03 14:55:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:55:43 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 14:55:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:56:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:56:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 14:56:54 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 14:56:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:56:54 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:56:59 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:56:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 14:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 14:56:59 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:56:59 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:56:59 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 14:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 14:57:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:57:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:57:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 14:57:05 - [TEST_CASE][PASSED] - Test Cases/User Management/common/User management menu: Test Cases/User Management/common/User management menu
+
+2017-11-03 14:57:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Modules' is clicked on
+
+2017-11-03 14:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Modules' is clicked on
+
+2017-11-03 14:57:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User  Management' is clicked on
+
+2017-11-03 14:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User  Management' is clicked on
+
+2017-11-03 14:57:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 14:57:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User Settings' is clicked on
+
+2017-11-03 14:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User Settings' is clicked on
+
+2017-11-03 14:57:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Manage Visitor Types' is clicked on
+
+2017-11-03 14:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Manage Visitor Types' is clicked on
+
+2017-11-03 14:57:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 14:57:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 14:57:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Asset Types/input_addassetbtn' is clicked on
+
+2017-11-03 14:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Asset Types/input_addassetbtn' is clicked on
+
+2017-11-03 14:57:23 - [TEST_STEP][PASSED] - setText: Text 'bicycle' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_name'
+
+2017-11-03 14:57:23 - [MESSAGE][PASSED] - Text 'bicycle' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_name'
+
+2017-11-03 14:57:23 - [TEST_STEP][PASSED] - setText: Text 'visitor bicycle' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_description'
+
+2017-11-03 14:57:24 - [MESSAGE][PASSED] - Text 'visitor bicycle' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_description'
+
+2017-11-03 14:57:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 14:57:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 14:57:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Asset Types/button_Add' is clicked on
+
+2017-11-03 14:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Asset Types/button_Add' is clicked on
+
+2017-11-03 14:57:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 14:57:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 14:57:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (1)/p_bicycle added successfully' is present
+
+2017-11-03 14:57:30 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (1)/p_bicycle added successfully' is present
+
+2017-11-03 14:57:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 14:57:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 14:55:41 - [TEST_SUITE][PASSED] - Add Asset Type: Test Cases/User Management/Visitor Asset Types/Add Asset Types]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

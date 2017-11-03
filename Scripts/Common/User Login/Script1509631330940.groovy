@@ -30,7 +30,11 @@ WebUI.click(findTestObject('login/a_Log in'))
 //enter your login credentials
 WebUI.setText(findTestObject('login/input_email'), GlobalVariable.var_email)
 
+WebUI.verifyElementPresent(findTestObject('Page_Visitor Security Management Sy/VSMS  Sign In'), 2)
+
 WebUI.setText(findTestObject('login/input_password'), GlobalVariable.var_Password)
+
+WebUI.verifyElementClickable(findTestObject('login/button_Login'))
 
 WebUI.click(findTestObject('login/button_Login'))
 

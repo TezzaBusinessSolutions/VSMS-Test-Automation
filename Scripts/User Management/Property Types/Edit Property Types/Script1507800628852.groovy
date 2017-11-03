@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Modules'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_Modules'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User  Management'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User  Management'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User Settings'))
 
 WebUI.click(findTestObject('User Management/Property types/Manage Property Types'))
 

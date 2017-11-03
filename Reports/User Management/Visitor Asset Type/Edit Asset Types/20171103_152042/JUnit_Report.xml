@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Asset Types" time="158" tests="0" failures="1" errors="0">
+   <testsuite name="Edit Asset Types" tests="0" failures="1" errors="0" time="158" timestamp="2017-11-03 15:20:45" hostname="Stella - STEGAHZ" id="Test Suites/User Management/Visitor Asset Type/Edit Asset Types">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Edit Asset Types\\20171103_152042"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Edit Asset Types\\20171103_152042\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Edit Asset Types\\20171103_152042\\1509711803288.png"/>
+         <property name="hostName" value="Stella - STEGAHZ"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7576794a-74ad-415b-81ee-a46416219ec1"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Visitor Asset Types/Edit Asset Types" classname="Test Cases/User Management/Visitor Asset Types/Edit Asset Types" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id(&quot;page-wrapper&quot;)/div[@class=&quot;alert-dismissible fade in tezzatext&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;]) = count(id(&quot;page-wrapper&quot;)/div[@class=&quot;alert-dismissible fade in tezzatext&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;])]' not found"/>
+         <system-out><![CDATA[2017-11-03 15:20:45 - [TEST_CASE][FAILED] - Test Cases/User Management/Visitor Asset Types/Edit Asset Types: Test Cases/User Management/Visitor Asset Types/Edit Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"]) = count(id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 15:20:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 15:20:46 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 15:20:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 15:22:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 15:22:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 15:22:03 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 15:22:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 15:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 15:22:04 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 15:22:18 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 15:22:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 15:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 15:22:18 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 15:22:18 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 15:22:18 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 15:22:19 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 15:22:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 15:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 15:22:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 15:22:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 15:22:51 - [TEST_CASE][PASSED] - Test Cases/User Management/common/User management menu: Test Cases/User Management/common/User management menu
+
+2017-11-03 15:22:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Modules' is clicked on
+
+2017-11-03 15:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Modules' is clicked on
+
+2017-11-03 15:22:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User  Management' is clicked on
+
+2017-11-03 15:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User  Management' is clicked on
+
+2017-11-03 15:22:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 15:22:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User Settings' is clicked on
+
+2017-11-03 15:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User Settings' is clicked on
+
+2017-11-03 15:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Manage Visitor Types' is clicked on
+
+2017-11-03 15:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Manage Visitor Types' is clicked on
+
+2017-11-03 15:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Asset Types/i_fa fa-edit' is clicked on
+
+2017-11-03 15:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Asset Types/i_fa fa-edit' is clicked on
+
+2017-11-03 15:23:17 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/User Management/Visitor Asset Types/edit_asset_description'
+
+2017-11-03 15:23:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/User Management/Visitor Asset Types/edit_asset_description'
+
+2017-11-03 15:23:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Asset Types/button_Update' is clicked on
+
+2017-11-03 15:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Asset Types/button_Update' is clicked on
+
+2017-11-03 15:23:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-03 15:23:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-03 15:23:20 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"]) = count(id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-03 15:23:23 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"]) = count(id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"])]' not found
+[[ATTACHMENT|C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Edit Asset Types\\20171103_152042\\1509711803288.png]]
+
+2017-11-03 15:23:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 15:23:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-03 15:20:45 - [TEST_CASE][FAILED] - Test Cases/User Management/Visitor Asset Types/Edit Asset Types: Test Cases/User Management/Visitor Asset Types/Edit Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"]) = count(id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 15:20:45 - [TEST_SUITE][FAILED] - Edit Asset Types: Test Cases/User Management/Visitor Asset Types/Edit Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"]) = count(id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-03 15:20:45 - [TEST_SUITE][FAILED] - Edit Asset Types: Test Cases/User Management/Visitor Asset Types/Edit Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully' located by 'By.xpath: //*[text() = '[bicycle] updated successfully'][count(. | id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"]) = count(id("page-wrapper")/div[@class="alert-dismissible fade in tezzatext"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

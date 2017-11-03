@@ -23,9 +23,9 @@ WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('User Management/common/User management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User Settings'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_Manage Visitor Types'))
 
 WebUI.delay(5)
 
@@ -38,6 +38,11 @@ WebUI.setText(findTestObject('User Management/Visitor Asset Types/asset_descript
 WebUI.delay(3)
 
 WebUI.click(findTestObject('User Management/Visitor Asset Types/button_Add'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('User Management/Visitor Asset Types/Page_Visitor Security Management Sy (1)/p_bicycle added successfully'), 
+    2)
 
 WebUI.closeBrowser()
 

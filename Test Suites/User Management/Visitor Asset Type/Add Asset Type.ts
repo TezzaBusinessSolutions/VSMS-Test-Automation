@@ -4,7 +4,7 @@
    <name>Add Asset Type</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-10T16:41:19</lastRun>
+   <lastRun>2017-11-03T14:55:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

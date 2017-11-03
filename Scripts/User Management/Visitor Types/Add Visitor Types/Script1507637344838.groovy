@@ -23,17 +23,22 @@ WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('User Management/common/User management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User Settings'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_Manage Visitor Types'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/input_addvisitorbtn'))
+WebUI.click(findTestObject('User Management/Visitor Types/Visitor types details/input_addvisitorbtn'))
 
-WebUI.setText(findTestObject('User Management/Visitor Types/input_name'), var_typename)
+WebUI.setText(findTestObject('User Management/Visitor Types/Visitor types details/input_name'), var_typename)
 
-WebUI.setText(findTestObject('User Management/Visitor Types/textarea_description'), var_typedescription)
+WebUI.setText(findTestObject('User Management/Visitor Types/Visitor types details/textarea_description'), var_typedescription)
 
-WebUI.click(findTestObject('User Management/Visitor Types/button_Add'))
+WebUI.click(findTestObject('User Management/Visitor Types/Visitor types details/button_Add'))
+
+WebUI.delay(0)
+
+WebUI.verifyElementPresent(findTestObject('User Management/Visitor Types/Visitor types details/new added successfully'), 
+    3)
 
 WebUI.closeBrowser()
 

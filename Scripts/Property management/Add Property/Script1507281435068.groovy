@@ -48,7 +48,10 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
 
-WebUI.acceptAlert()
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Property Management/Add New Property/building added successfully'), 
+    3)
 
 WebUI.closeBrowser()
 

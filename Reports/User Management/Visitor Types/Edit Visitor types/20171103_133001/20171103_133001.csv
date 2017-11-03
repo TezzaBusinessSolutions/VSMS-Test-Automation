@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Visitor types,Firefox 52.0,editing Visitor Type,2017-11-03 13:30:08,2017-11-03 13:35:17,5m - 8.743s,FAILED
+,,,,,,
+Test Cases/User Management/Visitor Types/Edit Visitor Types,Firefox 52.0,editing the visitor types,2017-11-03 13:30:09,2017-11-03 13:35:12,5m - 3.105s,FAILED
+callTestCase,Firefox 52.0,,2017-11-03 13:30:10,2017-11-03 13:35:12,5m - 2.117s,FAILED

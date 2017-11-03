@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Modules'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_Modules'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User  Management'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User  Management'))
 

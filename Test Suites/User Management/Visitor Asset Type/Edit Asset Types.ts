@@ -4,7 +4,7 @@
    <name>Edit Asset Types</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-16T13:18:30</lastRun>
+   <lastRun>2017-11-03T15:29:43</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

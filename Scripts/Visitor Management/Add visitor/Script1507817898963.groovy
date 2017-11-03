@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('Visitor Management/Visitor management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Visitor Management/Add Visitor/button_Add New'))
+WebUI.click(findTestObject('Visitor Management/Add Visitor/Page_Visitor Security Management Sy (1)/button_Add New'))
 
 WebUI.setText(findTestObject('Visitor Management/Add Visitor/Page_Visitor Security Management Sy/input_first_name'), var_firstname)
 
@@ -53,6 +53,11 @@ WebUI.setText(findTestObject('Visitor Management/Add Visitor/visitor_address2'),
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Visitor Management/Add Visitor/Save Visitor'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Visitor Management/Add Visitor/Visitor created successfully'), 
+    2)
 
 WebUI.closeBrowser()
 

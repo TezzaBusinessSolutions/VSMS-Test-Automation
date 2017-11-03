@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Visitor types,Firefox 52.0,editing Visitor Type,2017-11-03 13:59:45,2017-11-03 14:00:39,54.211s,PASSED
+,,,,,,
+Test Cases/User Management/Visitor Types/Edit Visitor Types,Firefox 52.0,editing the visitor types,2017-11-03 13:59:45,2017-11-03 14:00:39,53.697s,PASSED
+callTestCase,Firefox 52.0,,2017-11-03 13:59:46,2017-11-03 14:00:26,39.415s,PASSED
+callTestCase,Firefox 52.0,,2017-11-03 14:00:26,2017-11-03 14:00:27,1.346s,PASSED
+click,Firefox 52.0,,2017-11-03 14:00:27,2017-11-03 14:00:28,0.737s,PASSED
+maximizeWindow,Firefox 52.0,,2017-11-03 14:00:28,2017-11-03 14:00:30,2.201s,PASSED
+click,Firefox 52.0,,2017-11-03 14:00:30,2017-11-03 14:00:31,0.460s,PASSED
+verifyElementPresent,Firefox 52.0,,2017-11-03 14:00:31,2017-11-03 14:00:31,0.223s,PASSED
+click,Firefox 52.0,,2017-11-03 14:00:31,2017-11-03 14:00:31,0.461s,PASSED
+setText,Firefox 52.0,,2017-11-03 14:00:31,2017-11-03 14:00:32,0.425s,PASSED
+setText,Firefox 52.0,,2017-11-03 14:00:32,2017-11-03 14:00:33,1.097s,PASSED
+click,Firefox 52.0,,2017-11-03 14:00:33,2017-11-03 14:00:33,0.301s,PASSED
+delay,Firefox 52.0,,2017-11-03 14:00:33,2017-11-03 14:00:38,5.015s,PASSED
+verifyElementPresent,Firefox 52.0,,2017-11-03 14:00:38,2017-11-03 14:00:38,0.107s,PASSED
+closeBrowser,Firefox 52.0,,2017-11-03 14:00:38,2017-11-03 14:00:39,1.003s,PASSED

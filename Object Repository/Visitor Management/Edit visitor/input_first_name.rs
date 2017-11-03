@@ -3,7 +3,8 @@
    <description></description>
    <name>input_first_name</name>
    <tag></tag>
-   <elementGuidId>308ad769-b53f-42b8-8c82-215e28054b4d</elementGuidId>
+   <elementGuidId>04e2af91-142d-42f9-a2e6-9d87dd421327</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

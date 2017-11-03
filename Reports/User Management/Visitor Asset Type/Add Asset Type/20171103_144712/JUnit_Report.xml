@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Asset Type" time="87" tests="0" failures="1" errors="0">
+   <testsuite name="Add Asset Type" tests="0" failures="1" errors="0" time="87" timestamp="2017-11-03 14:47:16" hostname="Stella - STEGAHZ" id="Test Suites/User Management/Visitor Asset Type/Add Asset Type">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Add Asset Type\\20171103_144712"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Add Asset Type\\20171103_144712\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Add Asset Type\\20171103_144712\\1509709723300.png"/>
+         <property name="hostName" value="Stella - STEGAHZ"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="d195d7e3-12f2-45a1-90c0-4922ff97556f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Visitor Asset Types/Add Asset Types" classname="Test Cases/User Management/Visitor Asset Types/Add Asset Types" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found"/>
+         <system-out><![CDATA[2017-11-03 14:47:17 - [TEST_CASE][FAILED] - Test Cases/User Management/Visitor Asset Types/Add Asset Types: Test Cases/User Management/Visitor Asset Types/Add Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found
+
+2017-11-03 14:47:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:47:18 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 14:47:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:47:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:47:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 14:47:54 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 14:47:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:47:56 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:48:07 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:48:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 14:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 14:48:07 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:48:07 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:48:07 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 14:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 14:48:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:48:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:48:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 14:48:15 - [TEST_CASE][PASSED] - Test Cases/User Management/common/User management menu: Test Cases/User Management/common/User management menu
+
+2017-11-03 14:48:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Modules' is clicked on
+
+2017-11-03 14:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Modules' is clicked on
+
+2017-11-03 14:48:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User  Management' is clicked on
+
+2017-11-03 14:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User  Management' is clicked on
+
+2017-11-03 14:48:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 14:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User Settings' is clicked on
+
+2017-11-03 14:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_User Settings' is clicked on
+
+2017-11-03 14:48:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Manage Visitor Types' is clicked on
+
+2017-11-03 14:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/visitor types links/a_Manage Visitor Types' is clicked on
+
+2017-11-03 14:48:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 14:48:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 14:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Asset Types/input_addassetbtn' is clicked on
+
+2017-11-03 14:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Asset Types/input_addassetbtn' is clicked on
+
+2017-11-03 14:48:31 - [TEST_STEP][PASSED] - setText: Text 'iPhone' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_name'
+
+2017-11-03 14:48:31 - [MESSAGE][PASSED] - Text 'iPhone' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_name'
+
+2017-11-03 14:48:31 - [TEST_STEP][PASSED] - setText: Text 'Visitors mobile phone' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_description'
+
+2017-11-03 14:48:32 - [MESSAGE][PASSED] - Text 'Visitors mobile phone' is set on object 'Object Repository/User Management/Visitor Asset Types/asset_description'
+
+2017-11-03 14:48:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 14:48:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 14:48:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Asset Types/button_Add' is clicked on
+
+2017-11-03 14:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Asset Types/button_Add' is clicked on
+
+2017-11-03 14:48:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-03 14:48:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-03 14:48:38 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found
+
+2017-11-03 14:48:43 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found
+[[ATTACHMENT|C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Asset Type\\Add Asset Type\\20171103_144712\\1509709723300.png]]
+
+2017-11-03 14:48:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 14:48:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-03 14:47:17 - [TEST_CASE][FAILED] - Test Cases/User Management/Visitor Asset Types/Add Asset Types: Test Cases/User Management/Visitor Asset Types/Add Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 14:47:16 - [TEST_SUITE][FAILED] - Add Asset Type: Test Cases/User Management/Visitor Asset Types/Add Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-03 14:47:16 - [TEST_SUITE][FAILED] - Add Asset Type: Test Cases/User Management/Visitor Asset Types/Add Asset Types FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/User Management/Visitor Asset Types/Page_Visitor Security Management Sy/p_bycycle added successfully' located by 'By.xpath: //p[count(. | //*[contains(.,'[bycycle] added successfully')]) = count(//*[contains(.,'[bycycle] added successfully')])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Visitor types" time="54" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Visitor types" tests="1" failures="0" errors="0" time="54" timestamp="2017-11-03 13:59:45" hostname="Stella - STEGAHZ" id="Test Suites/User Management/Visitor Types/Edit Visitor types">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Types\\Edit Visitor types\\20171103_135932"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Management\\Visitor Types\\Edit Visitor types\\20171103_135932\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - STEGAHZ"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e3485eec-f700-4805-9b11-c6a87ca6efe0"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/User Management/Visitor Types/Edit Visitor Types" classname="Test Cases/User Management/Visitor Types/Edit Visitor Types" status="PASSED">
+         <system-out><![CDATA[2017-11-03 13:59:45 - [TEST_CASE][PASSED] - Test Cases/User Management/Visitor Types/Edit Visitor Types: Test Cases/User Management/Visitor Types/Edit Visitor Types
+
+2017-11-03 13:59:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 13:59:47 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-03 13:59:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:00:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-03 14:00:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 14:00:18 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 14:00:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-03 14:00:18 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:00:21 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-03 14:00:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 14:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-03 14:00:21 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:00:21 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-03 14:00:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 14:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-03 14:00:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-03 14:00:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-03 14:00:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 14:00:26 - [TEST_CASE][PASSED] - Test Cases/User Management/common/User management menu: Test Cases/User Management/common/User management menu
+
+2017-11-03 14:00:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_Modules' is clicked on
+
+2017-11-03 14:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_Modules' is clicked on
+
+2017-11-03 14:00:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_User  Management' is clicked on
+
+2017-11-03 14:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_User  Management' is clicked on
+
+2017-11-03 14:00:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Management/common/User management menu' successfully
+
+2017-11-03 14:00:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_User Settings' is clicked on
+
+2017-11-03 14:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_User Settings' is clicked on
+
+2017-11-03 14:00:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-03 14:00:30 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-03 14:00:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Management/Visitor Types/a_Manage Visitor Types' is clicked on
+
+2017-11-03 14:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management/Visitor Types/a_Manage Visitor Types' is clicked on
+
+2017-11-03 14:00:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Visitor Types/legend_Visitor Types' is present
+
+2017-11-03 14:00:31 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Visitor Types/legend_Visitor Types' is present
+
+2017-11-03 14:00:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit visitor types/i_editvisitorbtn' is clicked on
+
+2017-11-03 14:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/edit visitor types/i_editvisitorbtn' is clicked on
+
+2017-11-03 14:00:31 - [TEST_STEP][PASSED] - setText: Text 'existing' is set on object 'Object Repository/edit visitor types/input_name'
+
+2017-11-03 14:00:32 - [MESSAGE][PASSED] - Text 'existing' is set on object 'Object Repository/edit visitor types/input_name'
+
+2017-11-03 14:00:32 - [TEST_STEP][PASSED] - setText: Text 'existing visitors' is set on object 'Object Repository/edit visitor types/textarea_description'
+
+2017-11-03 14:00:33 - [MESSAGE][PASSED] - Text 'existing visitors' is set on object 'Object Repository/edit visitor types/textarea_description'
+
+2017-11-03 14:00:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/edit visitor types/button_Update' is clicked on
+
+2017-11-03 14:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/edit visitor types/button_Update' is clicked on
+
+2017-11-03 14:00:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-03 14:00:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-03 14:00:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/User Management/Visitor Types/Page_Visitor Security Management Sy/p_existing updated successfull' is present
+
+2017-11-03 14:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/User Management/Visitor Types/Page_Visitor Security Management Sy/p_existing updated successfull' is present
+
+2017-11-03 14:00:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-03 14:00:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-03 13:59:45 - [TEST_SUITE][PASSED] - Edit Visitor types: Test Cases/User Management/Visitor Types/Edit Visitor Types]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

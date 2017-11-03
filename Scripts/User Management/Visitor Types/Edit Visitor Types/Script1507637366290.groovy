@@ -23,14 +23,14 @@ WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('User Management/common/User management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User Settings'))
 
 //WebUI.click(findTestObject(By.xpath("//*[contains(@href,'https://sandbox.vsms.tezzasolutions.com/admin/users/settings')]"))
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_Manage Visitor Types'))
 
-WebUI.verifyElementPresent(findTestObject('User Management/Visitor Types/legend_Visitor Types'), 10)
+WebUI.verifyElementPresent(findTestObject('User Management/Visitor Types/Visitor types details/legend_Visitor Types'), 10)
 
 WebUI.click(findTestObject('edit visitor types/i_editvisitorbtn'))
 
@@ -41,6 +41,9 @@ WebUI.setText(findTestObject('edit visitor types/textarea_description'), var_edi
 WebUI.click(findTestObject('Object Repository/edit visitor types/button_Update'))
 
 WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('User Management/Visitor Types/Visitor types details/existing updated successfull'), 
+    3)
 
 WebUI.closeBrowser()
 

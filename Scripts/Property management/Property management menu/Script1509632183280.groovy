@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Property Management/Property/Modules'))
+WebUI.click(findTestObject('Property Management/Property menu/Modules'))
 
-WebUI.click(findTestObject('Property Management/Property/Property Management'))
+WebUI.click(findTestObject('Property Management/Property menu/Property Management'))
 
-WebUI.click(findTestObject('Property Management/Property/Property'))
+WebUI.click(findTestObject('Property Management/Property menu/Property'))
 

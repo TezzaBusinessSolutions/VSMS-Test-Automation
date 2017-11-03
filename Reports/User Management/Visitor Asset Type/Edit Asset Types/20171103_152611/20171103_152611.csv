@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Asset Types,Firefox 52.0,,2017-11-03 15:26:14,2017-11-03 15:27:50,1m - 36.346s,FAILED
+,,,,,,
+Test Cases/User Management/Visitor Asset Types/Edit Asset Types,Firefox 52.0,updating asset types,2017-11-03 15:26:14,2017-11-03 15:27:50,1m - 35.889s,FAILED
+callTestCase,Firefox 52.0,,2017-11-03 15:26:15,2017-11-03 15:27:36,1m - 21.193s,PASSED
+callTestCase,Firefox 52.0,,2017-11-03 15:27:36,2017-11-03 15:27:37,1.143s,PASSED
+click,Firefox 52.0,,2017-11-03 15:27:37,2017-11-03 15:27:38,0.773s,PASSED
+click,Firefox 52.0,,2017-11-03 15:27:38,2017-11-03 15:27:43,4.864s,PASSED
+click,Firefox 52.0,,2017-11-03 15:27:43,2017-11-03 15:27:43,0.447s,PASSED
+setText,Firefox 52.0,,2017-11-03 15:27:43,2017-11-03 15:27:44,0.405s,PASSED
+click,Firefox 52.0,,2017-11-03 15:27:44,2017-11-03 15:27:44,0.287s,PASSED
+delay,Firefox 52.0,,2017-11-03 15:27:44,2017-11-03 15:27:46,2.014s,PASSED
+verifyElementPresent,Firefox 52.0,,2017-11-03 15:27:46,2017-11-03 15:27:50,3.434s,FAILED
+closeBrowser,Firefox 52.0,,2017-11-03 15:27:50,2017-11-03 15:27:50,0.452s,PASSED

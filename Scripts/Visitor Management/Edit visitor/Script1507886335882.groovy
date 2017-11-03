@@ -23,12 +23,16 @@ WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('Visitor Management/Visitor management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Visitor Management/Edit visitor/a_bella'))
+WebUI.click(findTestObject('Visitor Management/Edit visitor/a_Bellalo'))
 
-WebUI.setText(findTestObject('Visitor Management/Edit visitor/Page_Visitor Security Management Sy/input_first_name'), var_editname, 
+WebUI.setText(findTestObject('Visitor Management/Edit visitor/input_first_name'), var_editname, 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Visitor Management/Edit visitor/button_Update'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Visitor Management/Edit visitor/Visitor Updated successfully'), 2)
 
 WebUI.closeBrowser()
 

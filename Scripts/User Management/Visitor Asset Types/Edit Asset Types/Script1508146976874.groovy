@@ -23,9 +23,9 @@ WebUI.callTestCase(findTestCase('Common/User Login'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('User Management/common/User management menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_User Settings'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_User Settings'))
 
-WebUI.click(findTestObject('User Management/Visitor Types/a_Manage Visitor Types'))
+WebUI.click(findTestObject('User Management/Visitor Types/visitor types links/a_Manage Visitor Types'))
 
 WebUI.click(findTestObject('User Management/Visitor Asset Types/i_fa fa-edit'))
 
@@ -34,6 +34,9 @@ WebUI.setText(findTestObject('User Management/Visitor Asset Types/edit_asset_des
 WebUI.click(findTestObject('User Management/Visitor Asset Types/button_Update'))
 
 WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('User Management/Visitor Asset Types/Page_Visitor Security Management Sy (2)/p_bicycle updated successfully'), 
+    3)
 
 WebUI.closeBrowser()
 

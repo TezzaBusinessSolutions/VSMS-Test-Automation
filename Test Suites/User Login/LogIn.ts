@@ -4,7 +4,7 @@
    <name>LogIn</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-15T15:00:10</lastRun>
+   <lastRun>2017-11-16T14:48:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -30,6 +30,18 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>c7cacaaa-2ea2-4b85-b117-3f22f79258e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>97088130-054e-42c2-a715-16670a4b0167</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4e485c38-6f4e-4c09-8e83-a62b0a9c2d25</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

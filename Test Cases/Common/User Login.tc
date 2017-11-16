@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>445ff404-6f40-4969-8210-6906c0d50998</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login Credentials')</defaultValue>
+      <description></description>
+      <id>c7cacaaa-2ea2-4b85-b117-3f22f79258e1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
 </TestCaseEntity>

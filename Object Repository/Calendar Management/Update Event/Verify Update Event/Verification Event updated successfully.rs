@@ -4,7 +4,23 @@
    <name>Verification Event updated successfully</name>
    <tag></tag>
    <elementGuidId>d34deeef-50d2-496d-ad56-e2f87752bafa</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[count(. | //*[@class = 'alert alert-success alert-dismissable fade in ng-binding']) = count(//*[@class = 'alert alert-success alert-dismissable fade in ng-binding'])][count(. | //*[@ng-show = 'successAlert']) = count(//*[@ng-show = 'successAlert'])][count(. | //*[text() = '
+                    
+                    Event updated successfully!
+                ']) = count(//*[text() = '
+                    
+                    Event updated successfully!
+                '])][count(. | id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[2]/div[@class=&quot;alert alert-success alert-dismissable fade in ng-binding&quot;]) = count(id(&quot;page-wrapper&quot;)/div[@class=&quot;row&quot;]/div[2]/div[@class=&quot;alert alert-success alert-dismissable fade in ng-binding&quot;])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

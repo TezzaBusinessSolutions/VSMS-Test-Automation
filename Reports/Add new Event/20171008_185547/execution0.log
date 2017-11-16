@@ -2517,7 +2517,6 @@ Driver info: driver.version: unknown)</message>
 </record>
 </log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2017-10-24T12:28:22</date>
   <millis>1508837302223</millis>
@@ -2584,3 +2583,4 @@ Driver info: driver.version: unknown)</message>
   <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Data Files\\Login Credentials.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Property" time="439" tests="0" failures="1" errors="0">
+   <testsuite name="Edit Property" tests="0" failures="1" errors="0" time="439" timestamp="2017-11-06 11:28:37" hostname="Stella - STEGAHZ" id="Test Suites/Property Management/Edit Property">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171106_112829"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171106_112829\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171106_112829\\1509957353804.png"/>
+         <property name="hostName" value="Stella - STEGAHZ"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 61.0.3163.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="6061bd357269c270b68bb47d09ed5223"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Property management/Edit Property" classname="Test Cases/Property management/Edit Property" status="FAILED">
+         <failure type="FAILED" message="com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id(&quot;parent&quot;)/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;alert-dismissable fade in&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;]) = count(id(&quot;parent&quot;)/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;alert-dismissable fade in&quot;]/p[@class=&quot;alert alert-info ng-binding&quot;])]' not found"/>
+         <system-out><![CDATA[2017-11-06 11:28:37 - [TEST_CASE][FAILED] - Test Cases/Property management/Edit Property: Test Cases/Property management/Edit Property FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-06 11:28:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-06 11:28:38 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-06 11:28:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-06 11:33:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-06 11:33:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-06 11:33:17 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-06 11:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-06 11:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-06 11:34:12 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-06 11:34:13 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-06 11:34:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-06 11:34:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-06 11:34:13 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-06 11:34:14 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-06 11:34:14 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-06 11:34:14 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-06 11:34:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-06 11:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-06 11:35:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-11-06 11:35:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Property management/Property management menu' successfully
+
+2017-11-06 11:35:21 - [TEST_CASE][PASSED] - Test Cases/Property management/Property management menu: Test Cases/Property management/Property management menu
+
+2017-11-06 11:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Modules' is clicked on
+
+2017-11-06 11:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Modules' is clicked on
+
+2017-11-06 11:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Property Management' is clicked on
+
+2017-11-06 11:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Property Management' is clicked on
+
+2017-11-06 11:35:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Property' is clicked on
+
+2017-11-06 11:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Property' is clicked on
+
+2017-11-06 11:35:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Property management/Property management menu' successfully
+
+2017-11-06 11:35:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-06 11:35:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 11:35:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Edit Property/Edit' is clicked on
+
+2017-11-06 11:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Edit Property/Edit' is clicked on
+
+2017-11-06 11:35:41 - [TEST_STEP][PASSED] - setText: Text '62' is set on object 'Object Repository/Property Management/Edit Property/property_address2'
+
+2017-11-06 11:35:42 - [MESSAGE][PASSED] - Text '62' is set on object 'Object Repository/Property Management/Edit Property/property_address2'
+
+2017-11-06 11:35:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-06 11:35:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-06 11:35:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Edit Property/Update' is clicked on
+
+2017-11-06 11:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Edit Property/Update' is clicked on
+
+2017-11-06 11:35:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-06 11:35:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-06 11:35:50 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found
+
+2017-11-06 11:35:54 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found
+[[ATTACHMENT|C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171106_112829\\1509957353804.png]]
+
+2017-11-06 11:35:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-06 11:35:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-06 11:28:37 - [TEST_CASE][FAILED] - Test Cases/Property management/Edit Property: Test Cases/Property management/Edit Property FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-06 11:28:37 - [TEST_SUITE][FAILED] - Edit Property: Test Cases/Property management/Edit Property FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-06 11:28:37 - [TEST_SUITE][FAILED] - Edit Property: Test Cases/Property management/Edit Property FAILED because (of) com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Updated building successfully' located by 'By.xpath: //*[@ng-show = 'successAlert'][count(. | //*[text() = 'Updated [sevver building] successfully!']) = count(//*[text() = 'Updated [sevver building] successfully!'])][count(. | id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"]) = count(id("parent")/div[@class="col-lg-12"]/div[@class="panel panel-default"]/div[@class="panel-body"]/div[@class="alert-dismissable fade in"]/p[@class="alert alert-info ng-binding"])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

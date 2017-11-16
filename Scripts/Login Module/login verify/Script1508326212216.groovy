@@ -23,7 +23,7 @@ WebUI.openBrowser(findTestData('Login Credentials').getValue(1, 1))
 
 WebUI.click(findTestObject('login/a_Log in'))
 
-WebUI.setText(findTestObject('login/input_email'), findTestData('Login Credentials').getValue(2, 2))
+WebUI.setText(findTestObject('login/input_email'), username)
 
 WebUI.setText(findTestObject('login/input_password'), findTestData('Login Credentials').getValue(3, 2))
 

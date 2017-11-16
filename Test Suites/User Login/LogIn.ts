@@ -25,5 +25,23 @@
          </iterationEntity>
          <testDataId>Data Files/Login Credentials</testDataId>
       </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7cacaaa-2ea2-4b85-b117-3f22f79258e1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>395a5a34-d079-42ac-93c3-013b0532f263</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Login Module/login verify</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c12d746c-3a94-454c-820a-fddcfe070984</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

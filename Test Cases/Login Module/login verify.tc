@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8bf4b2ca-7ac1-41cf-a85c-68b4b2f5e195</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>c12d746c-3a94-454c-820a-fddcfe070984</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
 </TestCaseEntity>

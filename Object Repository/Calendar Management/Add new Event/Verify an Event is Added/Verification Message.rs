@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify Event has been added</name>
+   <name>Verification Message</name>
    <tag></tag>
-   <elementGuidId>f9992661-73bf-4ad3-82fa-2812cc035c11</elementGuidId>
+   <elementGuidId>7a08b1c1-924d-49eb-a15e-5557c7dcd99d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

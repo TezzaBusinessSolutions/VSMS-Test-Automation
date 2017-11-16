@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8bf4b2ca-7ac1-41cf-a85c-68b4b2f5e195</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>ce13c391-63cf-4dc2-8471-af4cd8bf432b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(3, 2)</defaultValue>
+      <description></description>
+      <id>68266b9c-04b4-4a2b-bf42-3e93aba27d07</id>
+      <masked>false</masked>
+      <name>wrongPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(3, 3)</defaultValue>
+      <description></description>
+      <id>fafd0465-7212-4aa9-bbb5-b3197150cf7c</id>
+      <masked>false</masked>
+      <name>correctPassword</name>
+   </variable>
 </TestCaseEntity>

@@ -23,27 +23,27 @@ WebUI.openBrowser(findTestData('Login Credentials').getValue(1, 1))
 
 WebUI.click(findTestObject('login/a_Log in'))
 
-WebUI.setText(findTestObject('login/input_email'), findTestData('Login Credentials').getValue(2, 2))
+WebUI.setText(findTestObject('login/input_email'), email)
 
-WebUI.setText(findTestObject('login/input_password'), findTestData('Login Credentials').getValue(3, 2))
-
-WebUI.click(findTestObject('login/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('exemption/strong_These credentials do no'), 5)
-
-WebUI.setText(findTestObject('login/input_password'), findTestData('Login Credentials').getValue(3, 2))
+WebUI.setText(findTestObject('login/input_password'), wrongPassword)
 
 WebUI.click(findTestObject('login/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('exemption/strong_These credentials do no'), 5)
 
-WebUI.setText(findTestObject('login/input_password'), findTestData('Login Credentials').getValue(3, 2))
+WebUI.setText(findTestObject('login/input_password'), wrongPassword)
 
 WebUI.click(findTestObject('login/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('exemption/strong_These credentials do no'), 5)
 
-WebUI.setText(findTestObject('login/input_password'), findTestData('Login Credentials').getValue(3, 2))
+WebUI.setText(findTestObject('login/input_password'), wrongPassword)
+
+WebUI.click(findTestObject('login/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('exemption/strong_These credentials do no'), 5)
+
+WebUI.setText(findTestObject('login/input_password'), wrongPassword)
 
 WebUI.click(findTestObject('login/button_Login'))
 
@@ -51,13 +51,13 @@ WebUI.verifyElementPresent(findTestObject('exemption/strong_Too many login attem
 
 WebUI.delay(120)
 
-if (findTestData('Login Credentials').getValue(1, 1)) {
-    WebUI.setText(findTestObject('login/input_password'), findTestData('Login Credentials').getValue(3, 3))
+WebUI.setText(findTestObject('Login Page/input_email'), email)
 
-    WebUI.click(findTestObject('login/button_Login'))
+WebUI.setText(findTestObject('login/input_password'), correctPassword)
 
-    WebUI.delay(2)
+WebUI.click(findTestObject('login/button_Login'))
 
-    WebUI.closeBrowser()
-}
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

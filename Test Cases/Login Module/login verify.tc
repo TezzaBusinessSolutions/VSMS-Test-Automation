@@ -8,6 +8,29 @@
    <variable>
       <defaultValue>findTestData('Login Credentials').getValue(2, 2)</defaultValue>
       <description></description>
-
+      <id>709c8e29-6f13-48e4-b72b-0d46f08cadf6</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>35960434-e048-45b9-9e7d-46204c688457</id>
+      <masked>false</masked>
+      <name>wrongPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(3, 3)</defaultValue>
+      <description></description>
+      <id>1f72bc1b-21cb-4392-a0e1-f55ed1ea465c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login Credentials').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>53021a0b-3d40-4e50-8364-cf658609ff66</id>
+      <masked>false</masked>
+      <name>url</name>
    </variable>
 </TestCaseEntity>

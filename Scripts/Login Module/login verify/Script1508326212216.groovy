@@ -19,11 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(findTestData('Login Credentials').getValue(1, 1))
+WebUI.openBrowser(url)
 
 WebUI.click(findTestObject('login/a_Log in'))
 
-
+WebUI.setText(findTestObject('login/input_email'), email)
 
 WebUI.setText(findTestObject('login/input_password'), wrongPassword)
 
@@ -53,7 +53,7 @@ WebUI.delay(120)
 
 WebUI.setText(findTestObject('Login Page/input_email'), email)
 
-WebUI.setText(findTestObject('login/input_password'), correctPassword)
+WebUI.setText(findTestObject('login/input_password'), password)
 
 WebUI.click(findTestObject('login/button_Login'))
 

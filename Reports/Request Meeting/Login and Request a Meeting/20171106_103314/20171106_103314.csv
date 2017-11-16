@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login and Request a Meeting,Chrome 61.0.3163.100,Login and Request a meeting in Request Meeting Module,2017-11-06 10:33:21,2017-11-06 10:34:16,54.399s,FAILED
+,,,,,,
+Test Cases/Request A Meeting/Login and Request for a Meeting,Chrome 61.0.3163.100,Login with correct sign up credentials and Request for a meeting,2017-11-06 10:33:23,2017-11-06 10:34:13,50.857s,FAILED
+callTestCase,Chrome 61.0.3163.100,,2017-11-06 10:33:25,2017-11-06 10:34:13,48.581s,FAILED

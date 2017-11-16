@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Update Profile,Firefox 55.0,Update User's Profile,2017-11-15 11:56:57,2017-11-15 11:59:01,2m - 3.587s,FAILED
+,,,,,,
+Test Cases/Profile/Update Profile,Firefox 55.0,Update User's Profile,2017-11-15 11:56:58,2017-11-15 11:58:57,1m - 59.651s,FAILED
+callTestCase,Firefox 55.0,,2017-11-15 11:56:59,2017-11-15 11:58:32,1m - 33.189s,PASSED
+maximizeWindow,Firefox 55.0,,2017-11-15 11:58:32,2017-11-15 11:58:32,0.153s,PASSED
+callTestCase,Firefox 55.0,,2017-11-15 11:58:32,2017-11-15 11:58:57,25.234s,FAILED

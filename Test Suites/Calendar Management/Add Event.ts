@@ -4,7 +4,7 @@
    <name>Add Event</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-03T14:27:14</lastRun>
+   <lastRun>2017-11-06T10:25:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

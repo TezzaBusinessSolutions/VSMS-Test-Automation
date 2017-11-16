@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LogIn" time="65" tests="1" failures="0" errors="0">
+   <testsuite name="LogIn" tests="1" failures="0" errors="0" time="65" timestamp="2017-11-16 14:46:43" hostname="Stella - 192.168.56.1" id="Test Suites/User Login/LogIn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171116_144639"/>
+         <property name="logFiles" value="C:\\Users\\Stella\\git\\VSMS-Test-Automation\\Reports\\User Login\\LogIn\\20171116_144639\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Stella - 192.168.56.1"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="4f03f1b5-28c9-4220-91e7-8a957bccd4bf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Common/User Login" classname="Test Cases/Common/User Login" status="PASSED">
+         <system-out><![CDATA[2017-11-16 14:46:44 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-11-16 14:46:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-16 14:47:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-11-16 14:47:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-16 14:47:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-16 14:47:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-16 14:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-11-16 14:47:41 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-16 14:47:45 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-11-16 14:47:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-16 14:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-11-16 14:47:46 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-16 14:47:46 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-11-16 14:47:46 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-16 14:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-11-16 14:47:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-11-16 14:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-16 14:46:43 - [TEST_SUITE][PASSED] - LogIn: Test Cases/Common/User Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -19,7 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Request A Meeting/Request a Meeting Menu'), [('var_url') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Request A Meeting/Request a Meeting Menu'), [('var_url') : findTestData('Request Meeting ').getValue(
+            1, 1)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Request A meeting/Sign Up In Request Meeting/input_title'), var_title)
 
@@ -27,7 +28,7 @@ WebUI.setText(findTestObject('Request A meeting/Sign Up In Request Meeting/input
 
 WebUI.setText(findTestObject('Request A meeting/Sign Up In Request Meeting/input_lastname'), var_lastName)
 
-WebUI.selectOptionByValue(findTestObject('Request A meeting/Sign Up In Request Meeting/select_tenant_id'), '3', false)
+WebUI.selectOptionByValue(findTestObject('Request A meeting/Sign Up In Request Meeting/select_tenant_id'), '14', false)
 
 WebUI.setText(findTestObject('Request A meeting/Sign Up In Request Meeting/input_email'), var_email)
 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Event" time="343" tests="0" failures="1" errors="0">
+   <testsuite name="Add Event" tests="0" failures="1" errors="0" time="343" timestamp="2017-12-04 10:20:31" hostname="Dennis Gituto - DESKTOP-IA8CIQG" id="Test Suites/Calendar Management/Add Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028"/>
+         <property name="logFiles" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\1512372310667.png, C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\1512372342142.png, C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\1512372373667.png"/>
+         <property name="hostName" value="Dennis Gituto - DESKTOP-IA8CIQG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.117"/>
+         <property name="sessionId" value="e15d728ada91f05a2c822c69d62a03d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Add new Event" classname="Test Cases/Calendar Management/Add new Event" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)"/>
+         <system-out><![CDATA[2017-12-04 10:20:31 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)
+
+2017-12-04 10:20:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-04 10:20:32 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-12-04 10:20:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-04 10:23:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-04 10:23:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-04 10:23:26 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-04 10:23:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-04 10:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-04 10:24:21 - [TEST_STEP][PASSED] - setText: Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-04 10:24:21 - [MESSAGE][PASSED] - Text 'clarinenyauncho@gmail.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-04 10:24:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-04 10:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-04 10:24:21 - [TEST_STEP][PASSED] - setText: Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-12-04 10:24:22 - [MESSAGE][PASSED] - Text 'changeme' is set on object 'Object Repository/login/input_password'
+
+2017-12-04 10:24:22 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-04 10:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-04 10:24:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-04 10:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-04 10:24:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-04 10:24:35 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Calendar Management/Calendar Menu' (Root cause: Call Test Case 'Test Cases/Calendar Management/Calendar Menu' failed)
+
+2017-12-04 10:24:35 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Calendar Menu: Test Cases/Calendar Management/Calendar Menu FAILED because (of) Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)
+
+2017-12-04 10:24:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)
+
+2017-12-04 10:25:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)
+[[ATTACHMENT|C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\1512372310667.png]]
+
+2017-12-04 10:25:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard Page/a_Calendar Management' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Calendar Management' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Calendar Management')]) = count(//*[contains(.,'Calendar Management')])]' not found)
+
+2017-12-04 10:25:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard Page/a_Calendar Management' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Calendar Management' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Calendar Management')]) = count(//*[contains(.,'Calendar Management')])]' not found)
+[[ATTACHMENT|C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\1512372342142.png]]
+
+2017-12-04 10:25:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard Page/a_Calendar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Calendar' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/admin/calendar']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/admin/calendar'])][count(. | //*[contains(.,'Calendar')]) = count(//*[contains(.,'Calendar')])]' not found)
+
+2017-12-04 10:26:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard Page/a_Calendar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Calendar' located by 'By.xpath: //a[count(. | //*[@href = 'https://sandbox.vsms.tezzasolutions.com/admin/calendar']) = count(//*[@href = 'https://sandbox.vsms.tezzasolutions.com/admin/calendar'])][count(. | //*[contains(.,'Calendar')]) = count(//*[contains(.,'Calendar')])]' not found)
+[[ATTACHMENT|C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_102028\\1512372373667.png]]
+
+2017-12-04 10:26:14 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Calendar Management/Calendar Menu' (Root cause: Call Test Case 'Test Cases/Calendar Management/Calendar Menu' failed)]]></system-out>
+         <system-err><![CDATA[2017-12-04 10:20:31 - [TEST_CASE][FAILED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 10:20:31 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-04 10:20:31 - [TEST_SUITE][FAILED] - Add Event: Test Cases/Calendar Management/Add new Event FAILED because (of) Unable to click on object 'Object Repository/Dashboard Page/a_Modules' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/a_Modules' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[contains(.,'Modules')]) = count(//*[contains(.,'Modules')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

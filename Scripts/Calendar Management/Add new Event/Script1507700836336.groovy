@@ -43,10 +43,10 @@ WebUI.click(findTestObject('Calendar Management/Add new Event/Save Event Button'
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Calendar Management/Add new Event/Verify an Event is Added/Verification Message'), 
+WebUI.verifyElementPresent(findTestObject('Calendar Management/Add new Event/Verify an Event is Added/Event created successfully Message'), 
     0)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

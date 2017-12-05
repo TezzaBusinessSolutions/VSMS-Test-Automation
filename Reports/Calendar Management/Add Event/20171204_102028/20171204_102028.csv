@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Event,Chrome 62.0.3202.94,Add Event in the Calendar Management Module,2017-12-04 10:20:31,2017-12-04 10:26:14,5m - 43.675s,FAILED
+,,,,,,
+Test Cases/Calendar Management/Add new Event,Chrome 62.0.3202.94,Add new Event,2017-12-04 10:20:31,2017-12-04 10:26:14,5m - 42.406s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-04 10:20:32,2017-12-04 10:24:35,4m - 3.394s,PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-04 10:24:35,2017-12-04 10:26:14,1m - 38.342s,FAILED

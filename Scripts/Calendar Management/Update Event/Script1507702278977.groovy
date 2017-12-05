@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('Calendar Management/Calendar Menu'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Calendar Management/Update Event/Even to update'))
+WebUI.click(findTestObject('Calendar Management/Update Event/Event to Update'))
 
 WebUI.setText(findTestObject('Calendar Management/Add new Event/Title'), var_title)
 
@@ -43,12 +43,11 @@ WebUI.setText(findTestObject('Calendar Management/Add new Event/Description'), v
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Calendar Management/Update Event/button_Update Event'))
+WebUI.click(findTestObject('Calendar Management/Update Event/Update Event Button'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Calendar Management/Update Event/Verify Update Event/Verification Event updated successfully'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Calendar Management/Update Event/Event Updated success Message'), 0)
 
 WebUI.closeBrowser()
 

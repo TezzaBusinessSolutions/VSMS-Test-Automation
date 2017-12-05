@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign up" time="63" tests="1" failures="0" errors="0">
+   <testsuite name="Sign up" tests="1" failures="0" errors="0" time="63" timestamp="2017-12-05 12:18:49" hostname="Dennis Gituto - DESKTOP-IA8CIQG" id="Test Suites/Request Meeting/Sign up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Sign up\\20171205_121847"/>
+         <property name="logFiles" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Sign up\\20171205_121847\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dennis Gituto - DESKTOP-IA8CIQG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="f196045b3a7221c796a7bd1c5c6ef639"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Request A Meeting/Sign Up in Request Meeting" classname="Test Cases/Request A Meeting/Sign Up in Request Meeting" status="PASSED">
+         <system-out><![CDATA[2017-12-05 12:18:49 - [TEST_CASE][PASSED] - Test Cases/Request A Meeting/Sign Up in Request Meeting: Test Cases/Request A Meeting/Sign Up in Request Meeting
+
+2017-12-05 12:18:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Request A Meeting/Request a Meeting Menu' successfully
+
+2017-12-05 12:18:51 - [TEST_CASE][PASSED] - Test Cases/Request A Meeting/Request a Meeting Menu: Test Cases/Request A Meeting/Request a Meeting Menu
+
+2017-12-05 12:18:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 12:18:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 12:18:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-12-05 12:19:37 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-12-05 12:19:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 12:19:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 12:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-12-05 12:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-12-05 12:19:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 12:19:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 12:19:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Request A Meeting/Request a Meeting Menu' successfully
+
+2017-12-05 12:19:44 - [TEST_STEP][PASSED] - setText: Text 'Mr' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_title'
+
+2017-12-05 12:19:44 - [MESSAGE][PASSED] - Text 'Mr' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_title'
+
+2017-12-05 12:19:44 - [TEST_STEP][PASSED] - setText: Text 'Dennis' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_firstname'
+
+2017-12-05 12:19:44 - [MESSAGE][PASSED] - Text 'Dennis' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_firstname'
+
+2017-12-05 12:19:44 - [TEST_STEP][PASSED] - setText: Text 'Gituto' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_lastname'
+
+2017-12-05 12:19:45 - [MESSAGE][PASSED] - Text 'Gituto' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_lastname'
+
+2017-12-05 12:19:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14' are selected in object 'Object Repository/Request A meeting/Sign Up In Request Meeting/select_tenant_id' 
+
+2017-12-05 12:19:45 - [MESSAGE][PASSED] - All options with value '14' are selected in object 'Object Repository/Request A meeting/Sign Up In Request Meeting/select_tenant_id' 
+
+2017-12-05 12:19:45 - [TEST_STEP][PASSED] - setText: Text 'dennisgituto@yahoo.com' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_email'
+
+2017-12-05 12:19:45 - [MESSAGE][PASSED] - Text 'dennisgituto@yahoo.com' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_email'
+
+2017-12-05 12:19:45 - [TEST_STEP][PASSED] - setText: Text 'desteg' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password'
+
+2017-12-05 12:19:46 - [MESSAGE][PASSED] - Text 'desteg' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password'
+
+2017-12-05 12:19:46 - [TEST_STEP][PASSED] - setText: Text 'var_confirmPassword' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password_confirmation'
+
+2017-12-05 12:19:46 - [MESSAGE][PASSED] - Text 'var_confirmPassword' is set on object 'Object Repository/Request A meeting/Sign Up In Request Meeting/input_password_confirmation'
+
+2017-12-05 12:19:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request A meeting/Sign Up In Request Meeting/button_Sign Up' is clicked on
+
+2017-12-05 12:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Request A meeting/Sign Up In Request Meeting/button_Sign Up' is clicked on
+
+2017-12-05 12:19:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:19:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:19:48 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Request A meeting/Sign Up In Request Meeting/Verify Sign Up in Request Meeting/Request Sign up' is visible
+
+2017-12-05 12:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/Request A meeting/Sign Up In Request Meeting/Verify Sign Up in Request Meeting/Request Sign up' is visible
+
+2017-12-05 12:19:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 12:19:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 12:19:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 12:19:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 12:18:49 - [TEST_SUITE][PASSED] - Sign up: Test Cases/Request A Meeting/Sign Up in Request Meeting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

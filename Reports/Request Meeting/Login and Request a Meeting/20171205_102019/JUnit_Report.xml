@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login and Request a Meeting" time="43" tests="0" failures="1" errors="0">
+   <testsuite name="Login and Request a Meeting" tests="0" failures="1" errors="0" time="43" timestamp="2017-12-05 10:20:21" hostname="Dennis Gituto - DESKTOP-IA8CIQG" id="Test Suites/Request Meeting/Login and Request a Meeting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Login and Request a Meeting\\20171205_102019"/>
+         <property name="logFiles" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Login and Request a Meeting\\20171205_102019\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Login and Request a Meeting\\20171205_102019\\1512458425572.png, C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Login and Request a Meeting\\20171205_102019\\1512458458610.png"/>
+         <property name="hostName" value="Dennis Gituto - DESKTOP-IA8CIQG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="5f69b5522a4954b299d495e7c4188054"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Request A Meeting/Login and Request for a Meeting" classname="Test Cases/Request A Meeting/Login and Request for a Meeting" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)"/>
+         <system-out><![CDATA[2017-12-05 10:20:21 - [TEST_CASE][FAILED] - Test Cases/Request A Meeting/Login and Request for a Meeting: Test Cases/Request A Meeting/Login and Request for a Meeting FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2017-12-05 10:20:22 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Request A Meeting/Request a Meeting Menu' (Root cause: Call Test Case 'Test Cases/Request A Meeting/Request a Meeting Menu' failed)
+
+2017-12-05 10:20:22 - [TEST_CASE][FAILED] - Test Cases/Request A Meeting/Request a Meeting Menu: Test Cases/Request A Meeting/Request a Meeting Menu FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2017-12-05 10:20:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 10:20:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 10:20:25 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2017-12-05 10:20:25 - [MESSAGE][FAILED] - Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+[[ATTACHMENT|C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Login and Request a Meeting\\20171205_102019\\1512458425572.png]]
+
+2017-12-05 10:20:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 10:20:27 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 10:20:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' located by 'By.xpath: //button[count(. | //*[contains(.,'REQUEST A MEETING')]) = count(//*[contains(.,'REQUEST A MEETING')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-12-05 10:20:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' located by 'By.xpath: //button[count(. | //*[contains(.,'REQUEST A MEETING')]) = count(//*[contains(.,'REQUEST A MEETING')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Login and Request a Meeting\\20171205_102019\\1512458458610.png]]
+
+2017-12-05 10:20:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 10:21:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 10:21:03 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Request A Meeting/Request a Meeting Menu' (Root cause: Call Test Case 'Test Cases/Request A Meeting/Request a Meeting Menu' failed)]]></system-out>
+         <system-err><![CDATA[2017-12-05 10:20:21 - [TEST_CASE][FAILED] - Test Cases/Request A Meeting/Login and Request for a Meeting: Test Cases/Request A Meeting/Login and Request for a Meeting FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 10:20:21 - [TEST_SUITE][FAILED] - Login and Request a Meeting: Test Cases/Request A Meeting/Login and Request for a Meeting FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-out>
+      <system-err><![CDATA[2017-12-05 10:20:21 - [TEST_SUITE][FAILED] - Login and Request a Meeting: Test Cases/Request A Meeting/Login and Request for a Meeting FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+   </testsuite>
+</testsuites>

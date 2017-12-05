@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Event" time="126" tests="1" failures="0" errors="0">
+   <testsuite name="Add Event" tests="1" failures="0" errors="0" time="126" timestamp="2017-12-04 15:49:35" hostname="Dennis Gituto - DESKTOP-IA8CIQG" id="Test Suites/Calendar Management/Add Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_154933"/>
+         <property name="logFiles" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Calendar Management\\Add Event\\20171204_154933\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dennis Gituto - DESKTOP-IA8CIQG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="2874e8ba73116daf229af3bb407dab7c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Calendar Management/Add new Event" classname="Test Cases/Calendar Management/Add new Event" status="PASSED">
+         <system-out><![CDATA[2017-12-04 15:49:36 - [TEST_CASE][PASSED] - Test Cases/Calendar Management/Add new Event: Test Cases/Calendar Management/Add new Event
+
+2017-12-04 15:49:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-04 15:49:37 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-12-04 15:49:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-04 15:50:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-04 15:50:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-04 15:50:14 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-04 15:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-04 15:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-04 15:50:27 - [TEST_STEP][PASSED] - setText: Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-04 15:50:28 - [MESSAGE][PASSED] - Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-04 15:50:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-04 15:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-04 15:50:28 - [TEST_STEP][PASSED] - setText: Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-04 15:50:28 - [MESSAGE][PASSED] - Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-04 15:50:28 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-04 15:50:28 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-04 15:50:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-04 15:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-04 15:50:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-04 15:50:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Calendar Management/Calendar Menu' successfully
+
+2017-12-04 15:50:55 - [TEST_CASE][PASSED] - Test Cases/Calendar Management/Calendar Menu: Test Cases/Calendar Management/Calendar Menu
+
+2017-12-04 15:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-12-04 15:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Modules' is clicked on
+
+2017-12-04 15:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-12-04 15:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar Management' is clicked on
+
+2017-12-04 15:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-12-04 15:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/a_Calendar' is clicked on
+
+2017-12-04 15:51:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Calendar Management/Calendar Menu' successfully
+
+2017-12-04 15:51:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Calendar Management/Add new Event/New Event' is clicked on
+
+2017-12-04 15:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar Management/Add new Event/New Event' is clicked on
+
+2017-12-04 15:51:31 - [TEST_STEP][PASSED] - setText: Text 'Developer's Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Title'
+
+2017-12-04 15:51:31 - [MESSAGE][PASSED] - Text 'Developer's Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Title'
+
+2017-12-04 15:51:31 - [TEST_STEP][PASSED] - setText: Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/Start Date'
+
+2017-12-04 15:51:32 - [MESSAGE][PASSED] - Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/Start Date'
+
+2017-12-04 15:51:32 - [TEST_STEP][PASSED] - setText: Text '1300' is set on object 'Object Repository/Calendar Management/Add new Event/Start Time'
+
+2017-12-04 15:51:32 - [MESSAGE][PASSED] - Text '1300' is set on object 'Object Repository/Calendar Management/Add new Event/Start Time'
+
+2017-12-04 15:51:32 - [TEST_STEP][PASSED] - setText: Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/End Date'
+
+2017-12-04 15:51:32 - [MESSAGE][PASSED] - Text '10/12/17' is set on object 'Object Repository/Calendar Management/Add new Event/End Date'
+
+2017-12-04 15:51:32 - [TEST_STEP][PASSED] - setText: Text '1800' is set on object 'Object Repository/Calendar Management/Add new Event/End Time'
+
+2017-12-04 15:51:33 - [MESSAGE][PASSED] - Text '1800' is set on object 'Object Repository/Calendar Management/Add new Event/End Time'
+
+2017-12-04 15:51:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-12-04 15:51:33 - [MESSAGE][PASSED] - All options with value '' are selected in object 'Object Repository/Calendar Management/Add new Event/Location' 
+
+2017-12-04 15:51:33 - [TEST_STEP][PASSED] - setText: Text 'C# Developers Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Description'
+
+2017-12-04 15:51:33 - [MESSAGE][PASSED] - Text 'C# Developers Interview' is set on object 'Object Repository/Calendar Management/Add new Event/Description'
+
+2017-12-04 15:51:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Calendar Management/Add new Event/Save Event Button' is clicked on
+
+2017-12-04 15:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar Management/Add new Event/Save Event Button' is clicked on
+
+2017-12-04 15:51:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-04 15:51:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-04 15:51:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Calendar Management/Add new Event/Verify an Event is Added/Event created successfully Message' is present
+
+2017-12-04 15:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-04 15:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/Calendar Management/Add new Event/Verify an Event is Added/Event created successfully Message' is present
+
+2017-12-04 15:51:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-04 15:51:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-04 15:51:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-04 15:51:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 15:49:35 - [TEST_SUITE][PASSED] - Add Event: Test Cases/Calendar Management/Add new Event]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

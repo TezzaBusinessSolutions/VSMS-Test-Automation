@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Request Meeting" time="45" tests="1" failures="0" errors="0">
+   <testsuite name="Request Meeting" tests="1" failures="0" errors="0" time="45" timestamp="2017-12-05 10:29:00" hostname="Dennis Gituto - DESKTOP-IA8CIQG" id="Test Suites/Request Meeting/Request Meeting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Request Meeting\\20171205_102859"/>
+         <property name="logFiles" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Request Meeting\\Request Meeting\\20171205_102859\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dennis Gituto - DESKTOP-IA8CIQG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="62e534d7f7fe84e97250bd5ea8e67d8a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Request A Meeting/Request a Meeting Menu" classname="Test Cases/Request A Meeting/Request a Meeting Menu" status="PASSED">
+         <system-out><![CDATA[2017-12-05 10:29:01 - [TEST_CASE][PASSED] - Test Cases/Request A Meeting/Request a Meeting Menu: Test Cases/Request A Meeting/Request a Meeting Menu
+
+2017-12-05 10:29:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 10:29:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 10:29:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-12-05 10:29:38 - [MESSAGE][PASSED] - Navigate to 'https://sandbox.vsms.tezzasolutions.com/index' successfully
+
+2017-12-05 10:29:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 10:29:39 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 10:29:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-12-05 10:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Request A meeting/Request meeting Page/button_REQUEST A MEETING' is clicked on
+
+2017-12-05 10:29:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 10:29:45 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 10:29:00 - [TEST_SUITE][PASSED] - Request Meeting: Test Cases/Request A Meeting/Request a Meeting Menu]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

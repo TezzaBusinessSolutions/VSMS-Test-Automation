@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Update Profile" time="50" tests="1" failures="0" errors="0">
+   <testsuite name="Update Profile" tests="1" failures="0" errors="0" time="50" timestamp="2017-12-05 10:13:56" hostname="Dennis Gituto - DESKTOP-IA8CIQG" id="Test Suites/Profile/Update Profile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171205_101354"/>
+         <property name="logFiles" value="C:\\Users\\Dennis Gituto\\git\\VSMS-Test-Automation\\Reports\\Profile\\Update Profile\\20171205_101354\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dennis Gituto - DESKTOP-IA8CIQG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="b6c3cd36bd8f08aa6618691c6b75e2cc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Profile/Update Profile" classname="Test Cases/Profile/Update Profile" status="PASSED">
+         <system-out><![CDATA[2017-12-05 10:13:56 - [TEST_CASE][PASSED] - Test Cases/Profile/Update Profile: Test Cases/Profile/Update Profile
+
+2017-12-05 10:13:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-05 10:13:57 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-12-05 10:13:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-05 10:14:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-05 10:14:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 10:14:16 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 10:14:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-05 10:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-05 10:14:20 - [TEST_STEP][PASSED] - setText: Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-05 10:14:21 - [MESSAGE][PASSED] - Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-05 10:14:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-05 10:14:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-05 10:14:21 - [TEST_STEP][PASSED] - setText: Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-05 10:14:21 - [MESSAGE][PASSED] - Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-05 10:14:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-05 10:14:21 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-05 10:14:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-05 10:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-05 10:14:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-05 10:14:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 10:14:29 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 10:14:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Profile/Profile Menu' successfully
+
+2017-12-05 10:14:29 - [TEST_CASE][PASSED] - Test Cases/Profile/Profile Menu: Test Cases/Profile/Profile Menu
+
+2017-12-05 10:14:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Nav Bar/a_dropdown-toggle' is clicked on
+
+2017-12-05 10:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Nav Bar/a_dropdown-toggle' is clicked on
+
+2017-12-05 10:14:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Nav Bar/a_My Profile' is clicked on
+
+2017-12-05 10:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Nav Bar/a_My Profile' is clicked on
+
+2017-12-05 10:14:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Profile/Profile Menu' successfully
+
+2017-12-05 10:14:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Mr' are selected in object 'Object Repository/Profile/Profile Page/select_title' 
+
+2017-12-05 10:14:34 - [MESSAGE][PASSED] - All options with value 'Mr' are selected in object 'Object Repository/Profile/Profile Page/select_title' 
+
+2017-12-05 10:14:34 - [TEST_STEP][PASSED] - setText: Text 'Madiba' is set on object 'Object Repository/Profile/Profile Page/FirstName'
+
+2017-12-05 10:14:34 - [MESSAGE][PASSED] - Text 'Madiba' is set on object 'Object Repository/Profile/Profile Page/FirstName'
+
+2017-12-05 10:14:34 - [TEST_STEP][PASSED] - setText: Text 'Mandela' is set on object 'Object Repository/Profile/Profile Page/LastName'
+
+2017-12-05 10:14:35 - [MESSAGE][PASSED] - Text 'Mandela' is set on object 'Object Repository/Profile/Profile Page/LastName'
+
+2017-12-05 10:14:35 - [TEST_STEP][PASSED] - setText: Text 'Tester' is set on object 'Object Repository/Profile/Profile Page/Job Title'
+
+2017-12-05 10:14:35 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Profile/Profile Page/Job Title'
+
+2017-12-05 10:14:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'number:107' are selected in object 'Object Repository/Profile/Profile Page/Department' 
+
+2017-12-05 10:14:35 - [MESSAGE][PASSED] - All options with value 'number:107' are selected in object 'Object Repository/Profile/Profile Page/Department' 
+
+2017-12-05 10:14:35 - [TEST_STEP][PASSED] - setText: Text '0725165229' is set on object 'Object Repository/Profile/Profile Page/Phone'
+
+2017-12-05 10:14:35 - [MESSAGE][PASSED] - Text '0725165229' is set on object 'Object Repository/Profile/Profile Page/Phone'
+
+2017-12-05 10:14:35 - [TEST_STEP][PASSED] - setText: Text '0725167892' is set on object 'Object Repository/Profile/Profile Page/Alt Phone'
+
+2017-12-05 10:14:35 - [MESSAGE][PASSED] - Text '0725167892' is set on object 'Object Repository/Profile/Profile Page/Alt Phone'
+
+2017-12-05 10:14:35 - [TEST_STEP][PASSED] - setText: Text 'dennisgituto@yahoo.com' is set on object 'Object Repository/Profile/Profile Page/Alt Email'
+
+2017-12-05 10:14:36 - [MESSAGE][PASSED] - Text 'dennisgituto@yahoo.com' is set on object 'Object Repository/Profile/Profile Page/Alt Email'
+
+2017-12-05 10:14:36 - [TEST_STEP][PASSED] - setText: Text '6789' is set on object 'Object Repository/Profile/Profile Page/Address 1'
+
+2017-12-05 10:14:36 - [MESSAGE][PASSED] - Text '6789' is set on object 'Object Repository/Profile/Profile Page/Address 1'
+
+2017-12-05 10:14:36 - [TEST_STEP][PASSED] - setText: Text '12345' is set on object 'Object Repository/Profile/Profile Page/Address 2'
+
+2017-12-05 10:14:36 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Profile/Profile Page/Address 2'
+
+2017-12-05 10:14:36 - [TEST_STEP][PASSED] - setText: Text 'Nairobi' is set on object 'Object Repository/Profile/Profile Page/City'
+
+2017-12-05 10:14:37 - [MESSAGE][PASSED] - Text 'Nairobi' is set on object 'Object Repository/Profile/Profile Page/City'
+
+2017-12-05 10:14:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Tanzania' are selected in object 'Object Repository/Profile/Profile Page/Country' 
+
+2017-12-05 10:14:37 - [MESSAGE][PASSED] - All options with value 'Tanzania' are selected in object 'Object Repository/Profile/Profile Page/Country' 
+
+2017-12-05 10:14:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Arusha' are selected in object 'Object Repository/Profile/Profile Page/State' 
+
+2017-12-05 10:14:37 - [MESSAGE][PASSED] - All options with value 'Arusha' are selected in object 'Object Repository/Profile/Profile Page/State' 
+
+2017-12-05 10:14:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 10:14:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 10:14:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Profile/Profile Page/button_Update' is clicked on
+
+2017-12-05 10:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile/Profile Page/button_Update' is clicked on
+
+2017-12-05 10:14:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Profile/Profile Updated/Profile updated successfully Message' is present
+
+2017-12-05 10:14:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 10:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Profile/Profile Updated/Profile updated successfully Message' is present
+
+2017-12-05 10:14:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 10:14:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 10:14:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 10:14:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 10:13:56 - [TEST_SUITE][PASSED] - Update Profile: Test Cases/Profile/Update Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

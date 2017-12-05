@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Profile/Profile Page/LastName'), var_lastName)
 
 WebUI.setText(findTestObject('Profile/Profile Page/Job Title'), var_jobTitle)
 
-WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/Department'), 'number:101', false)
+WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/Department'), 'number:107', false)
 
 WebUI.setText(findTestObject('Profile/Profile Page/Phone'), var_phone)
 
@@ -47,17 +47,15 @@ WebUI.setText(findTestObject('Profile/Profile Page/Address 2'), var_address2)
 
 WebUI.setText(findTestObject('Profile/Profile Page/City'), var_city)
 
-WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/Country'), 'Kenya', false)
+WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/Country'), 'Tanzania', false)
 
-WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/State'), 'Nairobi', false)
+WebUI.selectOptionByValue(findTestObject('Profile/Profile Page/State', [('variable') : '']), 'Arusha', false)
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Profile/Profile Page/button_Update'))
 
-WebUI.delay(5)
-
-WebUI.verifyElementVisible(findTestObject('Profile/Verify Update Profile/Profile Update Verification'))
+WebUI.verifyElementPresent(findTestObject('Profile/Profile Updated/Profile updated successfully Message'), 0)
 
 WebUI.delay(3)
 

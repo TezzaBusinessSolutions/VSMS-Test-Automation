@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Property,,Editing property,2017-12-05 15:34:12,2017-12-05 15:34:13,0.370s,INCOMPLETE
+,,,,,,
+Test Cases/Property management/Edit Property,,Updating property,2017-12-05 15:34:13,2017-12-05 15:34:13,0.000s,INCOMPLETE

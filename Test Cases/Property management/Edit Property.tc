@@ -6,10 +6,10 @@
    <comment></comment>
    <testCaseGuid>9f65cda5-8009-47a5-87cd-c45795256a87</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('Edit Property ').getValue(1, 2)</defaultValue>
       <description></description>
       <id>ee8c79f8-6db6-4abf-8b56-2e2baa6cfa2a</id>
       <masked>false</masked>
-      <name>var_editPropertyAddress2</name>
+      <name>editPropertyName</name>
    </variable>
 </TestCaseEntity>

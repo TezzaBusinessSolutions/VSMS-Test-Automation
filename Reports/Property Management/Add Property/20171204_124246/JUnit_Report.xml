@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Property" time="171" tests="0" failures="1" errors="0">
+   <testsuite name="Add Property" tests="0" failures="1" errors="0" time="171" timestamp="2017-12-04 12:42:47" hostname="Stella Ireri - DESKTOP-JP48UB6" id="Test Suites/Property Management/Add Property">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171204_124246"/>
+         <property name="logFiles" value="C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171204_124246\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171204_124246\\1512380738320.png, C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171204_124246\\1512380738654.png"/>
+         <property name="hostName" value="Stella Ireri - DESKTOP-JP48UB6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.114"/>
+         <property name="sessionId" value="7d8ebe98bf95598112a567058f5fbc66"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Property management/Add Property" classname="Test Cases/Property management/Add Property" status="FAILED">
+         <failure type="FAILED" message="Unable to verify alert present (Root cause: No alert found after 2 second(s).)"/>
+         <system-out><![CDATA[2017-12-04 12:42:48 - [TEST_CASE][FAILED] - Test Cases/Property management/Add Property: Test Cases/Property management/Add Property FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)
+
+2017-12-04 12:42:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-04 12:42:48 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-12-04 12:42:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-04 12:43:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-04 12:43:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-04 12:43:42 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-04 12:43:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-04 12:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-04 12:44:12 - [TEST_STEP][PASSED] - setText: Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-04 12:44:13 - [MESSAGE][PASSED] - Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-04 12:44:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-04 12:44:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-04 12:44:13 - [TEST_STEP][PASSED] - setText: Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-04 12:44:13 - [MESSAGE][PASSED] - Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-04 12:44:13 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-04 12:44:13 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-04 12:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-04 12:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-04 12:45:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-04 12:45:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Property management/Property management menu' successfully
+
+2017-12-04 12:45:05 - [TEST_CASE][PASSED] - Test Cases/Property management/Property management menu: Test Cases/Property management/Property management menu
+
+2017-12-04 12:45:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Modules' is clicked on
+
+2017-12-04 12:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Modules' is clicked on
+
+2017-12-04 12:45:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Property Management' is clicked on
+
+2017-12-04 12:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Property Management' is clicked on
+
+2017-12-04 12:45:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Property' is clicked on
+
+2017-12-04 12:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Property' is clicked on
+
+2017-12-04 12:45:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Property management/Property management menu' successfully
+
+2017-12-04 12:45:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-04 12:45:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-04 12:45:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Add New Property/button_Add New' is clicked on
+
+2017-12-04 12:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Add New Property/button_Add New' is clicked on
+
+2017-12-04 12:45:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-04 12:45:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-04 12:45:26 - [TEST_STEP][PASSED] - setText: Text 'Kamata Apartments' is set on object 'Object Repository/Property Management/Add New Property/property_name'
+
+2017-12-04 12:45:26 - [MESSAGE][PASSED] - Text 'Kamata Apartments' is set on object 'Object Repository/Property Management/Add New Property/property_name'
+
+2017-12-04 12:45:26 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Building' are selected in object 'Object Repository/Property Management/Add New Property/property_type_id' 
+
+2017-12-04 12:45:27 - [MESSAGE][PASSED] - All options with label 'Building' are selected in object 'Object Repository/Property Management/Add New Property/property_type_id' 
+
+2017-12-04 12:45:27 - [TEST_STEP][PASSED] - setText: Text '12365' is set on object 'Object Repository/Property Management/Add New Property/property_address1'
+
+2017-12-04 12:45:27 - [MESSAGE][PASSED] - Text '12365' is set on object 'Object Repository/Property Management/Add New Property/property_address1'
+
+2017-12-04 12:45:27 - [TEST_STEP][PASSED] - setText: Text '89' is set on object 'Object Repository/Property Management/Add New Property/property_address2'
+
+2017-12-04 12:45:27 - [MESSAGE][PASSED] - Text '89' is set on object 'Object Repository/Property Management/Add New Property/property_address2'
+
+2017-12-04 12:45:27 - [TEST_STEP][PASSED] - setText: Text 'kilome' is set on object 'Object Repository/Property Management/Add New Property/property_city'
+
+2017-12-04 12:45:27 - [MESSAGE][PASSED] - Text 'kilome' is set on object 'Object Repository/Property Management/Add New Property/property_city'
+
+2017-12-04 12:45:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Kenya' are selected in object 'Object Repository/Property Management/Add New Property/property_country' 
+
+2017-12-04 12:45:27 - [MESSAGE][PASSED] - All options with value 'Kenya' are selected in object 'Object Repository/Property Management/Add New Property/property_country' 
+
+2017-12-04 12:45:27 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Makueni' are selected in object 'Object Repository/Property Management/Add New Property/property_state' 
+
+2017-12-04 12:45:28 - [MESSAGE][PASSED] - All options with value 'Makueni' are selected in object 'Object Repository/Property Management/Add New Property/property_state' 
+
+2017-12-04 12:45:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-04 12:45:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-04 12:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Add New Property/button_Add' is clicked on
+
+2017-12-04 12:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Add New Property/button_Add' is clicked on
+
+2017-12-04 12:45:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-04 12:45:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-04 12:45:36 - [TEST_STEP][FAILED] - verifyAlertPresent: Unable to verify alert present (Root cause: No alert found after 2 second(s).)
+
+2017-12-04 12:45:38 - [MESSAGE][FAILED] - No alert found after 2 second(s).
+[[ATTACHMENT|C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171204_124246\\1512380738320.png]]
+
+2017-12-04 12:45:38 - [MESSAGE][FAILED] - Unable to verify alert present (Root cause: No alert found after 2 second(s).)
+[[ATTACHMENT|C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Add Property\\20171204_124246\\1512380738654.png]]]]></system-out>
+         <system-err><![CDATA[2017-12-04 12:42:48 - [TEST_CASE][FAILED] - Test Cases/Property management/Add Property: Test Cases/Property management/Add Property FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 12:42:47 - [TEST_SUITE][FAILED] - Add Property: Test Cases/Property management/Add Property FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-out>
+      <system-err><![CDATA[2017-12-04 12:42:47 - [TEST_SUITE][FAILED] - Add Property: Test Cases/Property management/Add Property FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-err>
+   </testsuite>
+</testsuites>

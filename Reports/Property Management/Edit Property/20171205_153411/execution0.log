@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-05T15:34:12</date>
+  <millis>1512477252856</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Edit Property</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Edit Property</property>
+  <property name="description">Editing property</property>
+  <property name="id">Test Suites/Property Management/Edit Property</property>
+</record>
+<record>
+  <date>2017-12-05T15:34:12</date>
+  <millis>1512477252880</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Stella Ireri - DESKTOP-JP48UB6&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Stella Ireri - DESKTOP-JP48UB6</property>
+</record>
+<record>
+  <date>2017-12-05T15:34:12</date>
+  <millis>1512477252880</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2017-12-05T15:34:12</date>
+  <millis>1512477252882</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.1.108&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.108</property>
+</record>
+<record>
+  <date>2017-12-05T15:34:12</date>
+  <millis>1512477252883</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.1.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.1.0.1</property>
+</record>
+<record>
+  <date>2017-12-05T15:34:13</date>
+  <millis>1512477253226</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Property management/Edit Property</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Property management/Edit Property</property>
+  <property name="description">Updating property</property>
+  <property name="id">Test Cases/Property management/Edit Property</property>
+  <property name="source">C:\\Users\\Stella Ireri\\git\\VSMS-Test-AutomationTest Cases\\Property management\\Edit Property.tc</property>
+  <property name="isOptional">false</property>
+</record>
+</log>

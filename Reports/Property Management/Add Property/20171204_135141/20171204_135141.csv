@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Property,Chrome 62.0.3202.94,Adding a new property,2017-12-04 13:51:44,2017-12-04 13:51:56,12.232s,FAILED
+,,,,,,
+Test Cases/Property management/Add Property,Chrome 62.0.3202.94,adding a new property,2017-12-04 13:51:44,2017-12-04 13:51:55,11.023s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-04 13:51:45,2017-12-04 13:51:55,9.963s,FAILED

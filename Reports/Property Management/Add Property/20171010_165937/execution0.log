@@ -2563,3 +2563,337 @@
   <nestedLevel>0</nestedLevel>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-12-05T11:43:30</date>
+  <millis>1512463410563</millis>
+  <sequence>334</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>58</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit visitor &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T11:43:30</date>
+  <millis>1512463410626</millis>
+  <sequence>335</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>58</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T11:43:30</date>
+  <millis>1512463410626</millis>
+  <sequence>336</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>58</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit visitor.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T14:13:12</date>
+  <millis>1512472392186</millis>
+  <sequence>670</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>214</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T14:13:12</date>
+  <millis>1512472392198</millis>
+  <sequence>671</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>214</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T14:13:12</date>
+  <millis>1512472392198</millis>
+  <sequence>672</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>214</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:31:09</date>
+  <millis>1512477069658</millis>
+  <sequence>2029</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>500</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:31:09</date>
+  <millis>1512477069666</millis>
+  <sequence>2030</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>500</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:31:09</date>
+  <millis>1512477069666</millis>
+  <sequence>2031</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>500</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:34:10</date>
+  <millis>1512477250852</millis>
+  <sequence>2044</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>518</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:34:10</date>
+  <millis>1512477250852</millis>
+  <sequence>2045</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>518</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:34:10</date>
+  <millis>1512477250852</millis>
+  <sequence>2046</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>518</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:37:23</date>
+  <millis>1512477443979</millis>
+  <sequence>2059</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:37:23</date>
+  <millis>1512477443983</millis>
+  <sequence>2060</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:37:23</date>
+  <millis>1512477443983</millis>
+  <sequence>2061</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:38:26</date>
+  <millis>1512477506315</millis>
+  <sequence>2062</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:38:26</date>
+  <millis>1512477506315</millis>
+  <sequence>2063</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:38:26</date>
+  <millis>1512477506319</millis>
+  <sequence>2064</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:43:20</date>
+  <millis>1512477800328</millis>
+  <sequence>2065</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:43:20</date>
+  <millis>1512477800332</millis>
+  <sequence>2066</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:43:20</date>
+  <millis>1512477800332</millis>
+  <sequence>2067</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:43:47</date>
+  <millis>1512477827265</millis>
+  <sequence>2068</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>561</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:43:47</date>
+  <millis>1512477827265</millis>
+  <sequence>2069</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>561</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:43:47</date>
+  <millis>1512477827269</millis>
+  <sequence>2070</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>561</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:59:41</date>
+  <millis>1512478781432</millis>
+  <sequence>2261</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>638</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:59:41</date>
+  <millis>1512478781434</millis>
+  <sequence>2262</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>638</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T15:59:41</date>
+  <millis>1512478781434</millis>
+  <sequence>2263</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>638</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T16:08:22</date>
+  <millis>1512479302358</millis>
+  <sequence>2663</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>672</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Edit Property &amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T16:08:22</date>
+  <millis>1512479302360</millis>
+  <sequence>2664</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>672</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2017-12-05T16:08:22</date>
+  <millis>1512479302360</millis>
+  <sequence>2665</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>672</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Data Files\\Edit Property.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

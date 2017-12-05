@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Property,Chrome 62.0.3202.94,Editing property,2017-12-05 15:43:49,2017-12-05 15:46:42,2m - 53.403s,FAILED
+,,,,,,
+Test Cases/Property management/Edit Property,Chrome 62.0.3202.94,Updating property,2017-12-05 15:43:49,2017-12-05 15:46:42,2m - 52.249s,FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 15:43:50,2017-12-05 15:46:42,2m - 51.680s,FAILED

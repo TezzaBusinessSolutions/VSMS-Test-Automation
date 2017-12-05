@@ -50,8 +50,7 @@ WebUI.click(findTestObject('Property Management/Add New Property/button_Add'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Property Management/Add New Property/building added successfully'), 
-    3)
+WebUI.verifyElementVisible(findTestObject('Property Management/Add New Property/building added successfully'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

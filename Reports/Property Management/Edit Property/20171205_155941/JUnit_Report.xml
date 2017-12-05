@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Property" time="222" tests="0" failures="1" errors="0">
+   <testsuite name="Edit Property" tests="0" failures="1" errors="0" time="222" timestamp="2017-12-05 15:59:43" hostname="Stella Ireri - DESKTOP-JP48UB6" id="Test Suites/Property Management/Edit Property">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171205_155941"/>
+         <property name="logFiles" value="C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171205_155941\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171205_155941\\1512478996540.png"/>
+         <property name="hostName" value="Stella Ireri - DESKTOP-JP48UB6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.94"/>
+         <property name="hostAddress" value="192.168.1.108"/>
+         <property name="sessionId" value="ff64e5764dee9d53f90fc2bdec1176b9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Property management/Edit Property" classname="Test Cases/Property management/Edit Property" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id(&quot;myModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/fieldset[@class=&quot;bordered-div&quot;]/form[@class=&quot;ng-pristine ng-valid ng-valid-required ng-submitted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-valid-required&quot;]) = count(id(&quot;myModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/fieldset[@class=&quot;bordered-div&quot;]/form[@class=&quot;ng-pristine ng-valid ng-valid-required ng-submitted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid ng-valid-required&quot;])]' not found)"/>
+         <system-out><![CDATA[2017-12-05 15:59:44 - [TEST_CASE][FAILED] - Test Cases/Property management/Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"]) = count(id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"])]' not found)
+
+2017-12-05 15:59:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-05 15:59:44 - [TEST_CASE][PASSED] - Test Cases/Common/User Login: Test Cases/Common/User Login
+
+2017-12-05 15:59:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-05 16:02:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sandbox.vsms.tezzasolutions.com/index'
+
+2017-12-05 16:02:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 16:02:03 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 16:02:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-05 16:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/a_Log in' is clicked on
+
+2017-12-05 16:02:11 - [TEST_STEP][PASSED] - setText: Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-05 16:02:12 - [MESSAGE][PASSED] - Text 'stella.ireri@tezzasolutions.com' is set on object 'Object Repository/login/input_email'
+
+2017-12-05 16:02:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-05 16:02:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Visitor Security Management Sy/VSMS  Sign In' is present
+
+2017-12-05 16:02:12 - [TEST_STEP][PASSED] - setText: Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-05 16:02:12 - [MESSAGE][PASSED] - Text '!qwerty123' is set on object 'Object Repository/login/input_password'
+
+2017-12-05 16:02:12 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-05 16:02:12 - [MESSAGE][PASSED] - Object 'Object Repository/login/button_Login' is clickable
+
+2017-12-05 16:02:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-05 16:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_Login' is clicked on
+
+2017-12-05 16:02:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/User Login' successfully
+
+2017-12-05 16:02:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Property management/Property management menu' successfully
+
+2017-12-05 16:02:35 - [TEST_CASE][PASSED] - Test Cases/Property management/Property management menu: Test Cases/Property management/Property management menu
+
+2017-12-05 16:02:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Modules' is clicked on
+
+2017-12-05 16:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Modules' is clicked on
+
+2017-12-05 16:02:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Property Management' is clicked on
+
+2017-12-05 16:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Property Management' is clicked on
+
+2017-12-05 16:02:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Property menu/Property' is clicked on
+
+2017-12-05 16:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Property menu/Property' is clicked on
+
+2017-12-05 16:02:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Property management/Property management menu' successfully
+
+2017-12-05 16:02:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:02:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:02:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1)/Edit Property' is clicked on
+
+2017-12-05 16:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1)/Edit Property' is clicked on
+
+2017-12-05 16:02:44 - [TEST_STEP][FAILED] - setText: Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"]) = count(id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"])]' not found)
+
+2017-12-05 16:03:16 - [MESSAGE][FAILED] - Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"]) = count(id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"])]' not found)
+[[ATTACHMENT|C:\\Users\\Stella Ireri\\git\\VSMS-Test-Automation\\Reports\\Property Management\\Edit Property\\20171205_155941\\1512478996540.png]]
+
+2017-12-05 16:03:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:03:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:03:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Property Management/Edit Property/Update' is clicked on
+
+2017-12-05 16:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Property Management/Edit Property/Update' is clicked on
+
+2017-12-05 16:03:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:03:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:03:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (3)/success alert' is present
+
+2017-12-05 16:03:25 - [MESSAGE][PASSED] - Object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (3)/success alert' is present
+
+2017-12-05 16:03:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 16:03:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-12-05 15:59:44 - [TEST_CASE][FAILED] - Test Cases/Property management/Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"]) = count(id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 15:59:43 - [TEST_SUITE][FAILED] - Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"]) = count(id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-12-05 15:59:43 - [TEST_SUITE][FAILED] - Edit Property: Test Cases/Property management/Edit Property FAILED because (of) Unable to set text 'IOM offices' of object 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Property Management/Edit Property/Page_Visitor Security Management Sy (1) (1)/input_propertyname' located by 'By.xpath: //input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])][count(. | //*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required']) = count(//*[@class = 'form-control ng-pristine ng-untouched ng-valid ng-valid-required'])][count(. | //*[@name = 'propertyname']) = count(//*[@name = 'propertyname'])][count(. | //*[@ng-model = 'propertyData.propertyname']) = count(//*[@ng-model = 'propertyData.propertyname'])][count(. | //*[@aria-describedby = 'basic-addon1']) = count(//*[@aria-describedby = 'basic-addon1'])][count(. | id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"]) = count(id("myModal")/div[@class="modal-dialog"]/div[@class="modal-content"]/div[@class="modal-body"]/fieldset[@class="bordered-div"]/form[@class="ng-pristine ng-valid ng-valid-required ng-submitted"]/div[@class="row"]/div[@class="col-lg-6"]/div[@class="form-group"]/input[@class="form-control ng-pristine ng-untouched ng-valid ng-valid-required"])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

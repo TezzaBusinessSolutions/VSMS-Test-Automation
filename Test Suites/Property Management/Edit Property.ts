@@ -4,7 +4,7 @@
    <name>Edit Property</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-06T11:28:29</lastRun>
+   <lastRun>2017-12-05T16:08:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -28,7 +28,7 @@
       <variableLink>
          <testDataLinkId>e28cc14b-b757-4bda-a18a-7bf752986cc3</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>editPropertyAddress2</value>
+         <value>editPropertyName</value>
          <variableId>ee8c79f8-6db6-4abf-8b56-2e2baa6cfa2a</variableId>
       </variableLink>
    </testCaseLink>

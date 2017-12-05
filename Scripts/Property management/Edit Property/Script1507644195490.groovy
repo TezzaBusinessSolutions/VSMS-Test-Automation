@@ -25,9 +25,9 @@ WebUI.callTestCase(findTestCase('Property management/Property management menu'),
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Property Management/Edit Property/Edit'))
+WebUI.click(findTestObject('Property Management/Edit Property/Page_Visitor Security Management Sy (1)/Edit Property'))
 
-WebUI.setText(findTestObject('Property Management/Edit Property/property_address2'), var_editPropertyAddress2)
+WebUI.setText(findTestObject('Property Management/Edit Property/Page_Visitor Security Management Sy/propertyname'), editPropertyName)
 
 WebUI.delay(5)
 
@@ -35,7 +35,8 @@ WebUI.click(findTestObject('Property Management/Edit Property/Update'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Property Management/Edit Property/Updated building successfully'), 3)
+WebUI.verifyElementPresent(findTestObject('Property Management/Edit Property/Page_Visitor Security Management Sy (3)/success alert'), 
+    3)
 
 WebUI.closeBrowser()
 
